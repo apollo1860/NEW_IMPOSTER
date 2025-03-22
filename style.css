@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.game-container {
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4f7976;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #4f7976;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#category-text {
+    color: #4f7976;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #18c91f;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #15b01c;
+}
+
+#playerCount {
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 2px solid #4f7976;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#name-fields input, #player-answer {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #4f7976;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#answers-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#answers-list li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.drink-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    gap: 15px;
+}
+
+.drink-box {
+    background-color: #4f7976;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 50px;
+}
+
+#round-end-screen, #answers-screen, #correct-question-screen, #imposter-reveal-screen, #drinks-screen {
+    display: none;
+}
+
+#correct-question-text, #imposter-text {
+    font-size: 1.5em;
+    margin: 20px 0;
+    line-height: 1.4;
+}
+
+#handover-text {
+    font-size: 1.8em;
+    margin: 30px 0;
+    color: #4f7976;
+}
+
+#current-player-name {
+    color: #4f7976;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+#question-text {
+    font-size: 1.5em;
+    margin: 20px 0;
+    line-height: 1.4;
+}

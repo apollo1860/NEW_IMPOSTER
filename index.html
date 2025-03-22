@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinkspiel - Imposter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div id="start-screen">
+            <h1>Trinkspiel - Imposter</h1>
+            <label for="playerCount">Anzahl der Spieler:</label>
+            <select id="playerCount">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            <br>
+            <button onclick="startGame()">Spiel starten</button>
+        </div>
+
+        <div id="player-inputs" style="display: none;">
+            <h2>Spielernamen eingeben</h2>
+            <div id="name-fields"></div>
+            <button onclick="confirmPlayers()">Weiter</button>
+        </div>
+
+        <div id="handover-screen" style="display: none;">
+            <h2 id="handover-text"></h2>
+            <button onclick="showQuestionScreen()">Start</button>
+        </div>
+
+        <div id="game-screen" style="display: none;">
+            <h2 id="current-player-name"></h2>
+            <p id="category-text"></p>
+            <p id="question-text"></p>
+            <input type="text" id="player-answer" placeholder="Antwort eingeben">
+            <button onclick="nextPlayer()">Nächster Spieler</button>
+        </div>
+
+        <div id="round-end-screen" style="display: none;">
+            <h2>Runde abgeschlossen</h2>
+            <button onclick="showAnswersScreen()">OK</button>
+        </div>
+
+        <div id="answers-screen" style="display: none;">
+            <h2>Antworten:</h2>
+            <ul id="answers-list"></ul>
+            <button onclick="showCorrectQuestion()">OK</button>
+        </div>
+
+        <div id="correct-question-screen" style="display: none;">
+            <h2>Die richtige Frage war:</h2>
+            <p id="correct-question-text"></p>
+            <button onclick="showImposterReveal()">Weiter</button>
+        </div>
+
+        <div id="imposter-reveal-screen" style="display: none;">
+            <h2>Imposter Enthüllung</h2>
+            <p id="imposter-text"></p>
+            <button onclick="showDrinksScreen()">Weiter</button>
+        </div>
+
+        <div id="drinks-screen" style="display: none;">
+            <h2>Schluckvergabe</h2>
+            <div id="drinks-list"></div>
+            <button onclick="nextRound()">Nächste Runde</button>
+        </div>
+
+        <div id="final-ranking-screen" style="display: none;">
+            <h2>Spiel beendet!</h2>
+            <h3>Rangliste nach den wenigsten Schlücken:</h3>
+            <ol id="ranking-list"></ol>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
