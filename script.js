@@ -1,5 +1,6 @@
 const categories = {
-    "Hit & Hype": [
+    // 1. Hit & Hype
+    "1": [
         "Welcher Musiker ist aktuell völlig überbewertet?",
         "Welcher Musiker läuft bei dir gerade rauf und runter?",
         "Welcher Musiker ist deiner Meinung nach am attraktivsten?",
@@ -12,7 +13,8 @@ const categories = {
         "Welcher Musiker würde dich ohne Probleme unter den Tisch trinken?",
         "Welchen Musiker würdest du dir niemals live ansehen wollen?"
     ],
-    "Zahlenzauber": [
+    // 2. Zahlenzauber
+    "2": [
         "Wie oft gehst du am Tag auf die Toilette?",
         "In wie vielen WhatsApp-Gruppen bist du derzeit ca. drin?",
         "Wie oft warst du in diesem Monat schon verkatert?",
@@ -31,7 +33,8 @@ const categories = {
         "Was ist ein gutes Alter, um das erste Kind zu bekommen?",
         "Mit wie vielen Jahren hattest du deinen ersten Kuss?"
     ],
-    "Hollywood Calling": [
+    // 3. Hollywood Calling
+    "3": [
         "Was ist dein absoluter Lieblingsfilm?",
         "In welchem Film hättest du gerne eine Hauptrolle?",
         "Welchen Film kannst du überhaupt nicht leiden?",
@@ -40,14 +43,16 @@ const categories = {
         "Welchen deutschen Film kennst du spontan?",
         "Welcher Film hat dich als Kind am meisten geprägt?"
     ],
-    "Legenden des Sports": [
+    // 4. Legenden des Sports
+    "4": [
         "Welcher Sportler ist der wahre G.O.A.T.?",
         "Welcher Sportler ist am attraktivsten?",
         "Welcher Sportler ist der größte Bad Boy?",
         "Mit welchem Sportler würdest du gern einen Tag tauschen?",
         "Welchen Sportler würdest du gerne auf ein Bier einladen?"
     ],
-    "Weltreise": [
+    // 5. Weltreise
+    "5": [
         "In welchem Land leben die schönsten Frauen?",
         "Welches Land hasst du?",
         "Welches Land liebst du?",
@@ -60,7 +65,8 @@ const categories = {
         "Wo leben die nettesten Menschen?",
         "In welchem Land würdest du gerne für 1 Jahr leben?",
     ],
-    "Prozente, Baby!": [
+    // 6. Prozente, Baby!
+    "6": [
         "Wie viel Prozent deines Lottogewinns würdest du deinen Eltern geben?",
         "Wie viel Prozent bekommen deine engsten Freunde?",
         "Wie viel würdest du für wohltätige Zwecke spenden?",
@@ -68,14 +74,16 @@ const categories = {
         "Bei wie viel Prozent Akku schließt du dein Handy an?",
         "Wie viel Prozent deines Freundeskreises siehst du regelmäßig?"
     ],
-    "Bodytalk": [
+    // 7. Bodytalk
+    "7": [
         "Auf welches Körperteil bist du besonders stolz?",
         "Wo würdest du am wenigsten gern geschlagen werden?",
         "Auf welches Körperteil könntest du am ehesten verzichten?",
         "Welches Körperteil findest du bei anderen besonders erotisch?",
         "Welches Körperteil würdest du als Erstes oder Nächstes tätowieren lassen?"
     ],
-    "Cheers & Beers": [
+    // 8. Cheers & Beers
+    "8": [
         "Welches Getränk trinkst du am häufigsten?",
         "Welches Getränk kannst du nicht ausstehen?",
         "Was ist dein perfektes Kater-Getränk?",
@@ -83,22 +91,24 @@ const categories = {
         "Was bestellst du am häufigsten in Restaurants?",
         "Welches Getränk eignet sich perfekt zum Mischen?"
     ],
-    "Spotlight On": [
-        "Wer ist der Lustigste in der Runde?",
-        "Wer isst am meisten?",
-        "Wer lügt am häufigsten?",
-        "Wer ist der Geizigste?",
-        "Wer hat das meiste Talent?",
-        "Wer wird am ehesten Millionär?",
-        "Wer verträgt am meisten Alkohol?",
-        "Wer ist am fleißigsten?",
-        "Wer ist am intelligentesten?",
-        "Wer ist der Sportlichste?",
-        "Wer landet am ehesten im Gefängnis?",
-        "Wer ist am romantischsten?",
-        "Wer hat am meisten Rizz?"
+    // 9. Spotlight On
+    "9": [
+        "Wer von euch ist der Lustigste?",
+        "Wer von euch isst am meisten?",
+        "Wer von euch lügt am häufigsten?",
+        "Wer von euch ist der Geizigste?",
+        "Wer von euch hat das meiste Talent?",
+        "Wer von euch wird am ehesten Millionär?",
+        "Wer von euch verträgt am meisten Alkohol?",
+        "Wer von euch ist am fleißigsten?",
+        "Wer von euch ist am intelligentesten?",
+        "Wer von euch ist der Sportlichste?",
+        "Wer von euch landet am ehesten im Gefängnis?",
+        "Wer von euch ist am romantischsten?",
+        "Wer von euch hat am meisten Rizz?"
     ],
-    "Snack Attack": [
+    // 10. Snack Attack
+    "10": [
         "Was ist dein absolutes Lieblingsessen?",
         "Welches Gericht erinnert dich an deine Kindheit?",
         "Was ist dein perfektes Kateressen?",
@@ -108,7 +118,8 @@ const categories = {
         "Welches Essen kannst du gar nicht ab?",
         "Was ist das beste Essen, um eine gute Grundlage zu haben, bevor du auf eine Party gehst?",
     ],
-    "Hand aufs Herz": [
+    // 11. Hand aufs Herz
+    "11": [
         "Hast du jemals in einer Prüfung geschummelt?",
         "Bist du schon mal aus einer Bar oder einem Club geflogen?",
         "Hast du schon mal etwas gestohlen?",
@@ -117,7 +128,8 @@ const categories = {
         "Hast du schon mal jemanden betrunken angerufen, den du nicht hättest anrufen sollen?",
         "Warst du schon mal in jemanden verliebt, der nichts davon wusste?"
     ],
-    "Würdest du für…?": [
+    // 12. Würdest du für…?
+    "12": [
         "Würdest du für 100.000 € ein Jahr lang auf dein Handy verzichten?",
         "Würdest du für 1.000 € eine Woche im Sommer nicht duschen?",
         "Würdest du für 10.000 € zwei Runden mit Mike Tyson im Ring stehen?",
@@ -129,13 +141,15 @@ const categories = {
         "Würdest du dir für 50 € von einer fremden Person eine Ohrfeige geben lassen?",
         "Würdest du dir für 2.000 € ein Tattoo stechen lassen, das dein Nachbar auswählt?"
     ],
-    "Money, Money, Money": [
+    // 13. Money, Money, Money
+    "13": [
         "Was ist die größte Summe, die du jemals an einem Geldautomaten abgehoben hast?",
         "Wie viel Taschengeld würdest du deinem Kind monatlich geben?",
         "Wie viel Geld gibst du ca. durchschnittlich am Tag aus?",
         "Wie viel Geld bist du bereit im Supermarkt für einen Wodka auszugeben?"
     ],
-    "Zeitgeist": [
+    // 14. Zeitgeist
+    "14": [
         "Wann ist die perfekte Uhrzeit, um sonntags aufzustehen?",
         "Wann ist der beste Zeitpunkt fürs Fitnessstudio?",
         "Wann sollte man am besten zu Abend essen?",
@@ -145,7 +159,8 @@ const categories = {
         "Wann solltest du samstags deine nervigen Pflichten erledigen?",
         "Wann darf am Samstag das erste Bierchen aufgemacht werden?"
     ],
-    "Lieder": [
+    // 15. Lieder
+    "15": [
         "Welches Lied ist dein absoluter Party-Hit?",
         "Welches Lied kannst du gar nicht mehr hören?",
         "Welches Lied bringt dich zum Weinen?",
@@ -155,13 +170,33 @@ const categories = {
         "Welches Lied verbindest du am Meisten mit Liebeskummer?",
         "Welches Lied ist der beste Song zum Autofahren?"
     ],
-    "Stars & Sternchen": [
+    // 16. Stars & Sternchen
+    "16": [
         "Welchem Promi würdest du sofort einen Heiratsantrag machen?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Kiss?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Marry?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Kill?",
         "Bei welchem Promi fragt man sich warum dieser überhaupt berühmt ist?",
         "Mit welchem Promi würdest du gerne mal ein Bierchen trinken?"
+    ],
+    // 17. Machen & Tun
+    "17": [
+        "Was ist deine größte Sucht?",
+        "Was tust du am liebsten an einem freien Nachmittag?",
+        "Was machst du morgens, bevor du ins Büro oder zur Schule gehst?",
+        "Was würdest du tun, wenn du für einen Tag das andere Geschlecht wärst?",
+        "Was machst du am liebsten, wenn du im Urlaub bist?",
+        "Was würdest du dir gönnen, wenn du jetzt 100€ bekämst?",
+        "Was hast du während des Corona-Lockdowns ständig gemacht?",
+        "Was war früher dein absolutes Lieblingshobby?"
+    ],
+    // 18. Tiere
+    "18": [
+        "Welches Tier schmeckt am besten?",
+        "Welches Tier findest du absolut hässlich?",
+        "In welches Tier würdest du dich am liebsten für einen Tag verwandeln?",
+        "Welches Tier sollte ausgerottet werden?",
+        "Welches Tier käme für dich niemals als Haustier in Frage?"
     ]
 };
 
@@ -236,11 +271,11 @@ function showQuestionScreen() {
     }
 
     const category = gameCategories[currentRound];
-    document.getElementById("category-text").innerText = `Kategorie: ${category}`;
     document.getElementById("current-player-name").innerText = players[currentPlayerIndex];
     document.getElementById("player-answer").value = "";
 
-    // Show appropriate question based on whether current player is imposter
+    // Hide category and show appropriate question based on whether current player is imposter
+    document.getElementById("category-text").style.display = "none";
     document.getElementById("question-text").innerText = 
         currentPlayerIndex === imposterIndex ? imposterQuestion : majorityQuestion;
 }
@@ -282,7 +317,16 @@ function showAnswersScreen() {
 function showCorrectQuestion() {
     document.getElementById("answers-screen").style.display = "none";
     document.getElementById("correct-question-screen").style.display = "block";
-    document.getElementById("correct-question-text").innerText = `Die richtige Frage war:\n${correctQuestion}`;
+    document.getElementById("correct-question-text").innerText = correctQuestion;
+    
+    // Display all answers on the correct question screen
+    let list = document.getElementById("correct-screen-answers");
+    list.innerHTML = "";
+    playerAnswers.forEach(({ player, answer }) => {
+        let li = document.createElement("li");
+        li.innerText = `${player}: ${answer}`;
+        list.appendChild(li);
+    });
 }
 
 function showImposterReveal() {
@@ -304,18 +348,39 @@ function showDrinksScreen() {
 
         let nameSpan = document.createElement("span");
         nameSpan.innerText = player;
+        nameSpan.classList.add("player-name");
+
+        let counterDiv = document.createElement("div");
+        counterDiv.classList.add("counter-controls");
+
+        let minusButton = document.createElement("button");
+        minusButton.innerText = "-";
+        minusButton.classList.add("counter-button");
+        minusButton.onclick = () => {
+            if (drinkCounts[player] > 0) {
+                drinkCounts[player]--;
+                drinkBox.innerText = drinkCounts[player];
+            }
+        };
 
         let drinkBox = document.createElement("div");
         drinkBox.classList.add("drink-box");
         drinkBox.innerText = drinkCounts[player];
 
-        drinkBox.onclick = () => {
+        let plusButton = document.createElement("button");
+        plusButton.innerText = "+";
+        plusButton.classList.add("counter-button");
+        plusButton.onclick = () => {
             drinkCounts[player]++;
             drinkBox.innerText = drinkCounts[player];
         };
 
+        counterDiv.appendChild(minusButton);
+        counterDiv.appendChild(drinkBox);
+        counterDiv.appendChild(plusButton);
+
         playerDiv.appendChild(nameSpan);
-        playerDiv.appendChild(drinkBox);
+        playerDiv.appendChild(counterDiv);
         drinksList.appendChild(playerDiv);
     });
 }
@@ -325,7 +390,7 @@ function nextRound() {
 
     currentRound++;
 
-    if (currentRound >= 12) {
+    if (currentRound >= 18) {
         showFinalRanking();
         return;
     }
