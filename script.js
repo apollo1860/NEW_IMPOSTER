@@ -41,42 +41,53 @@ const categories = {
         "Welcher Film ist perfekt fürs erste Date?",
         "Welchen Film hast du zuletzt im Kino gesehen?",
         "Welchen deutschen Film kennst du spontan?",
-        "Welcher Film hat dich als Kind am meisten geprägt?"
+        "Welcher Film hat dich als Kind am meisten geprägt?",
+        "Welcher Animationsfilm ist deiner Meinung nach der beste?"
     ],
     // 4. Legenden des Sports
     "4": [
-        "Welcher Sportler ist der wahre G.O.A.T.?",
+        "Welcher Sportler war zu lange über seinem Zenit noch aktiv?",
+        "Welcher Sportler würde deiner Meinung nach unter der Brücke landen, wenn er kein Talent gehabt hätte?",
+        "Welcher Sportler würde in einem Wettlauf gegen dich verlieren?",
         "Welcher Sportler ist am attraktivsten?",
-        "Welcher Sportler ist der größte Bad Boy?",
+        "Welcher Sportler ist der größte Bad Boy/Bad Girl?",
         "Mit welchem Sportler würdest du gern einen Tag tauschen?",
-        "Welchen Sportler würdest du gerne auf ein Bier einladen?"
+        "Welchen Sportler würdest du gerne auf ein Bier einladen?",
+        "Welcher Sportler ist deiner Meinung nach privat ein richtiges Arschloch?",
+        "Welcher Sportler könnte deiner Meinung nach in einem anderen Sport ebenfalls erfolgreich sein?"
+
     ],
     // 5. Weltreise
     "5": [
         "In welchem Land leben die schönsten Frauen?",
         "Welches Land hasst du?",
         "Welches Land liebst du?",
-        "In welchem Land – außer Deutschland – würdest du gern leben?",
+        "In welchem Land (außer Deutschland) würdest du gern leben?",
         "Wo hattest du deinen schönsten Urlaub?",
         "In welches Land möchtest du unbedingt in den nächsten Jahren reisen?",
         "Welches Land findest du komplett überflüssig?",
         "Welches Land hat das leckerste Essen?",
-        "Welche Nation ist die größte Fußballmacht der Geschichte?",
+        "Welches Land ist die größte Fußballmacht der Geschichte?",
         "Wo leben die nettesten Menschen?",
         "In welchem Land würdest du gerne für 1 Jahr leben?",
     ],
     // 6. Prozente, Baby!
     "6": [
         "Wie viel Prozent deines Lottogewinns würdest du deinen Eltern geben?",
-        "Wie viel Prozent bekommen deine engsten Freunde?",
-        "Wie viel würdest du für wohltätige Zwecke spenden?",
+        "Wie viel Prozent deines Lottogewinnsbekommen deine engsten Freunde?",
+        "Wie viel Prozent deines Lottogewinns würdest du für wohltätige Zwecke spenden?",
         "Wie viel Prozent Trinkgeld gibst du normalerweise?",
+        "Wie viel Prozent deines Einkommens gibst du ca. für Alkohol und Party aus?",
         "Bei wie viel Prozent Akku schließt du dein Handy an?",
-        "Wie viel Prozent deines Freundeskreises siehst du regelmäßig?"
+        "Wie viel Prozent deines Freundeskreises siehst du regelmäßig?",
+        "An wie viel Prozent deiner Träume in der Woche erinnerst du dich ca. noch nach dem Aufwachen?"
     ],
     // 7. Bodytalk
     "7": [
         "Auf welches Körperteil bist du besonders stolz?",
+        "An welchem Körperteil hast du am häufigsten Schmerzen?",
+        "Welches Körperteil findest du am unterbewertesten?",
+        "Welches Körperteil würdest du dir niemals tätowieren lassen?",
         "Wo würdest du am wenigsten gern geschlagen werden?",
         "Auf welches Körperteil könntest du am ehesten verzichten?",
         "Welches Körperteil findest du bei anderen besonders erotisch?",
@@ -89,7 +100,9 @@ const categories = {
         "Was ist dein perfektes Kater-Getränk?",
         "Welches Getränk erinnert dich an Urlaub?",
         "Was bestellst du am häufigsten in Restaurants?",
-        "Welches Getränk eignet sich perfekt zum Mischen?"
+        "Welches Getränk eignet sich perfekt zum Mischen?",
+        "Was ist das Lieblingsgetränk deines rechten Nachbarn?",
+        "Was ist das Lieblingsgetränk deines linken Nachbarn?"
     ],
     // 9. Spotlight On
     "9": [
@@ -126,7 +139,8 @@ const categories = {
         "Bist du schon mal betrunken zur Arbeit oder Schule gegangen?",
         "Hast du schon mal jemanden geghostet?",
         "Hast du schon mal jemanden betrunken angerufen, den du nicht hättest anrufen sollen?",
-        "Warst du schon mal in jemanden verliebt, der nichts davon wusste?"
+        "Warst du schon mal in jemanden verliebt, der nichts davon wusste?",
+        "Hast du zu Schulzeiten jemals einen Verweis kassiert?"
     ],
     // 12. Würdest du für…?
     "12": [
@@ -146,7 +160,14 @@ const categories = {
         "Was ist die größte Summe, die du jemals an einem Geldautomaten abgehoben hast?",
         "Wie viel Taschengeld würdest du deinem Kind monatlich geben?",
         "Wie viel Geld gibst du ca. durchschnittlich am Tag aus?",
-        "Wie viel Geld bist du bereit im Supermarkt für einen Wodka auszugeben?"
+        "Wie viel Geld wärst du bereit im Monat für wohltätige Zwecke zu spenden?",
+        "Wie viel Geld bist du bereit im Supermarkt für einen Wodka auszugeben?",
+        "Wie viel Geld gibst du in der Woche ca. für Alkohol aus?",
+        "Wie viel Geld gibst du in der Woche ca. für Zigaretten aus?",
+        "Wie viel Geld gibst du ca. im Monat für Lieferdienste aus?",
+        "Wie viel Geld gibst du ca. im Monat für Streaming-Anbieter aus?",
+        "Welche Summe ist deine Schmerzgrenze, wenn du mit Freunden Essen gehst?",
+        "Wie viel Geld würden dir deine Eltern für einen Urlaub geben, wenn du sie darum fragst?"
     ],
     // 14. Zeitgeist
     "14": [
@@ -177,7 +198,9 @@ const categories = {
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Marry?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Kill?",
         "Bei welchem Promi fragt man sich warum dieser überhaupt berühmt ist?",
-        "Mit welchem Promi würdest du gerne mal ein Bierchen trinken?"
+        "Mit welchem Promi würdest du gerne mal ein Bierchen trinken?",
+        "Welchen Promi würdest du in einem Kampf besiegen?",
+        "Welcher Promi ist deiner Meinung nach dumm wie Brot?"
     ],
     // 17. Machen & Tun
     "17": [
@@ -196,9 +219,25 @@ const categories = {
         "Welches Tier findest du absolut hässlich?",
         "In welches Tier würdest du dich am liebsten für einen Tag verwandeln?",
         "Welches Tier sollte ausgerottet werden?",
-        "Welches Tier käme für dich niemals als Haustier in Frage?"
+        "Welches Tier käme für dich niemals als Haustier in Frage?",
+        "Welches Tier könntest du in einem Kampf besiegen?",
+        "Welches Tier würdest du auf das Wappen deines eigenen Sportvereins tun?",
+        "Welches Tier ist dein Lieblingstier?",
+        "Welches Tier fasziniert dich am meisten?"
     ]
-};
+// 19. 1/10
+    "19": [
+    "Auf einer Skala von 1 bis 10: Wie attraktiv findest du dich?",
+    "Auf einer Skala von 1 bis 10: Wie fandest du die Filmreihe Harry Potter?",
+    "Auf einer Skala von 1 bis 10: Wie findest du die Musik von One Direction?",
+    "Auf einer Skala von 1 bis 10: Wie attraktiv findest du Kim Kardashian?",
+    "Auf einer Skala von 1 bis 10: Wie sehr könntest du dir vorstellen in die Selbstständigkeit zu gehen?",
+    "Auf einer Skala von 1 bis 10: Als wie fußballverrückt würdest du dich bezeichnen?",
+    "Auf einer Skala von 1 bis 10: Wie ordentlich findest du dich?",
+    "Auf einer Skala von 1 bis 10: Wie attraktiv findest du die Person rechts von dir?",
+    "Auf einer Skala von 1 bis 10: Wie schnell bist du beim Vorglühen betrunken?",
+    "Auf einer Skala von 1 bis 10: Wie peinlich war dein letzter Alkoholrausch?"
+];
 
 let players = [];
 let currentRound = 0;
