@@ -234,11 +234,11 @@ const categories = {
         "Welches Tier ist dein Lieblingstier?",
         "Welches Tier fasziniert dich am meisten?",
         "Welches Tier sieht lustig aus?"
-    ]
+    ],
 // 19. 1/10
     "19": [
     "Auf einer Skala von 1 bis 10: Wie attraktiv findest du dich?",
-    "Auf einer Skala von 1 bis 10: Wie gut kannst du Kopfrechnen?"
+    "Auf einer Skala von 1 bis 10: Wie gut kannst du Kopfrechnen?",
     "Auf einer Skala von 1 bis 10: Wie fandest du die Filmreihe Harry Potter?",
     "Auf einer Skala von 1 bis 10: Wie findest du die Musik von One Direction?",
     "Auf einer Skala von 1 bis 10: Wie attraktiv findest du Kim Kardashian?",
@@ -248,7 +248,28 @@ const categories = {
     "Auf einer Skala von 1 bis 10: Wie attraktiv findest du die Person rechts von dir?",
     "Auf einer Skala von 1 bis 10: Wie schnell bist du beim Vorglühen betrunken?",
     "Auf einer Skala von 1 bis 10: Wie peinlich war dein letzter Alkoholrausch?"
-];
+    ]
+};
+
+// Initialize event listeners when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    try {
+        console.log('DOM loaded');
+        const startButton = document.getElementById('startButton');
+        console.log('Start button element:', startButton);
+        if (!startButton) {
+            console.error('Start button not found');
+            return;
+        }
+        startButton.addEventListener('click', function(e) {
+            console.log('Button clicked');
+            startGame();
+        });
+        console.log('Event listener added successfully');
+    } catch (error) {
+        console.error('Error in DOMContentLoaded:', error);
+    }
+});
 
 let players = [];
 let currentRound = 0;
@@ -262,18 +283,31 @@ let majorityQuestion = "";
 let imposterQuestion = "";
 
 function startGame() {
-    let playerCount = document.getElementById("playerCount").value;
-    document.getElementById("start-screen").style.display = "none";
-    document.getElementById("player-inputs").style.display = "block";
+    try {
+        console.log('startGame called');
+        let playerCount = document.getElementById("playerCount");
+        console.log('playerCount element:', playerCount);
+        if (!playerCount) {
+            console.error('playerCount element not found');
+            return;
+        }
+        playerCount = playerCount.value;
+        console.log('Selected player count:', playerCount);
 
-    let nameFields = document.getElementById("name-fields");
-    nameFields.innerHTML = "";
+        document.getElementById("start-screen").style.display = "none";
+        document.getElementById("player-inputs").style.display = "block";
 
-    for (let i = 0; i < playerCount; i++) {
-        let input = document.createElement("input");
-        input.type = "text";
-        input.placeholder = "Spieler " + (i + 1);
-        nameFields.appendChild(input);
+        let nameFields = document.getElementById("name-fields");
+        nameFields.innerHTML = "";
+
+        for (let i = 0; i < playerCount; i++) {
+            let input = document.createElement("input");
+            input.type = "text";
+            input.placeholder = "Spieler " + (i + 1);
+            nameFields.appendChild(input);
+        }
+    } catch (error) {
+        console.error('Error in startGame:', error);
     }
 }
 
