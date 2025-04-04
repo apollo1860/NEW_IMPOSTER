@@ -16,6 +16,7 @@ const categories = {
     // 2. Zahlenzauber
     "2": [
         "Wie oft gehst du am Tag auf die Toilette?",
+        "Wie oft duscht du in der Woche?",
         "In wie vielen WhatsApp-Gruppen bist du derzeit ca. drin?",
         "Wie oft warst du in diesem Monat schon verkatert?",
         "Wie viele Liegestütze schaffst du?",
@@ -111,6 +112,7 @@ const categories = {
         "Wer von euch lügt am häufigsten?",
         "Wer von euch ist der Geizigste?",
         "Wer von euch hat das meiste Talent?",
+        "Wer von euch kann am besten singen?",
         "Wer von euch wird am ehesten Millionär?",
         "Wer von euch verträgt am meisten Alkohol?",
         "Wer von euch ist am fleißigsten?",
@@ -178,18 +180,22 @@ const categories = {
         "Wann gehst du idealerweise schlafen?",
         "Wann ist die beste Zeit zum Masturbieren?",
         "Wann solltest du samstags deine nervigen Pflichten erledigen?",
-        "Wann darf am Samstag das erste Bierchen aufgemacht werden?"
+        "Wann darf am Samstag das erste Bierchen aufgemacht werden?",
+        "Um wie viel Uhr gehst du in der Regel unter der Woche duschen?"
     ],
     // 15. Lieder
     "15": [
-        "Welches Lied ist dein absoluter Party-Hit?",
-        "Welches Lied kannst du gar nicht mehr hören?",
+        "Welches Lied ist ein absoluter Party-Hit?",
+        "Welches Lied kannst du derzeit gar nicht mehr hören?",
         "Welches Lied bringt dich zum Weinen?",
+        "Welches Lied verbindest du immer mit genau einer Person?",
         "Welches Lied ist perfekt zum Kuscheln?",
         "Welches Lied würdest du auf deiner Beerdigung spielen lassen?",
-        "Welches Lied ist der beste Karaoke-Song?",
+        "Welches Lied wäre dein Go-To Song beim Karaoke?",
         "Welches Lied verbindest du am Meisten mit Liebeskummer?",
-        "Welches Lied ist der beste Song zum Autofahren?"
+        "Welches Lied ist der beste Song zum Autofahren?",
+        "Welches Lied hast du zuletzt heruntergeladen?",
+        "Welches Lied erinnert dich an deine Kindheit?"
     ],
     // 16. Stars & Sternchen
     "16": [
@@ -197,14 +203,17 @@ const categories = {
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Kiss?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Marry?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Kill?",
-        "Bei welchem Promi fragt man sich warum dieser überhaupt berühmt ist?",
+        "Bei welchem Promi fragst du dich, warum dieser überhaupt berühmt ist?",
         "Mit welchem Promi würdest du gerne mal ein Bierchen trinken?",
         "Welchen Promi würdest du in einem Kampf besiegen?",
-        "Welcher Promi ist deiner Meinung nach dumm wie Brot?"
+        "Welcher Promi ist deiner Meinung nach dumm wie Brot?",
+        "Wer ist die bekannteste Person, die du schon persönlich gesehen hast?"
     ],
     // 17. Machen & Tun
     "17": [
         "Was ist deine größte Sucht?",
+        "Was wäre dein Kernthema auf deinem TikTok-Kanal?",
+        "Wenn du eine nervige Angewohnheit für immer abstellen könntest. Welche wäre es?",
         "Was tust du am liebsten an einem freien Nachmittag?",
         "Was machst du morgens, bevor du ins Büro oder zur Schule gehst?",
         "Was würdest du tun, wenn du für einen Tag das andere Geschlecht wärst?",
@@ -223,16 +232,18 @@ const categories = {
         "Welches Tier könntest du in einem Kampf besiegen?",
         "Welches Tier würdest du auf das Wappen deines eigenen Sportvereins tun?",
         "Welches Tier ist dein Lieblingstier?",
-        "Welches Tier fasziniert dich am meisten?"
+        "Welches Tier fasziniert dich am meisten?",
+        "Welches Tier sieht lustig aus?"
     ]
 // 19. 1/10
     "19": [
     "Auf einer Skala von 1 bis 10: Wie attraktiv findest du dich?",
+    "Auf einer Skala von 1 bis 10: Wie gut kannst du Kopfrechnen?"
     "Auf einer Skala von 1 bis 10: Wie fandest du die Filmreihe Harry Potter?",
     "Auf einer Skala von 1 bis 10: Wie findest du die Musik von One Direction?",
     "Auf einer Skala von 1 bis 10: Wie attraktiv findest du Kim Kardashian?",
     "Auf einer Skala von 1 bis 10: Wie sehr könntest du dir vorstellen in die Selbstständigkeit zu gehen?",
-    "Auf einer Skala von 1 bis 10: Als wie fußballverrückt würdest du dich bezeichnen?",
+    "Auf einer Skala von 1 bis 10: Als wie Fußballverrückt würdest du dich bezeichnen?",
     "Auf einer Skala von 1 bis 10: Wie ordentlich findest du dich?",
     "Auf einer Skala von 1 bis 10: Wie attraktiv findest du die Person rechts von dir?",
     "Auf einer Skala von 1 bis 10: Wie schnell bist du beim Vorglühen betrunken?",
