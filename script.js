@@ -233,7 +233,9 @@ const categories = {
         "Welches Tier würdest du auf das Wappen deines eigenen Sportvereins tun?",
         "Welches Tier ist dein Lieblingstier?",
         "Welches Tier fasziniert dich am meisten?",
-        "Welches Tier sieht lustig aus?"
+        "Welches Tier sieht lustig aus?",
+        "Welches Tier würdest du gerne mal essen?",
+        "Welches Tier würdest du niemals essen?"
     ],
 // 19. 1/10
     "19": [
@@ -248,6 +250,43 @@ const categories = {
     "Auf einer Skala von 1 bis 10: Wie attraktiv findest du die Person rechts von dir?",
     "Auf einer Skala von 1 bis 10: Wie schnell bist du beim Vorglühen betrunken?",
     "Auf einer Skala von 1 bis 10: Wie peinlich war dein letzter Alkoholrausch?"
+    ],
+    // 20. [Aktivitäten]
+    "20": [
+        "Was ist die beste Aktivität, die man mit seinen männlichen Freunden machen kann?",
+        "Was ist die beste Aktivität, die man mit seinen weiblichen Freundinnen machen kann?",
+        "Was machst du am liebsten mit deinen Freunden im Sommer?",
+        "Was machst du am liebsten mit deinen Freunden im Winter?",
+        "Was ist die beste Aktivität, die man mit seinem Partner an einem Freitagabend machen kann?",
+        "Zu welcher Aktivität würdest du niemals ja sagen?",
+        "Welche Aktivität haben deine Eltern früher häufig mit dir gemacht als du ein Kind warst?",
+        "Welches Hobby würdest du gerne in Perfektion können?",
+        "Was wäre eine Aktivität, die dein linker Nachbar sofort vorschlagen würde?",
+        "Was wäre eine Aktivität, die dein rechter Nachbar sofort vorschlagen würde?",
+        "Welche Aktivität würdest du niemals mit deinen Eltern machen?"
+    ],
+    // 21. [Sportevents]
+    "21": [
+        "Welches Sportevent liebst du zu gucken?",
+        "Welches Sportevent findest du am unterbewertesten?",
+        "Welches Sportevent findest du am überbewertesten?",
+        "Was war das erste Sportevent, bei dem du live vor Ort warst?",
+        "Welches Sportevent willst du noch unbedingt live vor Ort ansehen?",
+        "Bei welchem Sportevent könntest du dich deiner Meinung nach am ehesten noch für qualifizieren?",
+        "Welche olympische Disziplin würdest du dir niemals live anschauen?",
+        "Welche olympische Disziplin schaust du dir gerne an?"
+    ],
+    // 22. [Körpergrößen]
+    "22": [
+        "Wie groß wärst du gerne?",
+        "Wie groß sollte dein Partner sein?",
+        "Wie hoch kannst du ca. springen?",
+        "Wie groß bist du?",
+        "Wie groß soll im Idealfall dein Sohn werden?",
+        "Wie groß soll im Idealfall deine Tochter werden?",
+        "Wie hoch sollte eine Tür deiner Meinung nach sein?",
+        "Wie groß ist dein Vater?",
+        "Wie groß ist deine Mutter?"
     ]
 };
 
