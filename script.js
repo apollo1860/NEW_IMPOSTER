@@ -32,7 +32,8 @@ const categories = {
         "Mit wie vielen Jahren hast du zuletzt ins Bett gemacht?",
         "Mit wie vielen Jahren hattest du deinen ersten Crush?",
         "Was ist ein gutes Alter, um das erste Kind zu bekommen?",
-        "Mit wie vielen Jahren hattest du deinen ersten Kuss?"
+        "Mit wie vielen Jahren hattest du deinen ersten Kuss?",
+        "Mit wie vielen Jahren warst du das erste Mal betrunken?"
     ],
     // 3. Hollywood Calling
     "3": [
@@ -70,7 +71,7 @@ const categories = {
         "Welches Land hat das leckerste Essen?",
         "Welches Land ist die größte Fußballmacht der Geschichte?",
         "Wo leben die nettesten Menschen?",
-        "In welchem Land würdest du gerne für 1 Jahr leben?",
+        "In welchem Land würdest du gerne für 1 Jahr leben?", // Added comma here
     ],
     // 6. Prozente, Baby!
     "6": [
@@ -281,12 +282,33 @@ const categories = {
         "Wie groß wärst du gerne?",
         "Wie groß sollte dein Partner sein?",
         "Wie hoch kannst du ca. springen?",
-        "Wie groß bist du?",
         "Wie groß soll im Idealfall dein Sohn werden?",
         "Wie groß soll im Idealfall deine Tochter werden?",
-        "Wie hoch sollte eine Tür deiner Meinung nach sein?",
-        "Wie groß ist dein Vater?",
-        "Wie groß ist deine Mutter?"
+        "Wie hoch sollte eine Tür deiner Meinung nach sein?"
+    ],
+    // 23. [Kleine Zeiträume]
+    "23": [
+        "Wie viel Zeit sollte zwischen dem Ende einer alten und dem Beginn einer neuen Beziehung liegen?",
+        "Wie viel Urlaub bräuchtest du am Stück, um endlich mal komplett zu entspannen?",
+        "Wie lange sollte man jemanden daten, bevor man offiziell zusammen kommt?",
+        "Was war der längste Zeitraum, an dem du am Stück keinen Alkohol getrunken hast, seitdem du aktiv Alkohol trinkst?",
+        "Was war der längste Zeitraum, an den du dich erinnern kannst, in dem du kein Fleisch gegessen hast?",
+        "Wie viel Zeit vergeht bei dir zwischen zwei Friseurbesuchen?",
+        "Wie lange würdest du eine Saftkur (Fasten, nur Säfte) durchhalten?",
+        "Wie lange könntest du dich von deinem Lieblingsessen ernähren bis du es nicht mehr sehen/essen kannst?"
+    ],
+    // 24. [Sehr kleine Zeiträume]
+    "24": [
+        "Wie lange brauchst du um 3 Big Macs zu essen?",
+        "Wie lange bist du durchschnittlich auf der Toilette?",
+        "Wie lange brauchst du ca. um 1km zu laufen?",
+        "Wie lange kannst du Liegestützen am Stück machen?",
+        "Wie lange brauchst du durchschnittlich beim Kochen?",
+        "Wie lange brauchst du durchschnittlich beim Duschen?",
+        "Ab wann ist ein Spaziergang deiner Meinung nach zu lang?",
+        "Wie lange dauerte ca. deine längste erhaltene oder verschickte Sprachnachricht?",
+        "Wie lange könntest du deiner Meinung nach in einem Gehege voller hungriger Löwen überleben?",
+        "Wie lange war ca. das längste Lied, dass du je gehört hast?"
     ]
 };
 
