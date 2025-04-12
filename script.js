@@ -16,6 +16,7 @@ const categories = {
     // 2. Zahlenzauber
     "2": [
         "Wie oft gehst du am Tag auf die Toilette?",
+        "Wie viele Unterhosen nimmst du mit wenn du für 7 Tage verreist?",
         "Wie oft duscht du in der Woche?",
         "In wie vielen WhatsApp-Gruppen bist du derzeit ca. drin?",
         "Wie oft warst du in diesem Monat schon verkatert?",
@@ -201,6 +202,7 @@ const categories = {
     // 16. Stars & Sternchen
     "16": [
         "Welchem Promi würdest du sofort einen Heiratsantrag machen?",
+        "Welchen Promi würdest du deine Kinder babysitten lassen?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Kiss?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Marry?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Kill?",
