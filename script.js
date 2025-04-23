@@ -437,35 +437,34 @@ function showQuestionScreen() {
     document.getElementById("handover-screen").style.display = "none";
     document.getElementById("game-screen").style.display = "block";
 
-    // Only set up questions at the start of each round
-    if (currentPlayerIndex === (currentRound % players.length)) {
-        const category = gameCategories[currentRound];
-        const allQuestions = categories[category];
-const filteredQuestions = allQuestions.filter(q => !(usedQuestions[category] || []).includes(q));
+const category = gameCategories[currentRound];
 
-if (filteredQuestions.length < 2) {
-    console.warn(`Nicht genügend unverbrauchte Fragen in Kategorie ${category}`);
-    // Fallback: alle Fragen verwenden
-    filteredQuestions.push(...allQuestions);
-}
-
-const majorityQuestionIndex = Math.floor(Math.random() * filteredQuestions.length);
-majorityQuestion = filteredQuestions[majorityQuestionIndex];
-correctQuestion = majorityQuestion;
-
-// Imposterfrage: andere Frage wählen
-let imposterQuestionIndex;
-do {
-    imposterQuestionIndex = Math.floor(Math.random() * filteredQuestions.length);
-} while (imposterQuestionIndex === majorityQuestionIndex);
-
-imposterQuestion = filteredQuestions[imposterQuestionIndex];
-
-}
 if (!usedQuestions[category]) {
     usedQuestions[category] = [];
 }
-usedQuestions[category].push(majorityQuestion, imposterQuestion);
+
+if (currentPlayerIndex === (currentRound % players.length)) {
+    const allQuestions = categories[category];
+    const filteredQuestions = allQuestions.filter(q => !usedQuestions[category].includes(q));
+
+    if (filteredQuestions.length < 2) {
+        console.warn(`Nicht genügend unverbrauchte Fragen in Kategorie ${category}`);
+        filteredQuestions.push(...allQuestions.filter(q => !filteredQuestions.includes(q)));
+    }
+
+    const majorityQuestionIndex = Math.floor(Math.random() * filteredQuestions.length);
+    majorityQuestion = filteredQuestions[majorityQuestionIndex];
+    correctQuestion = majorityQuestion;
+
+    let imposterQuestionIndex;
+    do {
+        imposterQuestionIndex = Math.floor(Math.random() * filteredQuestions.length);
+    } while (imposterQuestionIndex === majorityQuestionIndex);
+
+    imposterQuestion = filteredQuestions[imposterQuestionIndex];
+
+    usedQuestions[category].push(majorityQuestion, imposterQuestion);
+}
 
     const category = gameCategories[currentRound];
     document.getElementById("current-player-name").innerText = players[currentPlayerIndex];
