@@ -46,7 +46,7 @@ const categories = {
     ],
     // 4. Legenden des Sports
     "4": [
-        "Welcher Sportler war zu lange über seinem Zenit noch aktiv?",
+        "Welcher Sportler war/ist zu lange über seinem Zenit noch aktiv?",
         "Welcher Sportler würde deiner Meinung nach unter der Brücke landen, wenn er kein Talent gehabt hätte?",
         "Welcher Sportler würde in einem Wettlauf gegen dich verlieren?",
         "Welcher Sportler ist am attraktivsten?",
@@ -86,7 +86,7 @@ const categories = {
     "7": [
         "Auf welches Körperteil bist du besonders stolz?",
         "An welchem Körperteil hast du am häufigsten Schmerzen?",
-        "Welches Körperteil findest du am unterbewertesten?",
+        "Welches Körperteil ist deutlich wichtiger als viele finden?",
         "Welches Körperteil würdest du dir niemals tätowieren lassen?",
         "Wo würdest du am wenigsten gern geschlagen werden?",
         "Auf welches Körperteil könntest du am ehesten verzichten?",
@@ -177,7 +177,7 @@ const categories = {
         "Wie viel Geld gibst du in der Woche ca. für Zigaretten aus?",
         "Wie viel Geld gibst du ca. im Monat für Lieferdienste aus?",
         "Wie viel Geld gibst du ca. im Monat für Streaming-Anbieter aus?",
-        "Welche Summe ist deine Schmerzgrenze, wenn du mit Freunden Essen gehst?",
+        "Welche Summe pro Person ist deine Schmerzgrenze, wenn du mit Freunden Essen gehst?",
         "Wie viel Geld würden dir deine Eltern für einen Urlaub geben, wenn du sie darum fragst?"
     ],
     // 14. Zeitgeist
