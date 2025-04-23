@@ -13,7 +13,7 @@ const categories = {
         "Welcher Musiker würde dich ohne Probleme unter den Tisch trinken?",
         "Welchen Musiker würdest du dir niemals live ansehen wollen?"
     ],
-    // 2. Zahlenzauber
+    // 2. Zahlenzauber (1 bis 10)
     "2": [
         "Wie oft gehst du am Tag auf die Toilette?",
         "Wie viele Unterhosen nimmst du mit wenn du für 7 Tage verreist?",
@@ -29,21 +29,18 @@ const categories = {
         "Ab wie vielen Shots musst du dich übergeben?",
         "Wie oft bestellst du Essen über Lieferdienste im Monat?",
         "Wie oft warst du schon außerhalb Europas?",
-        "Wie oft trinkst du durchschnittlich pro Woche Alkohol?",
-        "Mit wie vielen Jahren hast du zuletzt ins Bett gemacht?",
-        "Mit wie vielen Jahren hattest du deinen ersten Crush?",
-        "Was ist ein gutes Alter, um das erste Kind zu bekommen?",
-        "Mit wie vielen Jahren hattest du deinen ersten Kuss?",
-        "Mit wie vielen Jahren warst du das erste Mal betrunken?"
+        "Wie oft trinkst du durchschnittlich pro Woche Alkohol?"
+
     ],
     // 3. Hollywood Calling
     "3": [
         "Was ist dein absoluter Lieblingsfilm?",
+        "Welcher Film hätte deiner Meinung nach einen Oscar verdient gehabt?",
         "In welchem Film hättest du gerne eine Hauptrolle?",
         "Welchen Film kannst du überhaupt nicht leiden?",
         "Welcher Film ist perfekt fürs erste Date?",
         "Welchen Film hast du zuletzt im Kino gesehen?",
-        "Welchen deutschen Film kennst du spontan?",
+        "Welchen Film würdest du gerne nochmal zum allersten Mal ansehen?",
         "Welcher Film hat dich als Kind am meisten geprägt?",
         "Welcher Animationsfilm ist deiner Meinung nach der beste?"
     ],
@@ -110,6 +107,8 @@ const categories = {
     // 9. Spotlight On
     "9": [
         "Wer von euch ist der Lustigste?",
+        "Wer von euch würde am ehesten bei einem Unfall helfen?",
+        "Wer von euch wird als Erstes Vater/Mutter?",
         "Wer von euch isst am meisten?",
         "Wer von euch lügt am häufigsten?",
         "Wer von euch ist der Geizigste?",
@@ -138,26 +137,34 @@ const categories = {
     // 11. Hand aufs Herz
     "11": [
         "Hast du jemals in einer Prüfung geschummelt?",
+        "Hast du jemals bei Freunden in die Wohnung gekotzt?",
+        "Kannst du jemanden am Tisch in Wirklichkeit gar nicht leiden?",
+        "Hast du dich schon mal ernsthaft geprügelt?",
+        "Warst du schon mal vor deinen Eltern rotzbesoffen?",
         "Bist du schon mal aus einer Bar oder einem Club geflogen?",
         "Hast du schon mal etwas gestohlen?",
         "Bist du schon mal betrunken zur Arbeit oder Schule gegangen?",
-        "Hast du schon mal jemanden geghostet?",
+        "Hast du schon mal jemanden absichtlich geghostet?",
         "Hast du schon mal jemanden betrunken angerufen, den du nicht hättest anrufen sollen?",
         "Warst du schon mal in jemanden verliebt, der nichts davon wusste?",
         "Hast du zu Schulzeiten jemals einen Verweis kassiert?"
     ],
     // 12. Würdest du für…?
     "12": [
-        "Würdest du für 100.000 € ein Jahr lang auf dein Handy verzichten?",
+        "Würdest du für 100.000 € ein ganzes Jahr lang auf dein Handy verzichten?",
+        "Würdest du für 25.000 € ein ganzes Jahr lang als Soldat dienen?",
         "Würdest du für 1.000 € eine Woche im Sommer nicht duschen?",
-        "Würdest du für 10.000 € zwei Runden mit Mike Tyson im Ring stehen?",
+        "Würdest du für 10.000 € zwei Runden lang gegen Mike Tyson im Ring boxen?",
         "Würdest du dir für 3.000.000 € deinen rechten Arm abhacken lassen?",
         "Würdest du für 100.000 € aus Deutschland auswandern?",
         "Würdest du für 5.000.000 € nach Nordkorea ziehen?",
         "Würdest du für 5.000 € deinen Job kündigen?",
+        "Würdest du für 50.000 € ein ganzes Jahr auf Alkohol verzichten?",
+        "Würdest du für 50.000 € ein ganzes Jahr auf Zigaretten verzichten?",
+        "Würdest du für 250.000 € ein ganzes Jahr dein Zuhause nicht mehr verlassen?",
         "Würdest du für 250.000 € einen Porno drehen und veröffentlichen?",
         "Würdest du dir für 50 € von einer fremden Person eine Ohrfeige geben lassen?",
-        "Würdest du dir für 2.000 € ein Tattoo stechen lassen, das dein Nachbar auswählt?"
+        "Würdest du dir für 20.000 € ein Tattoo in der Größe einer 2€-Münze stechen lassen, das dein rechter Nachbar auswählt?"
     ],
     // 13. Money, Money, Money
     "13": [
@@ -196,6 +203,7 @@ const categories = {
         "Welches Lied wäre dein Go-To Song beim Karaoke?",
         "Welches Lied verbindest du am Meisten mit Liebeskummer?",
         "Welches Lied ist der beste Song zum Autofahren?",
+        "Welches Lied verbindest du mit Sommer?",
         "Welches Lied hast du zuletzt heruntergeladen?",
         "Welches Lied erinnert dich an deine Kindheit?"
     ],
@@ -247,6 +255,8 @@ const categories = {
     "Auf einer Skala von 1 bis 10: Wie fandest du die Filmreihe Harry Potter?",
     "Auf einer Skala von 1 bis 10: Wie findest du die Musik von One Direction?",
     "Auf einer Skala von 1 bis 10: Wie attraktiv findest du Kim Kardashian?",
+    "Auf einer Skala von 1 bis 10: Wie gut kannst du singen?",
+    "Auf einer Skala von 1 bis 10: Wie karrierefixiert bist du?",
     "Auf einer Skala von 1 bis 10: Wie sehr könntest du dir vorstellen in die Selbstständigkeit zu gehen?",
     "Auf einer Skala von 1 bis 10: Als wie Fußballverrückt würdest du dich bezeichnen?",
     "Auf einer Skala von 1 bis 10: Wie ordentlich findest du dich?",
@@ -286,6 +296,8 @@ const categories = {
         "Wie hoch kannst du ca. springen?",
         "Wie groß soll im Idealfall dein Sohn werden?",
         "Wie groß soll im Idealfall deine Tochter werden?",
+        "Wie weit kannst du aus dem Stand springen?",
+        "Wie breit sollte deiner Meinung nach ein Bett sein?",
         "Wie hoch sollte eine Tür deiner Meinung nach sein?"
     ],
     // 23. [Kleine Zeiträume]
@@ -311,7 +323,31 @@ const categories = {
         "Wie lange dauerte ca. deine längste erhaltene oder verschickte Sprachnachricht?",
         "Wie lange könntest du deiner Meinung nach in einem Gehege voller hungriger Löwen überleben?",
         "Wie lange war ca. das längste Lied, dass du je gehört hast?"
-    ]
+    ],
+    // 25. Erste Male (10 - 18 Jahre)
+    "25": [
+        "Mit wie vielen Jahren hattest du deinen ersten Crush?",
+        "Mit wie vielen Jahren hattest du deine erste 6 in der Schule?",
+        "Mit wie vielen Jahren hattest du deinen ersten Kuss?",
+        "Mit wie vielen Jahren hast du das erste mal gekurbelt?",
+        "Mit wie vielen Jahren hast du das erste Mal die Schule geschwänzt?",
+        "Mit wie vielen Jahren hast du das erste Mal Geld verdient?",
+        "Mit wie vielen Jahren hast du das erste Mal eine Hausparty veranstaltet?",
+        "Mit wie vielen Jahren warst du das erste Mal mit dem Tod eines Familienmitglieds/engen Freundes konfrontiert?",
+        "Mit wie vielen Jahren warst du das erste Mal alleine im Urlaub?",
+        "Mit wie vielen Jahren warst du das erste Mal betrunken?" 
+     ],
+    // 26. Zahlenzauber (18 - aufwärts)
+    "26": [
+        "Was ist ein gutes Alter, um zu heiraten?",
+        "Was ist ein gutes Alter, um einen ersten Vollzeit-Job zu haben?",
+        "Was ist ein gutes Alter, um eine große Weltreise zu machen?",
+        "In welchem Alter sollte man spätestens mit der Planung der eigenen Altersversorgung anfangen?",
+        "In welchem Alter sollte man spätestestens anfangen gesünder zu leben und sich mehr zu schonen?",
+        "Was ist ein gutes Alter, um ca. die Hälfte der eigenen Life Goals erreicht zu haben?",
+        "Was ist das jüngste Alter, dass du daten würdest?",
+        "Was ist das älteste Alter, dass du daten würdest?",
+        "Was ist ein gutes Alter, um das erste Kind zu bekommen?"    
 };
 
 // Initialize event listeners when DOM is loaded
