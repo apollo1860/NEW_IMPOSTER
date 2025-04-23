@@ -384,43 +384,25 @@ let majorityQuestion = "";
 let imposterQuestion = "";
 
 function startGame() {
-    try {
-        console.log('startGame called');
-        let playerCount = document.getElementById("playerCount");
-        console.log('playerCount element:', playerCount);
-        if (!playerCount) {
-            console.error('playerCount element not found');
-            return;
-        }
-        playerCount = playerCount.value;
-        console.log('Selected player count:', playerCount);
-
-        document.getElementById("start-screen").style.display = "none";
-        document.getElementById("player-inputs").style.display = "block";
-
-        let nameFields = document.getElementById("name-fields");
-        nameFields.innerHTML = "";
-
-        for (let i = 0; i < playerCount; i++) {
-            let input = document.createElement("input");
-            input.type = "text";
-            input.placeholder = "Spieler " + (i + 1);
-            nameFields.appendChild(input);
-        }
-    } catch (error) {
-        console.error('Error in startGame:', error);
+    let playerCount = document.getElementById("playerCount").value;
+    document.getElementById("start-screen").style.display = "none";
+    document.getElementById("player-inputs").style.display = "block";
+    let nameFields = document.getElementById("name-fields");
+    nameFields.innerHTML = "";
+    for (let i = 0; i < playerCount; i++) {
+        let input = document.createElement("input");
+        input.type = "text";
+        input.placeholder = "Spieler " + (i + 1);
+        nameFields.appendChild(input);
     }
 }
 
 function confirmPlayers() {
     let inputs = document.querySelectorAll("#name-fields input");
-    players = Array.from(inputs).map(input => input.value || "Spieler " + (players.length + 1));
+    players = Array.from(inputs).map(input => input.value || "Spieler");
     gameCategories = Object.keys(categories).sort(() => Math.random() - 0.5);
     players.forEach(player => drinkCounts[player] = 0);
-    
-    // Select first imposter randomly
     imposterIndex = Math.floor(Math.random() * players.length);
-    
     document.getElementById("player-inputs").style.display = "none";
     showHandoverScreen();
 }
@@ -428,82 +410,53 @@ function confirmPlayers() {
 function showHandoverScreen() {
     document.getElementById("game-screen").style.display = "none";
     document.getElementById("handover-screen").style.display = "block";
-
-    document.getElementById("handover-text").innerText =
-        `Bitte das Handy an ${players[currentPlayerIndex]} geben.`;
+    document.getElementById("handover-text").innerText = `Bitte das Handy an ${players[currentPlayerIndex]} geben.`;
 }
 
 function showQuestionScreen() {
     document.getElementById("handover-screen").style.display = "none";
     document.getElementById("game-screen").style.display = "block";
 
-const category = gameCategories[currentRound];
-
-if (!usedQuestions[category]) {
-    usedQuestions[category] = [];
-}
-
-if (currentPlayerIndex === (currentRound % players.length)) {
+    const category = gameCategories[currentRound % gameCategories.length];
     const allQuestions = categories[category];
-    const filteredQuestions = allQuestions.filter(q => !usedQuestions[category].includes(q));
 
-    if (filteredQuestions.length < 2) {
-        console.warn(`Nicht genügend unverbrauchte Fragen in Kategorie ${category}`);
-        filteredQuestions.push(...allQuestions.filter(q => !filteredQuestions.includes(q)));
-    }
-
-    const majorityQuestionIndex = Math.floor(Math.random() * filteredQuestions.length);
-    majorityQuestion = filteredQuestions[majorityQuestionIndex];
-    correctQuestion = majorityQuestion;
-
-    let imposterQuestionIndex;
+    const majorityIndex = Math.floor(Math.random() * allQuestions.length);
+    let imposterIndex;
     do {
-        imposterQuestionIndex = Math.floor(Math.random() * filteredQuestions.length);
-    } while (imposterQuestionIndex === majorityQuestionIndex);
+        imposterIndex = Math.floor(Math.random() * allQuestions.length);
+    } while (imposterIndex === majorityIndex);
 
-    imposterQuestion = filteredQuestions[imposterQuestionIndex];
-
-    usedQuestions[category].push(majorityQuestion, imposterQuestion);
-}
+    majorityQuestion = allQuestions[majorityIndex];
+    imposterQuestion = allQuestions[imposterIndex];
+    correctQuestion = majorityQuestion;
 
     document.getElementById("current-player-name").innerText = players[currentPlayerIndex];
     document.getElementById("player-answer").value = "";
-
-    // Hide category and show appropriate question based on whether current player is imposter
     document.getElementById("category-text").style.display = "none";
-    document.getElementById("question-text").innerText = 
-        currentPlayerIndex === imposterIndex ? imposterQuestion : majorityQuestion;
+    document.getElementById("question-text").innerText = currentPlayerIndex === imposterIndex ? imposterQuestion : majorityQuestion;
 }
 
 function nextPlayer() {
     const answer = document.getElementById("player-answer").value;
     playerAnswers.push({ player: players[currentPlayerIndex], answer });
-
-    // Clear the answer field after recording the answer
     document.getElementById("player-answer").value = "";
+    currentPlayerIndex = (currentPlayerIndex + 1) % players.length;
 
-    // Calculate next player index based on rotation
-    let nextIndex = (currentPlayerIndex + 1) % players.length;
-    let roundStartPlayer = currentRound % players.length;
-    let playersAnswered = playerAnswers.length;
-
-    if (playersAnswered >= players.length) {
-        // All players have answered in this round
+    if (playerAnswers.length >= players.length) {
         document.getElementById("game-screen").style.display = "none";
         document.getElementById("round-end-screen").style.display = "block";
     } else {
-        currentPlayerIndex = nextIndex;
-        showHandoverScreen(); // Next player's turn
+        showHandoverScreen();
     }
 }
 
 function showAnswersScreen() {
     document.getElementById("round-end-screen").style.display = "none";
     document.getElementById("answers-screen").style.display = "block";
-    let list = document.getElementById("answers-list");
+    const list = document.getElementById("answers-list");
     list.innerHTML = "";
     playerAnswers.forEach(({ player, answer }) => {
-        let li = document.createElement("li");
+        const li = document.createElement("li");
         li.innerText = `${player}: ${answer}`;
         list.appendChild(li);
     });
@@ -513,12 +466,10 @@ function showCorrectQuestion() {
     document.getElementById("answers-screen").style.display = "none";
     document.getElementById("correct-question-screen").style.display = "block";
     document.getElementById("correct-question-text").innerText = correctQuestion;
-    
-    // Display all answers on the correct question screen
-    let list = document.getElementById("correct-screen-answers");
+    const list = document.getElementById("correct-screen-answers");
     list.innerHTML = "";
     playerAnswers.forEach(({ player, answer }) => {
-        let li = document.createElement("li");
+        const li = document.createElement("li");
         li.innerText = `${player}: ${answer}`;
         list.appendChild(li);
     });
@@ -533,143 +484,75 @@ function showImposterReveal() {
 function showDrinksScreen() {
     document.getElementById("imposter-reveal-screen").style.display = "none";
     document.getElementById("drinks-screen").style.display = "block";
-
-    let drinksList = document.getElementById("drinks-list");
+    const drinksList = document.getElementById("drinks-list");
     drinksList.innerHTML = "";
-
     players.forEach(player => {
-        let playerDiv = document.createElement("div");
-        playerDiv.classList.add("drink-counter");
-
-        let nameSpan = document.createElement("span");
-        nameSpan.innerText = player;
-        nameSpan.classList.add("player-name");
-
-        let counterDiv = document.createElement("div");
-        counterDiv.classList.add("counter-controls");
-
-        let minusButton = document.createElement("button");
-        minusButton.innerText = "-";
-        minusButton.classList.add("counter-button");
-        minusButton.onclick = () => {
-            if (drinkCounts[player] > 0) {
-                drinkCounts[player]--;
-                drinkBox.innerText = drinkCounts[player];
-            }
-        };
-
-        let drinkBox = document.createElement("div");
-        drinkBox.classList.add("drink-box");
-        drinkBox.innerText = drinkCounts[player];
-
-        let plusButton = document.createElement("button");
-        plusButton.innerText = "+";
-        plusButton.classList.add("counter-button");
-        plusButton.onclick = () => {
-            drinkCounts[player]++;
-            drinkBox.innerText = drinkCounts[player];
-        };
-
-        counterDiv.appendChild(minusButton);
-        counterDiv.appendChild(drinkBox);
-        counterDiv.appendChild(plusButton);
-
-        playerDiv.appendChild(nameSpan);
-        playerDiv.appendChild(counterDiv);
-        drinksList.appendChild(playerDiv);
+        const div = document.createElement("div");
+        div.innerText = `${player}: ${drinkCounts[player]} Schlücke`;
+        drinksList.appendChild(div);
     });
 }
 
 function nextRound() {
     document.getElementById("drinks-screen").style.display = "none";
-
     currentRound++;
-
     if (currentRound >= 15) {
         showFinalRanking();
         return;
     }
-
-    // Reset for new round
     playerAnswers = [];
-    // Set starting player for this round (rotates through players)
     currentPlayerIndex = currentRound % players.length;
-    
-    // Select new random imposter for this round
-    // Make sure to select a truly random player, not influenced by currentPlayerIndex
     imposterIndex = Math.floor(Math.random() * players.length);
-    
     showHandoverScreen();
 }
 
 function showFinalRanking() {
-    // Andere Screens ausblenden
-    ["start-screen", "player-inputs", "handover-screen", "game-screen",
-     "round-end-screen", "answers-screen", "correct-question-screen", "imposter-reveal-screen", "drinks-screen"]
-    .forEach(id => document.getElementById(id).style.display = "none");
+    ["start-screen", "player-inputs", "handover-screen", "game-screen", "round-end-screen", "answers-screen", "correct-question-screen", "imposter-reveal-screen", "drinks-screen"]
+        .forEach(id => document.getElementById(id).style.display = "none");
 
-    // Finalen Screen anzeigen
     document.getElementById("final-ranking-screen").style.display = "block";
-
-    // Ranking nach wenigsten Schlücken
-    let ranking = Object.entries(drinkCounts)
-        .sort((a, b) => a[1] - b[1]);
-
-    let rankingList = document.getElementById("ranking-list");
-    rankingList.innerHTML = "";
-
+    const ranking = Object.entries(drinkCounts).sort((a, b) => a[1] - b[1]);
+    const list = document.getElementById("ranking-list");
+    list.innerHTML = "";
     ranking.forEach(([player, count]) => {
-        let li = document.createElement("li");
+        const li = document.createElement("li");
         li.innerText = `${player} – ${count} Schlücke`;
-        rankingList.appendChild(li);
+        list.appendChild(li);
     });
-        // Belohnungstext für den Gewinner anzeigen
-    const winnerName = ranking[0][0];
-    const rewardText = `${winnerName} darf ${players.length * 2} Schlücke verteilen.`;
-    document.getElementById("reward-summary").innerText = rewardText;
-
+    document.getElementById("reward-summary").innerText = `${ranking[0][0]} darf ${players.length * 2} Schlücke verteilen.`;
 }
-document.addEventListener('DOMContentLoaded', function () {
-    updateRewardInfo();
-    const infoIcon = document.getElementById('info-icon');
-    const infoPopup = document.getElementById('info-popup');
-    const playerCountSelect = document.getElementById('playerCount');
 
-    // Öffnet das Info-Popup
-    infoIcon.addEventListener('click', function () {
-        infoPopup.style.display = 'block';
-    });
-
-    // Aktualisiert den Schlücke-Text beim Ändern der Spieleranzahl
-    playerCountSelect.addEventListener('change', updateRewardInfo);
-
-    // Initial direkt setzen
-    updateRewardInfo();
-});
-
-
-function closeInfo() {
-    document.getElementById('info-popup').style.display = 'none';
-}
-function updateRewardInfo() {
-    const count = parseInt(document.getElementById('playerCount').value); // Anzahl Spieler holen
-    const rewardSpan = document.getElementById('reward-info'); // Zielbereich im Text finden
-    if (rewardSpan) {
-        rewardSpan.innerText = count * 2; // Text ersetzen: z. B. 3 → 6
-    }
-}
-    function restartGame() {
+function restartGame() {
     document.getElementById("final-ranking-screen").style.display = "none";
     currentRound = 0;
     playerAnswers = [];
     drinkCounts = {};
     players.forEach(player => drinkCounts[player] = 0);
-    gameCategories = Object.keys(categories).sort(() => Math.random() - 0.5);
     currentPlayerIndex = 0;
     imposterIndex = Math.floor(Math.random() * players.length);
-
-    showHandoverScreen(); // direkt zum ersten Spieler
+    showHandoverScreen();
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    updateRewardInfo();
+    const infoIcon = document.getElementById('info-icon');
+    const infoPopup = document.getElementById('info-popup');
+    const playerCountSelect = document.getElementById('playerCount');
+    infoIcon.addEventListener('click', () => infoPopup.style.display = 'block');
+    playerCountSelect.addEventListener('change', updateRewardInfo);
+    updateRewardInfo();
+});
+
+function closeInfo() {
+    document.getElementById('info-popup').style.display = 'none';
+}
+
+function updateRewardInfo() {
+    const count = parseInt(document.getElementById('playerCount').value);
+    const rewardSpan = document.getElementById('reward-info');
+    if (rewardSpan) rewardSpan.innerText = count * 2;
+}
+
 
 
 
