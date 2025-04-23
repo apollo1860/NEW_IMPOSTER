@@ -566,34 +566,39 @@ function nextRound() {
 }
 
 function showFinalRanking() {
+    // Andere Screens ausblenden
     ["start-screen", "player-inputs", "handover-screen", "game-screen",
      "round-end-screen", "answers-screen", "correct-question-screen", "imposter-reveal-screen", "drinks-screen"]
     .forEach(id => document.getElementById(id).style.display = "none");
 
+    // Finalen Screen anzeigen
     document.getElementById("final-ranking-screen").style.display = "block";
 
+    // Ranking berechnen
     let ranking = Object.entries(drinkCounts)
         .sort((a, b) => a[1] - b[1]);
 
+    // Ranking anzeigen
     let rankingList = document.getElementById("ranking-list");
     rankingList.innerHTML = "";
-
     ranking.forEach(([player, count]) => {
         let li = document.createElement("li");
         li.innerText = `${player} – ${count} Schlücke`;
         rankingList.appendChild(li);
     });
 
-
-    // ➕ Gewinner-Schluckanzahl anzeigen
+    // Gewinner-Schluckanzahl anzeigen
     const winnerName = ranking[0][0];
     const rewardText = `${winnerName} darf ${players.length * 2} Schlücke verteilen.`;
     document.getElementById("reward-summary").innerText = rewardText;
 }
-    function openInfoPopup() {
+
+// ❗ Diese beiden Funktionen stehen jetzt RICHTIG außerhalb:
+
+function openInfoPopup() {
     const count = parseInt(document.getElementById("playerCount").value);
     const schlucke = count * 2;
-    document.getElementById("info-schluckzahl").innerText = schlucke;
+    document.getElementById("reward-info").innerText = schlucke;
     document.getElementById("info-popup").style.display = "block";
 }
 
