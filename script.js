@@ -671,5 +671,18 @@ function updateRewardInfo() {
         rewardSpan.innerText = count * 2; // Text ersetzen: z. B. 3 → 6
     }
 }
+    function restartGame() {
+    document.getElementById("final-ranking-screen").style.display = "none";
+    currentRound = 0;
+    playerAnswers = [];
+    drinkCounts = {};
+    players.forEach(player => drinkCounts[player] = 0);
+    gameCategories = Object.keys(categories).sort(() => Math.random() - 0.5);
+    currentPlayerIndex = 0;
+    imposterIndex = Math.floor(Math.random() * players.length);
+
+    showHandoverScreen(); // direkt zum ersten Spieler
+}
+
 
 
