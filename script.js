@@ -466,7 +466,6 @@ if (currentPlayerIndex === (currentRound % players.length)) {
     usedQuestions[category].push(majorityQuestion, imposterQuestion);
 }
 
-    const category = gameCategories[currentRound];
     document.getElementById("current-player-name").innerText = players[currentPlayerIndex];
     document.getElementById("player-answer").value = "";
 
