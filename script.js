@@ -461,19 +461,8 @@ do {
 
 imposterQuestion = filteredQuestions[imposterQuestionIndex];
 
-
-        // Select random question for majority
-        const majorityQuestionIndex = Math.floor(Math.random() * questions.length);
-        majorityQuestion = questions[majorityQuestionIndex];
-        correctQuestion = majorityQuestion;
-
-        // Select different question for imposter
-        let imposterQuestionIndex;
-        do {
-            imposterQuestionIndex = Math.floor(Math.random() * questions.length);
-        } while (imposterQuestionIndex === majorityQuestionIndex);
-        imposterQuestion = questions[imposterQuestionIndex];
-    if (!usedQuestions[category]) {
+}
+if (!usedQuestions[category]) {
     usedQuestions[category] = [];
 }
 usedQuestions[category].push(majorityQuestion, imposterQuestion);
