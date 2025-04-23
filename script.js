@@ -69,7 +69,7 @@ const categories = {
         "Welches Land hat das leckerste Essen?",
         "Welches Land ist die größte Fußballmacht der Geschichte?",
         "Wo leben die nettesten Menschen?",
-        "In welchem Land würdest du gerne für 1 Jahr leben?", // Added comma here
+        "In welchem Land würdest du gerne für 1 Jahr leben?"
     ],
     // 6. Prozente, Baby!
     "6": [
@@ -132,7 +132,7 @@ const categories = {
         "Was bestellst du am häufigsten bei Lieferdiensten?",
         "Was war das teuerste Gericht, das du je bestellt hast?",
         "Welches Essen kannst du gar nicht ab?",
-        "Was ist das beste Essen, um eine gute Grundlage zu haben, bevor du auf eine Party gehst?",
+        "Was ist das beste Essen, um eine gute Grundlage zu haben, bevor du auf eine Party gehst?"
     ],
     // 11. Hand aufs Herz
     "11": [
@@ -349,7 +349,7 @@ const categories = {
         "Was ist das älteste Alter, dass du daten würdest?",
         "Was ist ein gutes Alter, um das erste Kind zu bekommen?"    
     ]
-}
+};
 
 // Initialize event listeners when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
