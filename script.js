@@ -613,3 +613,16 @@ function showFinalRanking() {
         rankingList.appendChild(li);
     });
 }
+document.addEventListener('DOMContentLoaded', function () {
+    const infoIcon = document.getElementById('info-icon');
+    const infoPopup = document.getElementById('info-popup');
+
+    infoIcon.addEventListener('click', function () {
+        infoPopup.style.display = 'block';
+    });
+});
+
+function closeInfo() {
+    document.getElementById('info-popup').style.display = 'none';
+}
+
