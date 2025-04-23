@@ -11,7 +11,7 @@
         <div id="start-screen">
             <h1>Trinkspiel - Imposter</h1>
             <!-- Info-Icon oben rechts -->
-<div id="info-icon" onclick="openInfo()" style="position: absolute; top: 10px; right: 10px; font-size: 24px; cursor: pointer;">ℹ️</div>
+<div id="info-icon" onclick="openInfoPopup()" style="position: absolute; top: 10px; right: 10px; font-size: 24px; cursor: pointer;">ℹ️</div>
 
 <!-- Verstecktes Info-Popup -->
 <div id="info-popup" style="display: none; position: fixed; top: 50px; right: 20px; width: 90%; max-width: 500px; background: white; padding: 15px; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.2); z-index: 999;">
@@ -22,7 +22,7 @@
         Wird der Imposter enttarnt, muss er trinken. Täuscht er alle, trinken die anderen.<br><br>
         Nach 15 Runden gewinnt der Spieler mit den wenigsten Schlücken und darf zur Belohnung <strong><span id="reward-info">Anzahl × 2</span> Schlücke </strong> verteilen.
     </p>
-    <button onclick="closeInfo()" style="margin-top: 10px;">OK</button>
+    <button onclick="closeInfoPopup()" style="margin-top: 10px;">OK</button>
 </div>
 
             <label for="playerCount">Anzahl der Spieler:</label>
