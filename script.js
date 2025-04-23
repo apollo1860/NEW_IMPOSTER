@@ -574,7 +574,7 @@ function nextRound() {
 
     currentRound++;
 
-    if (currentRound >= 18) {
+    if (currentRound >= 15) {
         showFinalRanking();
         return;
     }
@@ -612,6 +612,11 @@ function showFinalRanking() {
         li.innerText = `${player} – ${count} Schlücke`;
         rankingList.appendChild(li);
     });
+        // Belohnungstext für den Gewinner anzeigen
+    const winnerName = ranking[0][0];
+    const rewardText = `${winnerName} darf ${players.length * 2} Schlücke verteilen.`;
+    document.getElementById("reward-summary").innerText = rewardText;
+
 }
 document.addEventListener('DOMContentLoaded', function () {
     updateRewardInfo();
