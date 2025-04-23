@@ -614,6 +614,7 @@ function showFinalRanking() {
     });
 }
 document.addEventListener('DOMContentLoaded', function () {
+    updateRewardInfo();
     const infoIcon = document.getElementById('info-icon');
     const infoPopup = document.getElementById('info-popup');
     const playerCountSelect = document.getElementById('playerCount');
