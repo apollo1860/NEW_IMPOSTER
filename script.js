@@ -616,13 +616,30 @@ function showFinalRanking() {
 document.addEventListener('DOMContentLoaded', function () {
     const infoIcon = document.getElementById('info-icon');
     const infoPopup = document.getElementById('info-popup');
+    const playerCountSelect = document.getElementById('playerCount');
 
+    // Öffnet das Info-Popup
     infoIcon.addEventListener('click', function () {
         infoPopup.style.display = 'block';
     });
+
+    // Aktualisiert den Schlücke-Text beim Ändern der Spieleranzahl
+    playerCountSelect.addEventListener('change', updateRewardInfo);
+
+    // Initial direkt setzen
+    updateRewardInfo();
 });
+
 
 function closeInfo() {
     document.getElementById('info-popup').style.display = 'none';
 }
+function updateRewardInfo() {
+    const count = parseInt(document.getElementById('playerCount').value); // Anzahl Spieler holen
+    const rewardSpan = document.getElementById('reward-info'); // Zielbereich im Text finden
+    if (rewardSpan) {
+        rewardSpan.innerText = count * 2; // Text ersetzen: z. B. 3 → 6
+    }
+}
+
 
