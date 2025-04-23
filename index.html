@@ -10,6 +10,21 @@
     <div class="game-container">
         <div id="start-screen">
             <h1>Trinkspiel - Imposter</h1>
+            <!-- Info-Icon oben rechts -->
+<div id="info-icon" style="position: absolute; top: 10px; right: 10px; font-size: 24px; cursor: pointer;">ℹ️</div>
+
+<!-- Verstecktes Info-Popup -->
+<div id="info-popup" style="display: none; position: fixed; top: 50px; right: 20px; width: 90%; max-width: 500px; background: white; padding: 15px; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.2); z-index: 999;">
+    <h3>📋 Spielanleitung</h3>
+    <p>
+        In jeder Runde wird das Handy von Spieler zu Spieler weitergereicht. Jeder liest seine persönliche Frage, gibt still und heimlich seine Antwort ein – und reicht das Gerät weiter. Doch Vorsicht: <strong>Einer von euch ist der Imposter</strong> und hat eine andere Frage aus derselben Kategorie!<br><br>
+        Sobald alle geantwortet haben, werden alle Antworten gleichzeitig angezeigt – kurz darauf folgt die „richtige“ Frage. Jetzt wird diskutiert, spekuliert und abgestimmt: <strong>Wer war der Imposter?</strong><br><br>
+        Wird der Imposter enttarnt, muss er trinken. Täuscht er alle, trinken die anderen.<br><br>
+        Nach 15 Runden gewinnt der Spieler mit den wenigsten Schlücken und darf zur Belohnung <strong>(Anzahl Spieler × 2)</strong> Schlücke verteilen.
+    </p>
+    <button onclick="closeInfo()" style="margin-top: 10px;">OK</button>
+</div>
+
             <label for="playerCount">Anzahl der Spieler:</label>
             <select id="playerCount">
                 <option value="3">3</option>
