@@ -4,7 +4,6 @@ const categories = {
         "Welcher Musiker ist aktuell völlig überbewertet?",
         "Welcher Musiker läuft bei dir gerade rauf und runter?",
         "Welcher Musiker ist deiner Meinung nach am attraktivsten?",
-        "Welcher Musiker deines Geschlechts ist besonders attraktiv?",
         "Welcher Musiker wird aktuell am meisten unterschätzt?",
         "Bei welchem Musiker drehst du auf 3 Promille komplett durch?",
         "Wer singt deinen derzeitigen Lieblingssong?",
@@ -96,6 +95,7 @@ const categories = {
     // 8. Cheers & Beers
     "8": [
         "Welches Getränk trinkst du am häufigsten?",
+        "Welches Getränk würdest du jetzt gerne bestellen?",
         "Welches Getränk kannst du nicht ausstehen?",
         "Was ist dein perfektes Kater-Getränk?",
         "Welches Getränk erinnert dich an Urlaub?",
@@ -184,6 +184,7 @@ const categories = {
     "14": [
         "Wann ist die perfekte Uhrzeit, um sonntags aufzustehen?",
         "Wann ist der beste Zeitpunkt fürs Fitnessstudio?",
+        "Wann ist die beste Uhrzeit, um etwas zu essen?",
         "Wann sollte man am besten zu Abend essen?",
         "Wann ist die perfekte Zeit, um ins Büro zu kommen?",
         "Wann gehst du idealerweise schlafen?",
@@ -202,7 +203,7 @@ const categories = {
         "Welches Lied würdest du auf deiner Beerdigung spielen lassen?",
         "Welches Lied wäre dein Go-To Song beim Karaoke?",
         "Welches Lied verbindest du am Meisten mit Liebeskummer?",
-        "Welches Lied ist der beste Song zum Autofahren?",
+        "Welches Lied eignet sich perfekt zum Autofahren?",
         "Welches Lied verbindest du mit Sommer?",
         "Welches Lied hast du zuletzt heruntergeladen?",
         "Welches Lied erinnert dich an deine Kindheit?"
@@ -216,7 +217,7 @@ const categories = {
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Kill?",
         "Bei welchem Promi fragst du dich, warum dieser überhaupt berühmt ist?",
         "Mit welchem Promi würdest du gerne mal ein Bierchen trinken?",
-        "Welchen Promi würdest du in einem Kampf besiegen?",
+        "Welchen Promi würdest du in einem 1v1 Kampf besiegen?",
         "Welcher Promi ist deiner Meinung nach dumm wie Brot?",
         "Wer ist die bekannteste Person, die du schon persönlich gesehen hast?"
     ],
@@ -236,6 +237,7 @@ const categories = {
     // 18. Tiere
     "18": [
         "Welches Tier schmeckt am besten?",
+        "Auf welchem Tier würdest du gerne mal reiten?",
         "Welches Tier findest du absolut hässlich?",
         "In welches Tier würdest du dich am liebsten für einen Tag verwandeln?",
         "Welches Tier sollte ausgerottet werden?",
@@ -281,24 +283,26 @@ const categories = {
     // 21. [Sportevents]
     "21": [
         "Welches Sportevent liebst du zu gucken?",
-        "Welches Sportevent findest du am unterbewertesten?",
-        "Welches Sportevent findest du am überbewertesten?",
+        "Welches Sportevent findest du sehr unterbewertet?",
+        "Welches Sportevent findest du sehr überbewertet?",
         "Was war das erste Sportevent, bei dem du live vor Ort warst?",
         "Welches Sportevent willst du noch unbedingt live vor Ort ansehen?",
         "Bei welchem Sportevent könntest du dich deiner Meinung nach am ehesten noch für qualifizieren?",
         "Welche olympische Disziplin würdest du dir niemals live anschauen?",
         "Welche olympische Disziplin schaust du dir gerne an?"
     ],
-    // 22. [Körpergrößen]
+    // 22. [Emojis]
     "22": [
-        "Wie groß wärst du gerne?",
-        "Wie groß sollte dein Partner sein?",
-        "Wie hoch kannst du ca. springen?",
-        "Wie groß soll im Idealfall dein Sohn werden?",
-        "Wie groß soll im Idealfall deine Tochter werden?",
-        "Wie weit kannst du aus dem Stand springen?",
-        "Wie breit sollte deiner Meinung nach ein Bett sein?",
-        "Wie hoch sollte eine Tür deiner Meinung nach sein?"
+        "Welchen Emoji versendest du am liebsten?",
+        "Welchen Emoji benutzt du zwar, aber sehr selten?",
+        "Du kannst nur noch genau einen Emoji für den Rest deines Lebens verwenden. Welcher wäre es?",
+        "Welcher Emoji beschreibt dich am besten?",
+        "Welcher Emoji beschreibt deinen linken Nachbarn am besten?",
+        "Welcher Emoji beschreibt deinen rechten Nachbarn am besten?",
+        "Mit welchem Emoji kann man am besten in Instagram DMs sliden?",
+        "Was war der letzte Emoji, den du versendet hast?",
+        "Welchen Emoji würdest du als Profilbild verwenden?",
+        "Welcher Emoji kommt bei dir nie zum Einsatz, obwohl du ihn eigentlich magst?",
     ],
     // 23. [Kleine Zeiträume]
     "23": [
