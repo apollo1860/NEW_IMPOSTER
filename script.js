@@ -349,7 +349,7 @@ const categories = {
         "Was ist das älteste Alter, dass du daten würdest?",
         "Was ist ein gutes Alter, um das erste Kind zu bekommen?"    
     ]
-};
+}
 
 // Initialize event listeners when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
