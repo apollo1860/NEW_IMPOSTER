@@ -96,5 +96,21 @@
     </div>
 
     <script src="script.js"></script>
+
+<!-- Info-Overlay (Popup) -->
+<div id="info-popup" style="display: none;" class="popup-overlay">
+    <div class="popup-content">
+        <h2>So funktioniert das Spiel</h2>
+        <p>
+            In jeder Runde wird das Handy von Spieler zu Spieler weitergereicht. Jeder liest seine persönliche Frage, gibt still und heimlich seine Antwort ein – und reicht das Gerät weiter. Doch Vorsicht: Einer von euch ist der Imposter und hat eine andere Frage aus derselben Kategorie!
+            Sobald alle geantwortet haben, werden alle Antworten gleichzeitig angezeigt – kurz darauf folgt die „richtige“ Frage, die die Mehrheit erhalten hat. Jetzt wird diskutiert, spekuliert und gelacht. Danach stimmt ihr per Handzeichen ab: Wer war der Imposter?
+            Wird der Imposter richtig enttarnt, muss <strong>er</strong> trinken.<br>
+            Schafft er es, euch alle zu täuschen, trinken <strong>alle anderen</strong>.
+            Nach 15 Runden endet das Spiel. Der Spieler mit den wenigsten Schlücken darf zur Belohnung <strong><span id="info-schluckzahl">XX</span> Schlücke</strong> an andere verteilen.
+        </p>
+        <button onclick="closeInfoPopup()">Schließen</button>
+    </div>
+</div>
+
 </body>
 </html>
