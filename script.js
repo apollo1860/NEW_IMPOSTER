@@ -584,6 +584,12 @@ function showFinalRanking() {
         rankingList.appendChild(li);
     });
 
+
+    // ➕ Gewinner-Schluckanzahl anzeigen
+    const winnerName = ranking[0][0];
+    const rewardText = `${winnerName} darf ${players.length * 2} Schlücke verteilen.`;
+    document.getElementById("reward-summary").innerText = rewardText;
+}
     function openInfoPopup() {
     const count = parseInt(document.getElementById("playerCount").value);
     const schlucke = count * 2;
@@ -593,11 +599,4 @@ function showFinalRanking() {
 
 function closeInfoPopup() {
     document.getElementById("info-popup").style.display = "none";
-}
-
-
-    // ➕ Gewinner-Schluckanzahl anzeigen
-    const winnerName = ranking[0][0];
-    const rewardText = `${winnerName} darf ${players.length * 2} Schlücke verteilen.`;
-    document.getElementById("reward-summary").innerText = rewardText;
 }
