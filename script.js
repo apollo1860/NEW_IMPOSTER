@@ -361,11 +361,14 @@ const categories = {
     // 23. [Kleine Zeiträume]
     "23": [
         "Wie viel Zeit sollte zwischen dem Ende einer alten und dem Beginn einer neuen Beziehung liegen?",
+        "Wie lange würdest du brauchen, um eine lange nicht mehr gesprochene Sprache, wieder einigermaßen fließend zu können?",
         "Wie viel Urlaub bräuchtest du am Stück, um endlich mal komplett zu entspannen?",
         "Wie lange sollte man jemanden daten, bevor man offiziell zusammen kommt?",
         "Was war der längste Zeitraum, an dem du am Stück keinen Alkohol getrunken hast, seitdem du aktiv Alkohol trinkst?",
         "Was war der längste Zeitraum, an den du dich erinnern kannst, in dem du kein Fleisch gegessen hast?",
         "Wie viel Zeit vergeht bei dir zwischen zwei Friseurbesuchen?",
+        "Wie lange dauert es bis du deine Bettwäsche wechsels?",
+        "Wie lange dauert es bei dir ca. bis du dein (Haupt-)Shampoo aufgebraucht hast?",
         "Wie lange würdest du eine Saftkur (Fasten, nur Säfte) durchhalten?",
         "Wie lange könntest du dich von deinem Lieblingsessen ernähren bis du es nicht mehr sehen/essen kannst?"
     ],
