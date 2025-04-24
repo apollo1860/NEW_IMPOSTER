@@ -1,16 +1,21 @@
 const categories = {
     // 1. Hit & Hype
     "1": [
-        "Welcher Musiker ist aktuell völlig überbewertet?",
+        "Welcher Musiker ist deiner Meinung nach völlig überbewertet?",
+        "Welchen Musiker hast du am liebsten als Teenager gehört?",
+        "Wer ist der Lieblingsmusiker euerer Eltern?",
         "Welcher Musiker läuft bei dir gerade rauf und runter?",
-        "Welcher Musiker ist deiner Meinung nach am attraktivsten?",
-        "Welcher Musiker wird aktuell am meisten unterschätzt?",
-        "Bei welchem Musiker drehst du auf 3 Promille komplett durch?",
+        "Welcher Musiker sollte seine eigene Reality-TV-Show kriegen?",
+        "Welcher Musiker ist deiner Meinung nach sehr attraktiv?",
+        "Welcher Musiker ist ein absoluter Geheimtipp?",
+        "Bei welchem Musiker gehst du auf 3 Promille gerne total ab?",
         "Wer singt deinen derzeitigen Lieblingssong?",
         "Welcher Musiker ist dein heimliches Guilty Pleasure?",
         "Welchen Musiker könntest du locker unter den Tisch trinken?",
+        "Welcher Musiker hat deiner Meinung nach die beste Stimme?",
+        "Welchen Musiker würdest du gerne mal im Dschungelcamp sehen?",
         "Welcher Musiker würde dich ohne Probleme unter den Tisch trinken?",
-        "Welchen Musiker würdest du dir niemals live ansehen wollen?"
+        "Welchen Musiker willst du noch unbedingt live sehen?"
     ],
     // 2. Zahlenzauber (1 bis 10)
     "2": [
@@ -34,31 +39,45 @@ const categories = {
     // 3. Hollywood Calling
     "3": [
         "Was ist dein absoluter Lieblingsfilm?",
-        "Welcher Film hätte deiner Meinung nach einen Oscar verdient gehabt?",
-        "In welchem Film hättest du gerne eine Hauptrolle?",
-        "Welchen Film kannst du überhaupt nicht leiden?",
-        "Welcher Film ist perfekt fürs erste Date?",
-        "Welchen Film hast du zuletzt im Kino gesehen?",
-        "Welchen Film würdest du gerne nochmal zum allersten Mal ansehen?",
-        "Welcher Film hat dich als Kind am meisten geprägt?",
-        "Welcher Animationsfilm ist deiner Meinung nach der beste?"
+        "Welchen Film oder Serie würdest du als DEN Klassiker schlechthin bezeichnen?",
+        "Welchen Film oder Serie kennt sonst keiner aus der Runde?",
+        "Welcher Film oder Serie hat den besten Hauptcharakter?",
+        "Welcher Film oder Serie hat den besten Bösewicht?",
+        "Welcher Film oder Serie hatte für dich das überraschendste Ende?",
+        "Welcher Film oder Serie ist deiner Meinung nach total schlecht geschrieben?",
+        "Welcher Film oder Serie hätte deiner Meinung nach einen Oscar verdient gehabt?",
+        "In welchem Film oder Serie hättest du gerne eine Hauptrolle?",
+        "Welchen Film oder Serie kannst du überhaupt nicht leiden?",
+        "Welcher Film oder Serie ist perfekt fürs erste Date?",
+        "Welchen Film oder Serie hast du zuletzt im Kino gesehen?",
+        "Welchen Film oder Serie würdest du gerne nochmal zum allersten Mal ansehen?",
+        "Welcher Film oder Serie hat dich als Kind am meisten geprägt?",
+        "Aus welchem Film oder Serie zitierst du in deinem Alltag am häufigsten?"
     ],
     // 4. Legenden des Sports
     "4": [
         "Welcher Sportler war/ist zu lange über seinem Zenit noch aktiv?",
+        "Mit welchem Sportler wärst du gerne für einen Abend am Ballermann?",
+        "Welcher Sportler ist extrem hässlich?",
+        "Welchen Sportler würdest du zum Bundeskanzler wählen?",
+        "Welcher Sportler glaubst du ist privat total anders im Gegensatz zu seinem öffentlichen Auftreten?",
+        "Welcher Sportler sollte seine eigene Reality-TV Show kriegen?",
+        "Welchen Sportler würdest du gerne mal im Dschungelcamp sehen?",
         "Welcher Sportler würde deiner Meinung nach unter der Brücke landen, wenn er kein Talent gehabt hätte?",
         "Welcher Sportler würde in einem Wettlauf gegen dich verlieren?",
-        "Welcher Sportler ist am attraktivsten?",
+        "Welcher Sportler ist sehr attraktiv?",
         "Welcher Sportler ist der größte Bad Boy/Bad Girl?",
-        "Mit welchem Sportler würdest du gern einen Tag tauschen?",
+        "Mit welchem Sportler würdest du gerne einen Tag tauschen?",
         "Welchen Sportler würdest du gerne auf ein Bier einladen?",
-        "Welcher Sportler ist deiner Meinung nach privat ein richtiges Arschloch?",
+        "Welcher Sportler glaubst du ist privat ein richtiges Arschloch?",
         "Welcher Sportler könnte deiner Meinung nach in einem anderen Sport ebenfalls erfolgreich sein?"
 
     ],
     // 5. Weltreise
     "5": [
         "In welchem Land leben die schönsten Frauen?",
+        "Welches Land hat die nervigsten Touristen?",
+        "Bei welchem Land musst du schmunzeln, wenn du die Leute Englisch sprechen hörst?",
         "Welches Land hasst du?",
         "Welches Land liebst du?",
         "In welchem Land (außer Deutschland) würdest du gern leben?",
@@ -211,6 +230,8 @@ const categories = {
     // 16. Stars & Sternchen
     "16": [
         "Welchem Promi würdest du sofort einen Heiratsantrag machen?",
+        "Welchen Promi würdest du gerne mal im Dschungelcamp sehen?",
+        "Welcher Promi sollte seine eigene Reality-TV Show kriegen?",
         "Welchen Promi würdest du deine Kinder babysitten lassen?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Kiss?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Marry?",
