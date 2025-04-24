@@ -79,19 +79,28 @@ const categories = {
         "Welches Land hat die nervigsten Touristen?",
         "Bei welchem Land musst du schmunzeln, wenn du die Leute Englisch sprechen hörst?",
         "Welches Land hasst du?",
+        "Welches Land hat deiner Meinung nach die größte Landschafts- & Naturvielfalt?",
         "Welches Land liebst du?",
-        "In welchem Land (außer Deutschland) würdest du gern leben?",
+        "In welchem Land würdest du gern leben?",
         "Wo hattest du deinen schönsten Urlaub?",
         "In welches Land möchtest du unbedingt in den nächsten Jahren reisen?",
         "Welches Land findest du komplett überflüssig?",
         "Welches Land hat das leckerste Essen?",
         "Welches Land ist die größte Fußballmacht der Geschichte?",
-        "Wo leben die nettesten Menschen?",
+        "Wo leben die liebsten Menschen?",
+        "Welches Land würdest du morgen besuchen, wenn du könntest?",
         "In welchem Land würdest du gerne für 1 Jahr leben?"
     ],
     // 6. Prozente, Baby!
     "6": [
         "Wie viel Prozent deines Lottogewinns würdest du deinen Eltern geben?",
+        "Zu wie viel Prozent besteht deine Bildergalerie aus Screenshots von Weg- und Fahrtrouten?",
+        "Wie viel Prozent deines monatlichen Einkommens legst du für schlechte Zeiten zur Seite?",
+        "Wie viel Prozent deiner Onlinekäufe schickst du wieder zurück?",
+        "Wie viel Prozent der Menschen, denen du auf Social Media folgst, kennst du auch wirklich privat?",
+        "Wie viel Prozent der Filme, die du anfängst schaust du auch wirklich zu Ende?",
+        "Wie viel Prozent deines Kleiderschranks trägst du regelmäßig?",
+        "Wie viel Prozent deines Urlaubs verbringst du ca. im Ausland?",
         "Wie viel Prozent deines Lottogewinnsbekommen deine engsten Freunde?",
         "Wie viel Prozent deines Lottogewinns würdest du für wohltätige Zwecke spenden?",
         "Wie viel Prozent Trinkgeld gibst du normalerweise?",
@@ -103,7 +112,10 @@ const categories = {
     // 7. Bodytalk
     "7": [
         "Auf welches Körperteil bist du besonders stolz?",
+        "Welches deiner Körperteile dürften alle am Tisch jetzt anfassen?",
         "An welchem Körperteil hast du am häufigsten Schmerzen?",
+        "Welches Körperteil muss in deinem Alltag am meisten aushalten?",
+        "Welches Körperteil verabschiedet sich wohl als Erstes in den Ruhestand?"
         "Welches Körperteil ist deutlich wichtiger als viele finden?",
         "Welches Körperteil würdest du dir niemals tätowieren lassen?",
         "Wo würdest du am wenigsten gern geschlagen werden?",
@@ -114,6 +126,10 @@ const categories = {
     // 8. Cheers & Beers
     "8": [
         "Welches Getränk trinkst du am häufigsten?",
+        "Welches Getränk trinkst du am liebsten nach dem Sport?",
+        "Welches Getränk trinkst du gerne im Sommer?",
+        "Welches Getränk ist total overhyped?",
+        "Welches Getränk würdest du selber herstellen, wenn du könntest?",
         "Welches Getränk würdest du jetzt gerne bestellen?",
         "Welches Getränk kannst du nicht ausstehen?",
         "Was ist dein perfektes Kater-Getränk?",
@@ -144,22 +160,29 @@ const categories = {
     ],
     // 10. Snack Attack
     "10": [
-        "Was ist dein absolutes Lieblingsessen?",
+        "Was ist dein absolutes Lieblingsgericht?",
+        "Was ist ein gutes Gericht für das erste Date?",
         "Welches Gericht erinnert dich an deine Kindheit?",
-        "Was ist dein perfektes Kateressen?",
+        "Was ist deine perfekte Kater-Mahlzeit?",
         "Was kochst du dir selbst am liebsten?",
-        "Was bestellst du am häufigsten bei Lieferdiensten?",
+        "Welches Gericht bestellst du am häufigsten bei Lieferdiensten?",
         "Was war das teuerste Gericht, das du je bestellt hast?",
-        "Welches Essen kannst du gar nicht ab?",
-        "Was ist das beste Essen, um eine gute Grundlage zu haben, bevor du auf eine Party gehst?"
+        "Welches Gericht kannst du gar nicht ab?",
+        "Welches Gericht haben deine Großeltern häufig für dich gekocht?",
+        "Welches Gericht haben deine Eltern häufig für dich gekocht?",
+        "Welches Gericht hat den besten Geruch?",
+        "Was ist das beste Gericht, um eine gute Grundlage zu haben, bevor du auf eine Party gehst?"
     ],
     // 11. Hand aufs Herz
     "11": [
         "Hast du jemals in einer Prüfung geschummelt?",
+        "Wärst du bereit allen am Tisch jetzt deinen Suchverlauf zu zeigen?",
         "Hast du jemals bei Freunden in die Wohnung gekotzt?",
         "Kannst du jemanden am Tisch in Wirklichkeit gar nicht leiden?",
+        "Wärst du bereit allen am Tisch jetzt deine letzte versendete und empfangene WhatsApp-Nachricht laut vorzulesen?",
         "Hast du dich schon mal ernsthaft geprügelt?",
         "Warst du schon mal vor deinen Eltern rotzbesoffen?",
+        "Bist du schon mal voll gegen ein Straßenschild oder -laterne gelaufen, weil du nur auf dein Handy geguckt hast?
         "Bist du schon mal aus einer Bar oder einem Club geflogen?",
         "Hast du schon mal etwas gestohlen?",
         "Bist du schon mal betrunken zur Arbeit oder Schule gegangen?",
@@ -177,6 +200,7 @@ const categories = {
         "Würdest du dir für 3.000.000 € deinen rechten Arm abhacken lassen?",
         "Würdest du für 100.000 € aus Deutschland auswandern?",
         "Würdest du für 5.000.000 € nach Nordkorea ziehen?",
+        "Würdest du für 100 € von einem 10 Meter Brett im Schwimmbad springen?",
         "Würdest du für 5.000 € deinen Job kündigen?",
         "Würdest du für 50.000 € ein ganzes Jahr auf Alkohol verzichten?",
         "Würdest du für 50.000 € ein ganzes Jahr auf Zigaretten verzichten?",
@@ -185,32 +209,37 @@ const categories = {
         "Würdest du dir für 50 € von einer fremden Person eine Ohrfeige geben lassen?",
         "Würdest du dir für 20.000 € ein Tattoo in der Größe einer 2€-Münze stechen lassen, das dein rechter Nachbar auswählt?"
     ],
-    // 13. Money, Money, Money
+    // 13. Money, Money, Money (bis 500€)
     "13": [
         "Was ist die größte Summe, die du jemals an einem Geldautomaten abgehoben hast?",
+        "Wie viel Geld gibst du ca. im Monat für Klamotten aus?",
+        "Wie viel Geld gibst du ca. im Monat bei Fast-Food-Ketten aus?",
+        "Wie viel Geld gibst du ca. im Monat in Supermärkten aus?",
         "Wie viel Taschengeld würdest du deinem Kind monatlich geben?",
         "Wie viel Geld gibst du ca. durchschnittlich am Tag aus?",
         "Wie viel Geld wärst du bereit im Monat für wohltätige Zwecke zu spenden?",
         "Wie viel Geld bist du bereit im Supermarkt für einen Wodka auszugeben?",
-        "Wie viel Geld gibst du in der Woche ca. für Alkohol aus?",
-        "Wie viel Geld gibst du in der Woche ca. für Zigaretten aus?",
+        "Wie viel Geld gibst du im Monat ca. für Alkohol aus?",
+        "Was war die höchste Geldsumme, die du jemals verloren hast?",
+        "Wie viel Geld gibst du im Monat ca. für Zigaretten aus?",
         "Wie viel Geld gibst du ca. im Monat für Lieferdienste aus?",
         "Wie viel Geld gibst du ca. im Monat für Streaming-Anbieter aus?",
         "Welche Summe pro Person ist deine Schmerzgrenze, wenn du mit Freunden Essen gehst?",
-        "Wie viel Geld würden dir deine Eltern für einen Urlaub geben, wenn du sie darum fragst?"
+        "Wie viel Geld würden dir deine Eltern für einen einwöchigen Urlaub geben, wenn du sie darum fragst?"
     ],
-    // 14. Zeitgeist
+    // 14. Uhrzeiten
     "14": [
         "Wann ist die perfekte Uhrzeit, um sonntags aufzustehen?",
         "Wann ist der beste Zeitpunkt fürs Fitnessstudio?",
         "Wann ist die beste Uhrzeit, um etwas zu essen?",
+        "Wann ist die beste Uhrzeit um den Wocheneinkauf zu erledigen?",
         "Wann sollte man am besten zu Abend essen?",
         "Wann ist die perfekte Zeit, um ins Büro zu kommen?",
-        "Wann gehst du idealerweise schlafen?",
-        "Wann ist die beste Zeit zum Masturbieren?",
+        "Um wie viel Uhr gehst du idealerweise schlafen?",
+        "Wann ist die beste Uhrzeit zum Masturbieren?",
         "Wann solltest du samstags deine nervigen Pflichten erledigen?",
         "Wann darf am Samstag das erste Bierchen aufgemacht werden?",
-        "Um wie viel Uhr gehst du in der Regel unter der Woche duschen?"
+        "Um wie viel Uhr gehst du in der Regel duschen?"
     ],
     // 15. Lieder
     "15": [
@@ -362,8 +391,21 @@ const categories = {
         "Mit wie vielen Jahren warst du das erste Mal alleine im Urlaub?",
         "Mit wie vielen Jahren warst du das erste Mal betrunken?" 
      ],
-    // 26. Zahlenzauber (18 - aufwärts)
+        // 26. Berufe
     "26": [
+        "Was dein erster Berufswunsch als Kind?",
+        "Was wäre dein Traumberuf?",
+        "Welchen Beruf könntest du niemals machen?",
+        "In welchem Beruf sollte man mehr Geld verdienen?",
+        "Welcher Beruf hat deiner Meinung nach mehr Anerkennung verdient?",
+        "Welchen Beruf sollte deiner Meinung nach dein linker Nachbar ausüben?",
+        "Welchen Beruf sollte deiner Meinung nach dein rechter Nachbar ausüben?",
+        "In welchem Beruf hätten dich gerne deine Eltern gesehen?",
+        "Welchen Beruf sollte mindestens eine Person in deinem Freundeskreis im Idealfall haben?",
+        "In welchem Beruf erlebt man deiner Meinung nach die lustigsten Sachen?" 
+     ],
+    // 27. Zahlenzauber (18 - aufwärts)
+    "27": [
         "Was ist ein gutes Alter, um zu heiraten?",
         "Was ist ein gutes Alter, um einen ersten Vollzeit-Job zu haben?",
         "Was ist ein gutes Alter, um eine große Weltreise zu machen?",
