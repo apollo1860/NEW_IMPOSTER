@@ -273,7 +273,7 @@ const categories = {
     ],
     // 17. Machen & Tun
     "17": [
-        "Was ist deine größte Sucht?",
+        "Was machst du so oft, dass es schon eine Sucht ist?",
         "Was wäre dein Kernthema auf deinem TikTok-Kanal?",
         "Wenn du eine nervige Angewohnheit für immer abstellen könntest. Welche wäre es?",
         "Was tust du am liebsten an einem freien Nachmittag?",
@@ -333,12 +333,15 @@ const categories = {
     // 21. [Sportevents]
     "21": [
         "Welches Sportevent liebst du zu gucken?",
+        "Welches Sportevent hättest du gerne bald in deiner Stadt?",
+        "Auf welches Sportevent würdest du allein schon wegen den Fans gehen?",
         "Welches Sportevent findest du sehr unterbewertet?",
         "Welches Sportevent findest du sehr überbewertet?",
         "Was war das erste Sportevent, bei dem du live vor Ort warst?",
         "Welches Sportevent willst du noch unbedingt live vor Ort ansehen?",
         "Bei welchem Sportevent könntest du dich deiner Meinung nach am ehesten noch für qualifizieren?",
         "Welche olympische Disziplin würdest du dir niemals live anschauen?",
+        "Welches Sportevent gibt es deiner Meinung nach noch in 1.000 Jahren?",
         "Welche olympische Disziplin schaust du dir gerne an?"
     ],
     // 22. [Emojis]
@@ -348,6 +351,7 @@ const categories = {
         "Du kannst nur noch genau einen Emoji für den Rest deines Lebens verwenden. Welcher wäre es?",
         "Welcher Emoji beschreibt dich am besten?",
         "Welcher Emoji beschreibt deinen linken Nachbarn am besten?",
+        "Welchen Emoji bekommst du am häufigsten zu gesendet?",
         "Welcher Emoji beschreibt deinen rechten Nachbarn am besten?",
         "Mit welchem Emoji kann man am besten in Instagram DMs sliden?",
         "Was war der letzte Emoji, den du versendet hast?",
