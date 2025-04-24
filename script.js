@@ -182,7 +182,7 @@ const categories = {
         "Wärst du bereit allen am Tisch jetzt deine letzte versendete und empfangene WhatsApp-Nachricht laut vorzulesen?",
         "Hast du dich schon mal ernsthaft geprügelt?",
         "Warst du schon mal vor deinen Eltern rotzbesoffen?",
-        "Bist du schon mal voll gegen ein Straßenschild oder -laterne gelaufen, weil du nur auf dein Handy geguckt hast?
+        "Bist du schon mal voll gegen ein Straßenschild oder -laterne gelaufen, weil du nur auf dein Handy geguckt hast?,
         "Bist du schon mal aus einer Bar oder einem Club geflogen?",
         "Hast du schon mal etwas gestohlen?",
         "Bist du schon mal betrunken zur Arbeit oder Schule gegangen?",
