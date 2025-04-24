@@ -115,7 +115,7 @@ const categories = {
         "Welches deiner Körperteile dürften alle am Tisch jetzt anfassen?",
         "An welchem Körperteil hast du am häufigsten Schmerzen?",
         "Welches Körperteil muss in deinem Alltag am meisten aushalten?",
-        "Welches Körperteil verabschiedet sich wohl als Erstes in den Ruhestand?"
+        "Welches Körperteil verabschiedet sich wohl als Erstes in den Ruhestand?",
         "Welches Körperteil ist deutlich wichtiger als viele finden?",
         "Welches Körperteil würdest du dir niemals tätowieren lassen?",
         "Wo würdest du am wenigsten gern geschlagen werden?",
