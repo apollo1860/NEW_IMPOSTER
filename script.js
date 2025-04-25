@@ -134,7 +134,7 @@ const categories = {
         "Welches Getränk kannst du nicht ausstehen?",
         "Was ist dein perfektes Kater-Getränk?",
         "Welches Getränk erinnert dich an Urlaub?",
-        "Was bestellst du am häufigsten in Restaurants?",
+        "Welches Getränk bestellst du am häufigsten in Restaurants?",
         "Welches Getränk eignet sich perfekt zum Mischen?",
         "Was ist das Lieblingsgetränk deines rechten Nachbarn?",
         "Was ist das Lieblingsgetränk deines linken Nachbarn?"
@@ -400,7 +400,7 @@ const categories = {
      ],
         // 26. Berufe
     "26": [
-        "Was dein erster Berufswunsch als Kind?",
+        "Was war dein erster Berufswunsch als Kind?",
         "Was wäre dein Traumberuf?",
         "Welchen Beruf könntest du niemals machen?",
         "In welchem Beruf sollte man mehr Geld verdienen?",
