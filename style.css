@@ -165,7 +165,7 @@ button:hover {
 }
 
 button.reshuffle {
-    background-color: #3498db; /* angenehmes, helles Blau */
+    background-color: #3498db !important; /* Blaue Farbe setzt sich durch */
     color: white;
     padding: 8px 16px;
     font-size: 14px;
@@ -178,6 +178,7 @@ button.reshuffle {
 }
 
 button.reshuffle:hover {
-    background-color: #2980b9; /* dunkleres Blau beim Hover */
+    background-color: #2980b9 !important;
 }
+
 
