@@ -460,16 +460,35 @@ const categories = {
         "Mit welchem fiktiven Charakter würdest du dich gerne selbstständig machen?",
         "In der Welt welches fiktiven Charakters würdest du gerne leben?",
         "In der Welt welches fiktiven Charakters würdest du gerne Urlaub machen?",
-        "Welchen fiktiven Charakter würdest du für deinen einzigen Anruf aus dem Knast wählen??",
+        "Welchen fiktiven Charakter würdest du für deinen einzigen Anruf aus dem Knast wählen?",
         "Welchen fiktiven Charakter würdest du sofort heiraten?",
         "Welcher fiktive Charakter sollte wirklich existieren?",
+        "Nenne einen fiktiven Charakter, den vermutlich nur du aus der Runde kennst!"
         "Welchen fiktiven Charakter findest du attraktiv?",
         "Welchen fiktiven Charakter würdest du im Armdrücken besiegen?",
         "Mit welchem fiktiven Charakter wärst du am liebsten auf einer einsamen Insel?",
         "Welchen fiktiven Charakter kannst du nicht ausstehen?" 
  ],
-    // 29. Zahlenzauber (18 - aufwärts)
+        // 29. Gegenstände
     "29": [
+        "Welcher Gegenstand darf bei einem Festival nicht fehlen?",
+        "Welcher Gegenstand darf in deinem Urlaub nicht fehlen?",
+        "Welchen Gegenstand verbindest du mit deinem Elternhaus?",
+        "Den Kauf welches Gegenstands bereust du keine einzige Sekunde?",
+        "Welchen Gegenstand würdest du dir nie holen, egal wie sehr er im Trend ist?",
+        "Was ist der teuerster Gegenstand, den du in diesem Monat gekauft hast?",
+        "Welchen Gegenstand willst du dir demnächst unbedingt kaufen?",
+        "Welcher Gegenstand, der dir gehört, ist für dich unbezahlbar?",
+        "Welchen Gegenstand nimmst du nach dem Aufwachen als Erstes in die Hand?",
+        "Ohne welchen Gegenstand könntest du nicht mehr leben?",
+        "Nenne einen Gegenstand, den du niemals Gebraucht kaufen würdest!",
+        "Du musst einen deiner Gegenstände sofort verkaufen! Welcher wäre es?",
+        "Welchen Gegenstand würdest du auf eine einsame Insel mitnehmen?",
+        "Nenne einen Gegenstand, den vermutlich sonst niemand aus der Runde hier besitzt!"
+        "Nenne einen Gegenstand, von dem man deiner Meinung nach nie genug haben kann!" 
+ ], 
+    // 30. Zahlenzauber (18 - aufwärts)
+    "30": [
         "Was ist ein gutes Alter, um zu heiraten?",
         "Was ist ein gutes Alter, um einen ersten Vollzeit-Job zu haben?",
         "Was ist ein gutes Alter, um eine große Weltreise zu machen?",
