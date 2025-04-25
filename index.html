@@ -49,13 +49,15 @@
             <button onclick="showQuestionScreen()">Start</button>
         </div>
 
-        <div id="game-screen" style="display: none;">
-            <h2 id="current-player-name"></h2>
-            <p id="category-text"></p>
-            <p id="question-text"></p>
-            <input type="text" id="player-answer" placeholder="Antwort eingeben">
-            <button onclick="nextPlayer()">Nächster Spieler</button>
-        </div>
+<div id="game-screen" style="display: none;">
+    <h2 id="current-player-name"></h2>
+    <p id="category-text"></p>
+    <p id="question-text"></p>
+    <input type="text" id="player-answer" placeholder="Antwort eingeben">
+    
+    <button onclick="nextPlayer()">Nächster Spieler</button>
+    <button onclick="reshuffleQuestion()">Frage neu ziehen 🔄</button>
+</div>
 
         <div id="round-end-screen" style="display: none;">
             <h2>Runde abgeschlossen</h2>
@@ -98,9 +100,6 @@
     </div>
 
     <script src="script.js"></script>
-
-    <button onclick="nextPlayer()">Nächster Spieler</button>
-<button onclick="reshuffleQuestion()">Frage neu ziehen 🔄</button>
 
 </body>
 </html>
