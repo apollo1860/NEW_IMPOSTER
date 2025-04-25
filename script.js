@@ -155,7 +155,10 @@ const categories = {
         "Wer von euch hat das meiste Talent?",
         "Wer von euch kann am besten singen?",
         "Wer von euch wird am ehesten Millionär?",
+        "Wer von euch findet am schnellsten irgendwo neue Freunde?",
         "Wer von euch verträgt am meisten Alkohol?",
+        "Wer von euch hat am meisten Geld auf der Bank?",
+        "Wer von euch kann am besten lügen?",
         "Wer von euch ist am fleißigsten?",
         "Wer von euch ist am intelligentesten?",
         "Wer von euch ist der Sportlichste?",
@@ -175,6 +178,7 @@ const categories = {
         "Welches Gericht kannst du gar nicht ab?",
         "Welches Gericht haben deine Großeltern häufig für dich gekocht?",
         "Welches Gericht haben deine Eltern häufig für dich gekocht?",
+        "Welches Gericht ist deiner Meinung nach viel zu überteuert?",
         "Welches Gericht hat den besten Geruch?",
         "Was ist das beste Gericht, um eine gute Grundlage zu haben, bevor du auf eine Party gehst?"
     ],
