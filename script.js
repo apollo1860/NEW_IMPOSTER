@@ -20,6 +20,9 @@ const categories = {
     // 2. Zahlenzauber (1 bis 10)
     "2": [
         "Wie oft gehst du am Tag auf die Toilette?",
+        "Wie häufig am Tag wäscht du dir deine Hände?",
+        "Wie häufig isst du etwas am Tag?",
+        "Wie häufig in der Woche gehst du zum Supermarkt?",
         "Wie viele Unterhosen nimmst du mit wenn du für 7 Tage verreist?",
         "Wie oft duscht du in der Woche?",
         "In wie vielen WhatsApp-Gruppen bist du derzeit ca. drin?",
@@ -97,6 +100,7 @@ const categories = {
         "Zu wie viel Prozent besteht deine Bildergalerie aus Screenshots von Weg- und Fahrtrouten?",
         "Wie viel Prozent deines monatlichen Einkommens legst du für schlechte Zeiten zur Seite?",
         "Wie viel Prozent deiner Onlinekäufe schickst du wieder zurück?",
+        "Nach wie viel Prozent deiner Toilettenbesuche wäscht du dir die Hände?",
         "Wie viel Prozent der Menschen, denen du auf Social Media folgst, kennst du auch wirklich privat?",
         "Wie viel Prozent der Filme, die du anfängst schaust du auch wirklich zu Ende?",
         "Wie viel Prozent deines Kleiderschranks trägst du regelmäßig?",
