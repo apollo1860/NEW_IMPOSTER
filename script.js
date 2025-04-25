@@ -230,7 +230,7 @@ const categories = {
     // 14. Uhrzeiten
     "14": [
         "Wann ist die perfekte Uhrzeit, um sonntags aufzustehen?",
-        "Wann ist der beste Zeitpunkt fürs Fitnessstudio?",
+        "Wann ist die beste Uhrzeit fürs Fitnessstudio?",
         "Wann ist die beste Uhrzeit, um etwas zu essen?",
         "Wann ist die beste Uhrzeit um den Wocheneinkauf zu erledigen?",
         "Wann sollte man am besten zu Abend essen?",
@@ -273,11 +273,14 @@ const categories = {
     ],
     // 17. Machen & Tun
     "17": [
+        "Was machst abends immer, bevor du schlafen gehst?",
+        "Was ist etwas, dass du jedes Wochenende machst?",
+        "Was würdest du in deiner eigenen TV-Show machen?",
         "Was machst du so oft, dass es schon eine Sucht ist?",
         "Was wäre dein Kernthema auf deinem TikTok-Kanal?",
         "Wenn du eine nervige Angewohnheit für immer abstellen könntest. Welche wäre es?",
         "Was tust du am liebsten an einem freien Nachmittag?",
-        "Was machst du morgens, bevor du ins Büro oder zur Schule gehst?",
+        "Was machst du morgens immer, bevor du ins Büro oder zur Schule gehst?",
         "Was würdest du tun, wenn du für einen Tag das andere Geschlecht wärst?",
         "Was machst du am liebsten, wenn du im Urlaub bist?",
         "Was würdest du dir gönnen, wenn du jetzt 100€ bekämst?",
@@ -303,6 +306,14 @@ const categories = {
 // 19. 1/10
     "19": [
     "Auf einer Skala von 1 bis 10: Wie attraktiv findest du dich?",
+    "Auf einer Skala von 1 bis 10: Wie gut kannst du dir Namen merken?",
+    "Auf einer Skala von 1 bis 10: Wie wichtig ist es dir, was andere von dir denken?",
+    "Auf einer Skala von 1 bis 10: Wie attraktiv findest du Ryan Gosling?",
+    "Auf einer Skala von 1 bis 10: Wie handysüchtig bist du?",
+    "Auf einer Skala von 1 bis 10: Wie witzig findest du dich?",
+    "Auf einer Skala von 1 bis 10: Wie gut verträgst du Alkohol?",
+    "Auf einer Skala von 1 bis 10: Wie anfällig bist du für Süchte?",
+    "Auf einer Skala von 1 bis 10: Wie schön ist deine Handschrift?",
     "Auf einer Skala von 1 bis 10: Wie gut kannst du Kopfrechnen?",
     "Auf einer Skala von 1 bis 10: Wie fandest du die Filmreihe Harry Potter?",
     "Auf einer Skala von 1 bis 10: Wie findest du die Musik von One Direction?",
@@ -319,6 +330,9 @@ const categories = {
     // 20. [Aktivitäten]
     "20": [
         "Was ist die beste Aktivität, die man mit seinen männlichen Freunden machen kann?",
+        "Was ist die beste Aktivität, die man mit seinen Eltern machen kann?",
+        "Was ist die beste Aktivität, die man mit seinen Großeltern machen kann?",
+        "Was ist die beste Aktivität, die man beim 1. Date machen kann?",
         "Was ist die beste Aktivität, die man mit seinen weiblichen Freundinnen machen kann?",
         "Was machst du am liebsten mit deinen Freunden im Sommer?",
         "Was machst du am liebsten mit deinen Freunden im Winter?",
