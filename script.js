@@ -580,6 +580,24 @@ function showQuestionScreen() {
         currentPlayerIndex === imposterIndex ? imposterQuestion : majorityQuestion;
 }
 
+function reshuffleQuestion() {
+    const category = gameCategories[currentRound];
+    const questions = categories[category];
+
+    const majorityQuestionIndex = Math.floor(Math.random() * questions.length);
+    majorityQuestion = questions[majorityQuestionIndex];
+    correctQuestion = majorityQuestion;
+
+    let imposterQuestionIndex;
+    do {
+        imposterQuestionIndex = Math.floor(Math.random() * questions.length);
+    } while (imposterQuestionIndex === majorityQuestionIndex);
+    imposterQuestion = questions[imposterQuestionIndex];
+
+    document.getElementById("question-text").innerText = 
+        currentPlayerIndex === imposterIndex ? imposterQuestion : majorityQuestion;
+}
+
 function nextPlayer() {
     const answer = document.getElementById("player-answer").value;
     playerAnswers.push({ player: players[currentPlayerIndex], answer });
