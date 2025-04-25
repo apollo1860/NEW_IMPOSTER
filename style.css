@@ -163,3 +163,21 @@ button:hover {
     margin: 20px 0;
     line-height: 1.4;
 }
+
+button.reshuffle {
+    background-color: #3498db; /* angenehmes, helles Blau */
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button.reshuffle:hover {
+    background-color: #2980b9; /* dunkleres Blau beim Hover */
+}
+
