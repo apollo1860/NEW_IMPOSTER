@@ -1,5 +1,5 @@
 const categories = {
-    // 1. Hit & Hype
+    // 1. Musiker
     "1": [
         "Welcher Musiker ist deiner Meinung nach völlig überbewertet?",
         "Welchen Musiker hast du am liebsten als Teenager gehört?",
@@ -10,6 +10,7 @@ const categories = {
         "Welcher Musiker ist ein absoluter Geheimtipp?",
         "Bei welchem Musiker gehst du auf 3 Promille gerne total ab?",
         "Wer singt deinen derzeitigen Lieblingssong?",
+        "Mit welchem Musiker würdest du gerne mal das Nachtleben unsicher machen?",
         "Welcher Musiker ist dein heimliches Guilty Pleasure?",
         "Welchen Musiker könntest du locker unter den Tisch trinken?",
         "Welcher Musiker hat deiner Meinung nach die beste Stimme?",
@@ -429,8 +430,42 @@ const categories = {
         "Welchen Beruf sollte mindestens eine Person in deinem Freundeskreis im Idealfall haben?",
         "In welchem Beruf erlebt man deiner Meinung nach die lustigsten Sachen?" 
      ],
-    // 27. Zahlenzauber (18 - aufwärts)
+        // 27. Schulfächer
     "27": [
+        "Welches Schulfach hast du früher gehasst?",
+        "Bei welchem Schulfach konnte man immer am meisten chillen?",
+        "Für welches Schulfach hast du am meisten gelernt?",
+        "Welches Schulfach war deiner Meinung nach am wichtigsten?",
+        "In welchem Schulfach hattest du den besten Lehrer?",
+        "In welchem Schulfach könntest du jetzt spontan am ehesten noch Nachhilfe geben?",
+        "In welchem Schulfach hattest du den schlechtesten Lehrer?",
+        "Welches Schulfach könntest du am ehesten ohne Studium deiner Meinung nach unterrichten?",
+        "Welches Schulfach hättest du als Lehrer auf jeden Fall unterrichtet?",
+        "Welches Schulfach fandest du am einfachsten?",
+        "Welches Schulfach könnte deiner Meinung nach getrost abgeschafft werden?",
+        "Vor welchem Schulfach hattest du am Abend davor immer am meisten Schiss?",
+        "Aus welchem Schulfach hast du bereits das Meiste vergessen?",
+        "Aus welchem Schulfach hast du am meisten Nützliches mitgenommen?" 
+   ],
+        // 28. Fiktive Charaktere
+    "28": [
+        "Welcher fiktive Charakter beschreibt dich am besten?",
+        "Welchen fiktiven Charakter hättest du gerne als Elternteil?",
+        "Welchen fiktiven Charakter hättest du gerne als Geschwister?",
+        "Mit welchem fiktiven Charakter wärst du gerne befreundet?",
+        "Mit welchem fiktiven Charakter würdest du dich gerne selbstständig machen?",
+        "In der Welt welches fiktiven Charakters würdest du gerne leben?",
+        "In der Welt welches fiktiven Charakters würdest du gerne Urlaub machen?",
+        "Welchen fiktiven Charakter würdest du für deinen einzigen Anruf aus dem Knast wählen??",
+        "Welchen fiktiven Charakter würdest du sofort heiraten?",
+        "Welcher fiktive Charakter sollte wirklich existieren?",
+        "Welchen fiktiven Charakter findest du attraktiv?",
+        "Welchen fiktiven Charakter würdest du im Armdrücken besiegen?",
+        "Mit welchem fiktiven Charakter wärst du am liebsten auf einer einsamen Insel?",
+        "Welchen fiktiven Charakter kannst du nicht ausstehen?" 
+ ],
+    // 29. Zahlenzauber (18 - aufwärts)
+    "29": [
         "Was ist ein gutes Alter, um zu heiraten?",
         "Was ist ein gutes Alter, um einen ersten Vollzeit-Job zu haben?",
         "Was ist ein gutes Alter, um eine große Weltreise zu machen?",
@@ -438,6 +473,8 @@ const categories = {
         "In welchem Alter sollte man spätestens anfangen gesünder zu leben und sich mehr zu schonen?",
         "Was ist ein gutes Alter, um ca. die Hälfte der eigenen Life Goals erreicht zu haben?",
         "Was ist das jüngste Alter, dass du daten würdest?",
+        "Was ist ein gutes Alter, um bei den Eltern auszuziehen?",
+        "Ab welchem Alter lebt man deiner Meinung nach zu 100% selbstständig?",
         "Was ist das älteste Alter, dass du daten würdest?",
         "Was ist ein gutes Alter, um das erste Kind zu bekommen?"    
     ]
