@@ -463,7 +463,7 @@ const categories = {
         "Welchen fiktiven Charakter würdest du für deinen einzigen Anruf aus dem Knast wählen?",
         "Welchen fiktiven Charakter würdest du sofort heiraten?",
         "Welcher fiktive Charakter sollte wirklich existieren?",
-        "Nenne einen fiktiven Charakter, den vermutlich nur du aus der Runde kennst!"
+        "Nenne einen fiktiven Charakter, den vermutlich nur du aus der Runde kennst!",
         "Welchen fiktiven Charakter findest du attraktiv?",
         "Welchen fiktiven Charakter würdest du im Armdrücken besiegen?",
         "Mit welchem fiktiven Charakter wärst du am liebsten auf einer einsamen Insel?",
@@ -484,7 +484,7 @@ const categories = {
         "Nenne einen Gegenstand, den du niemals Gebraucht kaufen würdest!",
         "Du musst einen deiner Gegenstände sofort verkaufen! Welcher wäre es?",
         "Welchen Gegenstand würdest du auf eine einsame Insel mitnehmen?",
-        "Nenne einen Gegenstand, den vermutlich sonst niemand aus der Runde hier besitzt!"
+        "Nenne einen Gegenstand, den vermutlich sonst niemand aus der Runde hier besitzt!",
         "Nenne einen Gegenstand, von dem man deiner Meinung nach nie genug haben kann!" 
  ], 
     // 30. Zahlenzauber (18 - aufwärts)
