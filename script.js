@@ -54,7 +54,7 @@ const categories = {
         "In welchem Film oder Serie hättest du gerne eine Hauptrolle?",
         "Welchen Film oder Serie kannst du überhaupt nicht leiden?",
         "Welcher Film oder Serie ist perfekt fürs erste Date?",
-        "Welchen Film oder Serie hast du zuletzt im Kino gesehen?",
+        "Welchen Film oder Serie hast du zuletzt angesehen?",
         "Welchen Film oder Serie würdest du gerne nochmal zum allersten Mal ansehen?",
         "Welcher Film oder Serie hat dich als Kind am meisten geprägt?",
         "Aus welchem Film oder Serie zitierst du in deinem Alltag am häufigsten?"
