@@ -411,6 +411,8 @@ const categories = {
     // 25. Erste Male (10 - 18 Jahre)
     "25": [
         "Mit wie vielen Jahren hattest du deinen ersten Crush?",
+        "Mit wie vielen Jahren hast du das erste Mal Taschengeld bekommen?",
+        "Mit wie vielen Jahren hast du dir dein erstes Computer-/Videospiel gekauft/besessen?",
         "Mit wie vielen Jahren hattest du deine erste 6 in der Schule?",
         "Mit wie vielen Jahren hattest du deinen ersten Kuss?",
         "Mit wie vielen Jahren hast du das erste mal gekurbelt?",
