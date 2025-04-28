@@ -26,9 +26,10 @@ const categories = {
         "Wie häufig in der Woche gehst du zum Supermarkt?",
         "Wie viele Unterhosen nimmst du mit wenn du für 7 Tage verreist?",
         "Wie oft duscht du in der Woche?",
-        "In wie vielen WhatsApp-Gruppen bist du derzeit ca. drin?",
+        "In wie vielen aktiv genutzten WhatsApp-Gruppen bist du derzeit ca. drin?",
         "Wie oft warst du in diesem Monat schon verkatert?",
         "Wie viele Liegestütze schaffst du?",
+        "Wie häufig in der Woche isst du ca. Nudeln?",
         "Wie viele Maß schaffst du maximal auf der Wiesn?",
         "Wie viele Stunden brauchst du, um komplett ausgeschlafen zu sein?",
         "Wie viele Biere sind perfekt für einen lustigen Abend?",
@@ -86,6 +87,7 @@ const categories = {
         "Welches Land hat deiner Meinung nach die größte Landschafts- & Naturvielfalt?",
         "Welches Land liebst du?",
         "In welchem Land würdest du gern leben?",
+        "Welches Land ist deiner Meinung nach ziemlich dreckig?",
         "Wo hattest du deinen schönsten Urlaub?",
         "In welches Land möchtest du unbedingt in den nächsten Jahren reisen?",
         "Welches Land findest du komplett überflüssig?",
@@ -150,6 +152,8 @@ const categories = {
         "Wer von euch würde am ehesten bei einem Unfall helfen?",
         "Wer von euch wird als Erstes Vater/Mutter?",
         "Wer von euch isst am meisten?",
+        "Wer von euch kann am besten küssen?",
+        "Wer von euch wird am ehesten der nächste Bundeskanzler?",
         "Wer von euch lügt am häufigsten?",
         "Wer von euch ist der Geizigste?",
         "Wer von euch hat das meiste Talent?",
@@ -169,10 +173,11 @@ const categories = {
     // 10. Snack Attack
     "10": [
         "Was ist dein absolutes Lieblingsgericht?",
+        "Du kannst dein Leben lang nur noch 1 Gericht essen. Welches wäre es?",
         "Was ist ein gutes Gericht für das erste Date?",
         "Welches Gericht erinnert dich an deine Kindheit?",
         "Was ist deine perfekte Kater-Mahlzeit?",
-        "Was kochst du dir selbst am liebsten?",
+        "Welches Gericht kochst du dir selbst am liebsten?",
         "Welches Gericht bestellst du am häufigsten bei Lieferdiensten?",
         "Was war das teuerste Gericht, das du je bestellt hast?",
         "Welches Gericht kannst du gar nicht ab?",
@@ -203,6 +208,7 @@ const categories = {
     // 12. Würdest du für…?
     "12": [
         "Würdest du für 100.000 € ein ganzes Jahr lang auf dein Handy verzichten?",
+        "Würdest du für 1.000 € ein 4cl Shot Urin trinken?",
         "Würdest du für 25.000 € ein ganzes Jahr lang als Soldat dienen?",
         "Würdest du für 1.000 € eine Woche im Sommer nicht duschen?",
         "Würdest du für 10.000 € zwei Runden lang gegen Mike Tyson im Ring boxen?",
@@ -221,6 +227,7 @@ const categories = {
     // 13. Money, Money, Money (bis 500€)
     "13": [
         "Was ist die größte Summe, die du jemals an einem Geldautomaten abgehoben hast?",
+        "Wie viel Geld würdest du jetzt für einen neuen Fernseher ausgeben?",
         "Wie viel Geld gibst du ca. im Monat für Klamotten aus?",
         "Wie viel Geld gibst du ca. im Monat bei Fast-Food-Ketten aus?",
         "Wie viel Geld gibst du ca. im Monat in Supermärkten aus?",
@@ -241,6 +248,7 @@ const categories = {
         "Wann ist die perfekte Uhrzeit, um sonntags aufzustehen?",
         "Wann ist die beste Uhrzeit fürs Fitnessstudio?",
         "Wann ist die beste Uhrzeit, um etwas zu essen?",
+        "Wann ist die beste Uhrzeit, um sich am Wochenende mit Freunden zu treffen?",
         "Wann ist die beste Uhrzeit um den Wocheneinkauf zu erledigen?",
         "Wann sollte man am besten zu Abend essen?",
         "Wann ist die perfekte Zeit, um ins Büro zu kommen?",
@@ -253,6 +261,7 @@ const categories = {
     // 15. Lieder
     "15": [
         "Welches Lied ist ein absoluter Party-Hit?",
+        "Welches Lied ist mittlerweile total überspielt?",
         "Welches Lied kannst du derzeit gar nicht mehr hören?",
         "Welches Lied bringt dich zum Weinen?",
         "Welches Lied verbindest du immer mit genau einer Person?",
