@@ -64,6 +64,7 @@ const categories = {
         "Welcher Sportler war/ist zu lange über seinem Zenit noch aktiv?",
         "Mit welchem Sportler wärst du gerne für einen Abend am Ballermann?",
         "Welcher Sportler ist extrem hässlich?",
+        "Welcher Sportler hat am meisten Rizz?",
         "Welchen Sportler würdest du zum Bundeskanzler wählen?",
         "Welcher Sportler glaubst du ist privat total anders im Gegensatz zu seinem öffentlichen Auftreten?",
         "Welcher Sportler sollte seine eigene Reality-TV Show kriegen?",
@@ -85,7 +86,7 @@ const categories = {
         "Bei welchem Land musst du schmunzeln, wenn du die Leute Englisch sprechen hörst?",
         "Welches Land hasst du?",
         "Welches Land hat deiner Meinung nach die größte Landschafts- & Naturvielfalt?",
-        "Welches Land liebst du?",
+        "Welches Land magst du?",
         "In welchem Land würdest du gern leben?",
         "Welches Land ist deiner Meinung nach ziemlich dreckig?",
         "Wo hattest du deinen schönsten Urlaub?",
@@ -120,6 +121,8 @@ const categories = {
     // 7. Bodytalk
     "7": [
         "Auf welches Körperteil bist du besonders stolz?",
+        "Von welchem Körperteil würdest du niemals Fotos online stellen/für Geld verkaufen?",
+        "Von welchem Körperteil hättest du gerne 1 mehr?",
         "Welches deiner Körperteile dürften alle am Tisch jetzt anfassen?",
         "An welchem Körperteil hast du am häufigsten Schmerzen?",
         "Welches Körperteil muss in deinem Alltag am meisten aushalten?",
@@ -247,6 +250,8 @@ const categories = {
     // 14. Uhrzeiten
     "14": [
         "Wann ist die perfekte Uhrzeit, um sonntags aufzustehen?",
+        "Was ist die beste Uhrzeit für den ersten Kaffee?",
+        "Um wie viel Uhr bist du normalerweise am Wochenende das erste Mal auf einem Sozialen Netzwerk?",
         "Wann ist die beste Uhrzeit fürs Fitnessstudio?",
         "Wann ist die beste Uhrzeit, um etwas zu essen?",
         "Wann ist die beste Uhrzeit, um sich am Wochenende mit Freunden zu treffen?",
@@ -272,6 +277,7 @@ const categories = {
         "Welches Lied verbindest du am Meisten mit Liebeskummer?",
         "Welches Lied eignet sich perfekt zum Autofahren?",
         "Welches Lied verbindest du mit Sommer?",
+        "Welches Lied verbindest du mit Winter?",
         "Welches Lied hast du zuletzt heruntergeladen?",
         "Welches Lied erinnert dich an deine Kindheit?"
     ],
@@ -282,6 +288,7 @@ const categories = {
         "Welcher Promi sollte seine eigene Reality-TV Show kriegen?",
         "Welchen Promi würdest du deine Kinder babysitten lassen?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Kiss?",
+        "Welcher Promi ist deiner Meinung nach am verrücktesten?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Marry?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Kill?",
         "Bei welchem Promi fragst du dich, warum dieser überhaupt berühmt ist?",
@@ -293,6 +300,7 @@ const categories = {
     // 17. Machen & Tun
     "17": [
         "Was machst abends immer, bevor du schlafen gehst?",
+        "Was ist das erste was du machst, wenn du von der Arbeit/Schule nachhause kommst?",
         "Was ist etwas, dass du jedes Wochenende machst?",
         "Was würdest du in deiner eigenen TV-Show machen?",
         "Was machst du so oft, dass es schon eine Sucht ist?",
@@ -366,6 +374,8 @@ const categories = {
     // 21. [Sportevents]
     "21": [
         "Welches Sportevent liebst du zu gucken?",
+        "Welches Sportevent ist deiner Meinung nach viel zu kommerzialisiert?",
+        "Welches Sportevent war das letzte, dass du aktiv verfolgt hast oder aktuell verfolgst?",
         "Welches Sportevent hättest du gerne bald in deiner Stadt?",
         "Auf welches Sportevent würdest du allein schon wegen den Fans gehen?",
         "Welches Sportevent findest du sehr unterbewertet?",
@@ -373,17 +383,19 @@ const categories = {
         "Was war das erste Sportevent, bei dem du live vor Ort warst?",
         "Welches Sportevent willst du noch unbedingt live vor Ort ansehen?",
         "Bei welchem Sportevent könntest du dich deiner Meinung nach am ehesten noch für qualifizieren?",
-        "Welche olympische Disziplin würdest du dir niemals live anschauen?",
+        "Welches Sportevent würdest du dir niemals live anschauen?",
         "Welches Sportevent gibt es deiner Meinung nach noch in 1.000 Jahren?",
-        "Welche olympische Disziplin schaust du dir gerne an?"
+        "Für welches Sportevent würdest du in ein anderes Land reisen, um es live zu sehen?"
     ],
     // 22. [Emojis]
     "22": [
         "Welchen Emoji versendest du am liebsten?",
+        "Welcher Emoji beschreibt dich im Laufe des heutigen Abends?",
         "Welchen Emoji benutzt du zwar, aber sehr selten?",
         "Du kannst nur noch genau einen Emoji für den Rest deines Lebens verwenden. Welcher wäre es?",
         "Welcher Emoji beschreibt dich am besten?",
         "Welcher Emoji beschreibt deinen linken Nachbarn am besten?",
+        "Welchen Emoji kann man im Zweifel immer benutzen?",
         "Welchen Emoji bekommst du am häufigsten zu gesendet?",
         "Welcher Emoji beschreibt deinen rechten Nachbarn am besten?",
         "Mit welchem Emoji kann man am besten in Instagram DMs sliden?",
@@ -401,6 +413,7 @@ const categories = {
         "Was war der längste Zeitraum, an den du dich erinnern kannst, in dem du kein Fleisch gegessen hast?",
         "Wie viel Zeit vergeht bei dir zwischen zwei Friseurbesuchen?",
         "Wie lange dauert es, bis du deine Bettwäsche wechselst?",
+        "Wie lange müsstest du ab heute trainieren, um einen Halbmarathon laufen zu können?",
         "Wie lange dauert es bei dir ca. bis du dein (Haupt-)Shampoo aufgebraucht hast?",
         "Wie lange würdest du eine Saftkur (Fasten, nur Säfte) durchhalten?",
         "Wie lange könntest du dich von deinem Lieblingsessen ernähren bis du es nicht mehr sehen/essen kannst?"
@@ -408,8 +421,13 @@ const categories = {
     // 24. [Sehr kleine Zeiträume]
     "24": [
         "Wie lange brauchst du um 3 Big Macs zu essen?",
+        "Wie lange brauchst du normalerweise beim Abendessen?",
+        "Wie lange kannst du die Luft anhalten?",
+        "Wie lange kannst du deine Hand über eine brennende Kerze halten?",
+        "Wie lange brauchst du, wenn du zügig eine Maß trinkst?",
         "Wie lange bist du durchschnittlich auf der Toilette?",
         "Wie lange brauchst du ca. um 1km zu laufen?",
+        "Wie lange brauchst du ca. um einen Bottle Flip zu schaffen?",
         "Wie lange kannst du Liegestützen am Stück machen?",
         "Wie lange brauchst du durchschnittlich beim Kochen?",
         "Wie lange brauchst du durchschnittlich beim Duschen?",
@@ -437,6 +455,7 @@ const categories = {
     "26": [
         "Was war dein erster Berufswunsch als Kind?",
         "Was wäre dein Traumberuf?",
+        "Welchen Beruf könnte deiner Meinung nach fast jeder machen?",
         "Welchen Beruf könntest du niemals machen?",
         "In welchem Beruf sollte man mehr Geld verdienen?",
         "Welcher Beruf hat deiner Meinung nach mehr Anerkennung verdient?",
@@ -449,6 +468,9 @@ const categories = {
         // 27. Schulfächer
     "27": [
         "Welches Schulfach hast du früher gehasst?",
+        "Welches Schulfach verbindest du mit einem roten Heftumschlag?",
+        "Welches Schulfach verbindest du mit einem blauen Heftumschlag?",
+        "Welches Schulfach hättest du gerne viel länger gehabt?",
         "Bei welchem Schulfach konnte man immer am meisten chillen?",
         "Für welches Schulfach hast du am meisten gelernt?",
         "Welches Schulfach war deiner Meinung nach am wichtigsten?",
@@ -502,6 +524,7 @@ const categories = {
     // 30. Zahlenzauber (18 - aufwärts)
     "30": [
         "Was ist ein gutes Alter, um zu heiraten?",
+        "In welchem Alter sollte man spätestens seinen Führerschein haben?",
         "Was ist ein gutes Alter, um einen ersten Vollzeit-Job zu haben?",
         "Was ist ein gutes Alter, um eine große Weltreise zu machen?",
         "In welchem Alter sollte man spätestens mit der Planung der eigenen Altersversorgung anfangen?",
