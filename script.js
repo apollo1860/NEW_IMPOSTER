@@ -564,6 +564,7 @@ let playerAnswers = [];
 let drinkCounts = {};
 let correctQuestion = "";
 let majorityQuestion = "";
+let currentCategory = "";
 let imposterQuestion = "";
 
 function updateRewardInfo() {
@@ -572,6 +573,11 @@ function updateRewardInfo() {
     if (rewardSpan) {
         rewardSpan.innerText = count * 2;
     }
+}
+function selectRandomCategory() {
+    const randomIndex = Math.floor(Math.random() * gameCategories.length);
+    const selectedCategory = gameCategories.splice(randomIndex, 1)[0]; // zieht UND entfernt eine zufällige Kategorie
+    return selectedCategory;
 }
 
 function startGame() {
@@ -612,8 +618,8 @@ function showQuestionScreen() {
     document.getElementById("game-screen").style.display = "block";
 
     if (currentPlayerIndex === (currentRound % players.length)) {
-        const category = gameCategories[currentRound];
-        const questions = categories[category];
+        currentCategory = selectRandomCategory(); // WICHTIG: neue zufällige Kategorie ziehen
+        const questions = categories[currentCategory];
 
         const majorityQuestionIndex = Math.floor(Math.random() * questions.length);
         majorityQuestion = questions[majorityQuestionIndex];
@@ -626,17 +632,15 @@ function showQuestionScreen() {
         imposterQuestion = questions[imposterQuestionIndex];
     }
 
-    const category = gameCategories[currentRound];
     document.getElementById("current-player-name").innerText = players[currentPlayerIndex];
     document.getElementById("player-answer").value = "";
     document.getElementById("category-text").style.display = "none";
-    document.getElementById("question-text").innerText = 
+    document.getElementById("question-text").innerText =
         currentPlayerIndex === imposterIndex ? imposterQuestion : majorityQuestion;
 }
 
 function reshuffleQuestion() {
-    const category = gameCategories[currentRound];
-    const questions = categories[category];
+    const questions = categories[currentCategory];
 
     const majorityQuestionIndex = Math.floor(Math.random() * questions.length);
     majorityQuestion = questions[majorityQuestionIndex];
@@ -648,7 +652,7 @@ function reshuffleQuestion() {
     } while (imposterQuestionIndex === majorityQuestionIndex);
     imposterQuestion = questions[imposterQuestionIndex];
 
-    document.getElementById("question-text").innerText = 
+    document.getElementById("question-text").innerText =
         currentPlayerIndex === imposterIndex ? imposterQuestion : majorityQuestion;
 }
 
