@@ -92,6 +92,7 @@ const categories = {
         "In welches Land möchtest du unbedingt in den nächsten Jahren reisen?",
         "Welches Land findest du komplett überflüssig?",
         "Welches Land hat das leckerste Essen?",
+        "Welches Land trinkt deiner Meinung nach am meisten Alkohol?",
         "Welches Land ist die größte Fußballmacht der Geschichte?",
         "Wo leben die liebsten Menschen?",
         "Welches Land würdest du morgen besuchen, wenn du könntest?",
