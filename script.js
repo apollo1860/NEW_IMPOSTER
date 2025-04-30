@@ -23,6 +23,7 @@ const categories = {
         "Wie oft gehst du am Tag auf die Toilette?",
         "Wie viele Big Macs schaffst du in einer Stunde?",
         "Wie viele Leute lädst du ca. zu deinem nächsten Geburtstag ein?",
+        "1 von 100 Trauben ist vergiftet. Für jede Traube, die du isst, erhälst du 200.000€. Wie viele isst du?",
         "Wie häufig am Tag wäscht du dir deine Hände?",
         "Wie häufig isst du etwas am Tag?",
         "Wie häufig in der Woche gehst du zum Supermarkt?",
