@@ -310,6 +310,8 @@ const categories = {
     // 17. Machen & Tun
     "17": [
         "Was machst abends immer, bevor du schlafen gehst?",
+        "Was machst du gerne während einem längeren Flug?",
+        "Was machst du gerne als unwichtiger Beifahrer während einer langen Autofahrt?",
         "Was ist das erste was du machst, wenn du von der Arbeit/Schule nachhause kommst?",
         "Was ist etwas, dass du jedes Wochenende machst?",
         "Was würdest du in deiner eigenen TV-Show machen?",
