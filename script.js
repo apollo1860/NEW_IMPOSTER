@@ -330,6 +330,7 @@ const categories = {
         "Welches Tier würdest du auf das Wappen deines eigenen Sportvereins tun?",
         "Welches Tier ist dein Lieblingstier?",
         "Welches Tier fasziniert dich am meisten?",
+        "Was ist das dümmste Tier?",
         "Welches Tier sieht lustig aus?",
         "Welches Tier würdest du gerne mal essen?",
         "Welches Tier würdest du niemals essen?"
