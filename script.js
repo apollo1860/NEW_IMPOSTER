@@ -21,6 +21,7 @@ const categories = {
     // 2. Zahlenzauber (1 bis 10)
     "2": [
         "Wie oft gehst du am Tag auf die Toilette?",
+        "Wie viele Big Macs schaffst du in einer Stunde?",
         "Wie viele Leute lädst du ca. zu deinem nächsten Geburtstag ein?",
         "Wie häufig am Tag wäscht du dir deine Hände?",
         "Wie häufig isst du etwas am Tag?",
