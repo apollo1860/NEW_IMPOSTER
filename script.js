@@ -548,7 +548,91 @@ const categories = {
         "Ab welchem Alter lebt man deiner Meinung nach zu 100% selbstständig?",
         "Was ist das älteste Alter, dass du daten würdest?",
         "Was ist ein gutes Alter, um das erste Kind zu bekommen?"    
-    ]
+    ],
+    // 31. Orte
+"31": [
+    "Wo hattest du deinen ersten Kuss?",
+    "Was ist der beste Ort für einen Heiratsantrag?",
+    "An welchem Ort sollte man seinen künftigen Partner nicht kennenlernen?",
+    "Was ist der beste Ort, um mit Freunden den Abend zu verbringen?",
+    "An welchem Ort vergisst man schnell die Zeit?",
+    "Wo könntest du dir vorstellen, deinen nächsten Geburtstag zu feiern?",
+    "Wo kann man gut seinen Sonntagabend verbringen?",
+    "Wo kann man gut seinen Samstagabend verbringen?",
+    "Was war der unangenehmste Ort, an dem du mal uriniert hast?",
+    "Welchen Ort verbindest du immer mit schlechten Erfahrungen?",
+    "Was war der unangenehmste Ort, an dem du mal kotzen musstest?",
+    "Welchen speziellen Ort verbindest du mit Familie oder Freunden?",
+    "Wo fühlst du dich wie zuhause?",
+    "Wo kann man sich deiner Meinung nach am besten betrinken?",
+    "An welchem Ort bist du mindestens einmal die Woche?",
+    "An welchem Ort will man nicht seinen Eltern begegnen?",
+    "An welchem Ort wärst du gerne deutlich häufiger?",
+    "An welchem Ort bist du gerne am Wochenende?",
+    "An welchem Ort warst du am letzten Wochenende unter anderem?",
+    "Was ist der perfekte Ort für ein erstes Date?"
+],
+
+// 32. Social Media
+"32": [
+    "Welche Social Media Plattform benutzt du am häufigsten?",
+    "Welche Social Media Plattform hast du als Teenager am häufigsten benutzt?",
+    "Welche Social Media Plattform findest du überbewertet?",
+    "Welche Social Media Plattform hat das coolste Logo?",
+    "Welche Social Media Plattform findest du unterbewertet?",
+    "Welche Social Media Plattform nutzt du sehr selten oder gar nicht?",
+    "Auf welcher Social Media Plattform tummeln sich deiner Meinung nach die meisten Weirdos?",
+    "Ohne welche Social Media Plattform könntest du nicht mehr leben?",
+    "Welche Social Media Plattform nutzt du, obwohl sie dich eigentlich nervt?",
+    "Welche Social Media Plattform wird deiner Meinung nach bald aussterben?",
+    "Welche Social Media Plattform wirst du noch nutzen, wenn du 70 bist?",
+    "Welche Social Media Plattform dürfen deine Kinder später nicht nutzen?",
+    "Auf welcher Plattform traust du dir am ehesten eine Influencer-Karriere zu?",
+    "Auf welcher Social Media Plattform hast du am meisten Kontakte aus dem echten Leben?",
+    "Auf welcher Plattform hast du dich erst spät oder noch nie angemeldet?"
+],
+
+// 33. Sportarten
+"33": [
+    "In welcher Sportart hast du einfach kein Talent?",
+    "Welche Sportart würdest du niemals ausprobieren oder nie wieder machen?",
+    "Welche Sportart würdest du gerne mal (wieder) ausprobieren?",
+    "In welcher Sportart traust du dir eine Profi-Karriere zu?",
+    "Welche Sportart ist anstrengender als man denkt?",
+    "Welche Sportart hat mal einer deiner Eltern gemacht?",
+    "Welche Sportart macht dir keinen Spaß?",
+    "Welche Sportart findest du unterbewertet?",
+    "Welche Sportart findest du überbewertet?",
+    "Welche Sportart ist für dich kein 'richtiger' Sport?",
+    "Welche Sportart bietet sich am Strand an?",
+    "Welche Sportart bietet sich im Winter an?",
+    "Welche Sportart kann ziemlich schmerzhaft sein?",
+    "Welche Sportart würdest du gerne können?",
+    "Welche Sportart sollen deine Kinder später mal ausüben?"
+],
+
+// 34. A oder B
+"34": [
+    "A oder B: Würdest du eher in einer Badewanne voller (A) Spinnen oder (B) Schlangen baden?",
+    "A oder B: Lieber (A) nie wieder duschen oder (B) nie wieder sprechen können?",
+    "A oder B: Lieber (A) nie wieder verliebt sein oder (B) keine Kinder bekommen können?",
+    "A oder B: Würdest du lieber wollen, dass (A) du oder (B) deine Familie nach Nordkorea ziehen muss?",
+    "A oder B: Lieber (A) nie wieder Alkohol trinken oder (B) nie wieder in Bars oder Clubs gehen?",
+    "A oder B: Lieber (A) nie wieder fliegen oder (B) nie wieder Zug fahren?",
+    "A oder B: Lieber (A) für immer ehrlich sein oder (B) für immer lügen müssen?",
+    "A oder B: Würdest du lieber nach (A) Kenia oder (B) China reisen?",
+    "A oder B: Lieber (A) Glück in der Liebe, Pech im Spiel oder (B) Pech in der Liebe, Glück im Spiel?",
+    "A oder B: Lieber (A) Strandurlaub oder (B) Urlaub in den Bergen?",
+    "A oder B: Lieber (A) für immer zu klein oder (B) zu groß für alles sein?",
+    "A oder B: Lieber (A) nur noch flüstern oder (B) nur noch schreien können?",
+    "A oder B: Lieber (A) nur noch alkoholische oder (B) nur noch alkoholfreie Getränke trinken?",
+    "A oder B: Wärst du lieber ein erfolgreicher (A) Gangsterrapper oder (B) Schlagersänger?",
+    "A oder B: Lieber (A) immer eine Schuhgröße oder (B) eine T-Shirt-Größe zu eng?",
+    "A oder B: Lieber (A) Apple oder (B) Android besitzen?",
+    "A oder B: Lieber Urlaub in (A) Asien oder (B) Südamerika?",
+    "A oder B: Lieber (A) nur noch klassische Musik oder (B) Hardrock hören?",
+    "A oder B: Lieber (A) nur noch um 7:00 Uhr oder (B) um 12:00 Uhr aufwachen?"
+]
 };
 
 document.addEventListener('DOMContentLoaded', function () {
