@@ -90,6 +90,7 @@ const categories = {
     // 5. Weltreise
     "5": [
         "In welchem Land leben die schönsten Frauen?",
+        "In welchem Land hast du bisher am häufigsten Urlaub gemacht?",
         "Welches Land hat die nervigsten Touristen?",
         "Bei welchem Land musst du schmunzeln, wenn du die Leute Englisch sprechen hörst?",
         "Welches Land hasst du?",
