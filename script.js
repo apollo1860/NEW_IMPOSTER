@@ -103,7 +103,7 @@ const categories = {
         "Welches Land findest du komplett überflüssig?",
         "Welches Land hat das leckerste Essen?",
         "Welches Land trinkt deiner Meinung nach am meisten Alkohol?",
-        "Welches Land ist die größte Fußballmacht der Geschichte?",
+        "Welches Land beheimatet viele bekannte Fußballer?",
         "Wo leben die liebsten Menschen?",
         "Welches Land würdest du morgen besuchen, wenn du könntest?",
         "In welchem Land würdest du gerne für 1 Jahr leben?"
@@ -141,6 +141,8 @@ const categories = {
         "Wo würdest du am wenigsten gern geschlagen werden?",
         "Auf welches Körperteil könntest du am ehesten verzichten?",
         "Welches Körperteil findest du bei anderen besonders erotisch?",
+        "Welches Körperteil würde sich dein linker Nachbar als Erstes oder Nächstes tätowieren lassen?",
+        "Welches Körperteil würde sich dein rechter Nachbar als Erstes oder Nächstes tätowieren lassen?",
         "Welches Körperteil würdest du als Erstes oder Nächstes tätowieren lassen?"
     ],
     // 8. Cheers & Beers
@@ -165,6 +167,7 @@ const categories = {
         "Wer von euch würde am ehesten bei einem Unfall helfen?",
         "Wer von euch wird als Erstes Vater/Mutter?",
         "Wer von euch isst am meisten?",
+        "Wer von euch kommt mit seiner Stimme am höchsten?",
         "Wer von euch kann am besten küssen?",
         "Wer von euch wird am ehesten der nächste Bundeskanzler?",
         "Wer von euch lügt am häufigsten?",
@@ -207,6 +210,7 @@ const categories = {
         "Denkst du, dass du bereits zu jeder Uhrzeit des 24-Stunden-Tages irgendwann mal gepinkelt hast?",
         "Wärst du bereit allen am Tisch jetzt deinen Suchverlauf zu zeigen?",
         "Hast du jemals bei Freunden in die Wohnung gekotzt?",
+        "Hast du dir schon mal selber eine reingehauen?",
         "Können 100 Menschen einen Gorilla besiegen?",
         "Kannst du jemanden am Tisch in Wirklichkeit gar nicht leiden?",
         "Wärst du bereit allen am Tisch jetzt deine letzte versendete und empfangene WhatsApp-Nachricht laut vorzulesen?",
@@ -233,6 +237,7 @@ const categories = {
         "Würdest du für 5.000.000 € nach Nordkorea ziehen?",
         "Würdest du für 100 € von einem 10 Meter Brett im Schwimmbad springen?",
         "Würdest du für 5.000 € deinen Job kündigen?",
+        "Würdest du für 100.000 € ein halbes Jahr auf Internetnutzung verzichten?",
         "Würdest du für 50.000 € ein ganzes Jahr auf Alkohol verzichten?",
         "Würdest du für 50.000 € ein ganzes Jahr auf Zigaretten verzichten?",
         "Würdest du für 250.000 € ein ganzes Jahr dein Zuhause nicht mehr verlassen?",
@@ -408,7 +413,7 @@ const categories = {
     // 22. [Emojis]
     "22": [
         "Welchen Emoji versendest du am liebsten?",
-        "Welcher Emoji beschreibt dich im Laufe des heutigen Abends?",
+        "Welcher Emoji beschreibt dich noch im Laufe des heutigen Abends?",
         "Welchen Emoji benutzt du zwar, aber sehr selten?",
         "Du kannst nur noch genau einen Emoji für den Rest deines Lebens verwenden. Welcher wäre es?",
         "Welcher Emoji beschreibt dich am besten?",
@@ -542,6 +547,8 @@ const categories = {
     // 30. Zahlenzauber (18 - aufwärts)
     "30": [
         "Was ist ein gutes Alter, um zu heiraten?",
+        "In welchem Alter sollte man deiner Meinung nach spätestens heiraten?",
+        "Was ist ein gutes Alter, um das erste eigene Auto zu besitzen?",
         "In welchem Alter sollte man spätestens seinen Führerschein haben?",
         "Was ist ein gutes Alter, um einen ersten Vollzeit-Job zu haben?",
         "Was ist ein gutes Alter, um eine große Weltreise zu machen?",
@@ -552,6 +559,7 @@ const categories = {
         "Was ist ein gutes Alter, um bei den Eltern auszuziehen?",
         "Ab welchem Alter lebt man deiner Meinung nach zu 100% selbstständig?",
         "Was ist das älteste Alter, dass du daten würdest?",
+        "In welchem Alter sollte man deiner Meinung nach spätestens das erste Kind bekommen?",
         "Was ist ein gutes Alter, um das erste Kind zu bekommen?"    
     ],
     // 31. Orte
@@ -626,8 +634,17 @@ const categories = {
     "A oder B: Lieber (A) nie wieder fliegen oder (B) nie wieder Zug fahren?",
     "A oder B: Lieber (A) für immer ehrlich sein oder (B) für immer lügen müssen?",
     "A oder B: Würdest du lieber nach (A) Kenia oder (B) China reisen?",
+    "A oder B: Würdest du lieber überall (A) kostenlos reisen oder (B) umsonst essen können?",
+    "A oder B: Würdest du lieber nie wieder (A) essen oder (B) schlafen müssen?",
+    "A oder B: Würdest du lieber (A) der Star in einem kleinen Film oder (B) ein Statist in einem großen Film sein?",
+    "A oder B: Würdest du lieber (A) dein eigenes Todesdatum oder (B) das der Person, die du am meisten liebst, kennen?",
+    "A oder B: Würdest du lieber für immer nur (A) die erste Hälfte oder (B) die zweite Hälfte von Filmen sehen können?",
+    "A oder B: Wärst du lieber (A) ein antisoziales Genie oder (B) beliebt, aber dumm?",
+    "A oder B: Würdest du eher Honig von (A) einem Bären oder (B) aus einem Bienenstock stehlen?",
+    "A oder B: Würdest du lieber (A) 10 zustzliche Jahre Jugend haben oder (B) 20 zusätzliche Jahre deines Lohns erhalten?",
+    "A oder B: Würdest du lieber (A9 eine Handvoll Haare essen oder (B) drei öffentliche Telefone ablecken?",
     "A oder B: Lieber (A) Glück in der Liebe, Pech im Spiel oder (B) Pech in der Liebe, Glück im Spiel?",
-    "A oder B: Lieber (A) Strandurlaub oder (B) Urlaub in den Bergen?",
+    "A oder B: Lieber für immer (A) Strandurlaub oder (B) Urlaub in den Bergen?",
     "A oder B: Lieber (A) für immer zu klein oder (B) zu groß für alles sein?",
     "A oder B: Lieber (A) nur noch flüstern oder (B) nur noch schreien können?",
     "A oder B: Lieber (A) nur noch alkoholische oder (B) nur noch alkoholfreie Getränke trinken?",
