@@ -280,6 +280,7 @@ const categories = {
     "15": [
         "Welches Lied ist ein absoluter Party-Hit?",
         "Welches Lied ist mittlerweile total überspielt?",
+        "Welches Lied solltet ihr jetzt alle als nächstes hören?",
         "Welches Lied kannst du derzeit gar nicht mehr hören?",
         "Welches Lied bringt dich zum Weinen?",
         "Welches Lied verbindest du immer mit genau einer Person?",
