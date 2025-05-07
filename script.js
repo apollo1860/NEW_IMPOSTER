@@ -443,7 +443,10 @@ const categories = {
     ],
     // 24. [Sehr kleine Zeiträume]
     "24": [
-        "Wie lange brauchst du um 3 Big Macs zu essen?",
+        "Wie lange brauchst du, um 3 Big Macs zu essen?",
+        "Wie lange brauchst du ca., um ein klassisches Gedicht auswendig zu lernen?",
+        "Wie lange brauchst du, um das Alphabet rückwärts aufzusagen?",
+        "Wie lange dauert durchschnittlich ein Supermarkt-Besuch bei dir?",
         "Wie lange brauchst du normalerweise beim Abendessen?",
         "Wie lange kannst du die Luft anhalten?",
         "Wie lange kannst du deine Hand über eine brennende Kerze halten?",
@@ -462,6 +465,7 @@ const categories = {
     // 25. Erste Male (10 - 18 Jahre)
     "25": [
         "Mit wie vielen Jahren hattest du deinen ersten Crush?",
+        "Mit wie vielen Jahren hast du deinen ersten Porno geguckt?",
         "Mit wie vielen Jahren hast du das erste Mal Taschengeld bekommen?",
         "Mit wie vielen Jahren hast du dir dein erstes Computer-/Videospiel gekauft/besessen?",
         "Mit wie vielen Jahren hattest du deine erste 6 in der Schule?",
@@ -511,6 +515,7 @@ const categories = {
         // 28. Fiktive Charaktere
     "28": [
         "Welcher fiktive Charakter beschreibt dich am besten?",
+        "Welcher fiktive Charakter hätte ein besseres Ende verdient?",
         "Welchen fiktiven Charakter hättest du gerne als Elternteil?",
         "Welchen fiktiven Charakter hättest du gerne als Geschwister?",
         "Mit welchem fiktiven Charakter wärst du gerne befreundet?",
