@@ -206,6 +206,7 @@ const categories = {
         "Hast du jemals in einer Prüfung geschummelt?",
         "Wärst du bereit allen am Tisch jetzt deinen Suchverlauf zu zeigen?",
         "Hast du jemals bei Freunden in die Wohnung gekotzt?",
+        "Können 100 Menschen einen Gorilla besiegen?",
         "Kannst du jemanden am Tisch in Wirklichkeit gar nicht leiden?",
         "Wärst du bereit allen am Tisch jetzt deine letzte versendete und empfangene WhatsApp-Nachricht laut vorzulesen?",
         "Hast du dich schon mal ernsthaft geprügelt?",
