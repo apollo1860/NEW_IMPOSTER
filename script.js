@@ -48,11 +48,11 @@ const categories = {
         "Wie oft trinkst du durchschnittlich pro Woche Alkohol?"
 
     ],
-    // 3. Hollywood Calling
+    // 3. Filme und Serien
     "3": [
         "Was ist dein absoluter Lieblingsfilm?",
         "Welchen Film oder Serie würdest du als DEN Klassiker schlechthin bezeichnen?",
-        "Welchen Film oder Serie kennt sonst keiner aus der Runde?",
+        "Welchen Film oder Serie, glaubst du, kennt sonst keiner aus der Runde?",
         "Welcher Film oder Serie hat den besten Hauptcharakter?",
         "Welcher Film oder Serie hat den besten Bösewicht?",
         "Welcher Film oder Serie hatte für dich das überraschendste Ende?",
@@ -66,7 +66,7 @@ const categories = {
         "Welcher Film oder Serie hat dich als Kind am meisten geprägt?",
         "Aus welchem Film oder Serie zitierst du in deinem Alltag am häufigsten?"
     ],
-    // 4. Legenden des Sports
+    // 4. Sportler
     "4": [
         "Welcher Sportler war/ist zu lange über seinem Zenit noch aktiv?",
         "Mit welchem Sportler wärst du gerne für einen Abend am Ballermann?",
@@ -87,7 +87,7 @@ const categories = {
         "Welcher Sportler könnte deiner Meinung nach in einem anderen Sport ebenfalls erfolgreich sein?"
 
     ],
-    // 5. Weltreise
+    // 5. Länder
     "5": [
         "In welchem Land leben die schönsten Frauen?",
         "In welchem Land hast du bisher am häufigsten Urlaub gemacht?",
@@ -98,17 +98,17 @@ const categories = {
         "Welches Land magst du?",
         "In welchem Land würdest du gern leben?",
         "Welches Land ist deiner Meinung nach ziemlich dreckig?",
-        "Wo hattest du deinen schönsten Urlaub?",
-        "In welches Land möchtest du unbedingt in den nächsten Jahren reisen?",
+        "In welchem Land hattest du deinen schönsten Urlaub?",
+        "In welches Land möchtest du unbedingt mal in den nächsten Jahren reisen?",
         "Welches Land findest du komplett überflüssig?",
-        "Welches Land hat das leckerste Essen?",
-        "Welches Land trinkt deiner Meinung nach am meisten Alkohol?",
+        "Welches Land hat sehr leckeres Essen?",
+        "Welches Land trinkt deiner Meinung nach zu viel Alkohol?",
         "Welches Land beheimatet viele bekannte Fußballer?",
         "Wo leben die liebsten Menschen?",
         "Welches Land würdest du morgen besuchen, wenn du könntest?",
         "In welchem Land würdest du gerne für 1 Jahr leben?"
     ],
-    // 6. Prozente, Baby!
+    // 6. Prozente
     "6": [
         "Wie viel Prozent deines Lottogewinns würdest du deinen Eltern geben?",
         "Zu wie viel Prozent besteht deine Bildergalerie aus Screenshots von Weg- und Fahrtrouten?",
@@ -250,8 +250,10 @@ const categories = {
         "Was ist die größte Summe, die du jemals an einem Geldautomaten abgehoben hast?",
         "Wie viel Geld würdest du jetzt für einen neuen Fernseher ausgeben?",
         "Wie viel Geld gibst du ca. im Monat für Klamotten aus?",
+        "Wie viel Geld gibst du ca. im Monat für dein Mittagessen aus?",
         "Wie viel Geld gibst du ca. im Monat bei Fast-Food-Ketten aus?",
         "Wie viel Geld gibst du ca. im Monat in Supermärkten aus?",
+        "Wie viel Geld gibst du ca. in einem Urlaub aus? (Ohne Flug & Unterkunft)",
         "Wie viel Taschengeld würdest du deinem Kind monatlich geben?",
         "Wie viel Geld gibst du ca. durchschnittlich am Tag aus?",
         "Wie viel Geld wärst du bereit im Monat für wohltätige Zwecke zu spenden?",
@@ -279,13 +281,14 @@ const categories = {
         "Wann ist die perfekte Zeit, um ins Büro zu kommen?",
         "Um wie viel Uhr gehst du idealerweise schlafen?",
         "Wann ist die beste Uhrzeit zum Masturbieren?",
-        "Wann solltest du samstags deine nervigen Pflichten erledigen?",
+        "Um wie viel Uhr solltest du am Wochenende deine nervigen Pflichten erledigen?",
         "Wann darf am Samstag das erste Bierchen aufgemacht werden?",
         "Um wie viel Uhr gehst du in der Regel duschen?"
     ],
     // 15. Lieder
     "15": [
         "Welches Lied ist ein absoluter Party-Hit?",
+        "Welches Lied, glaubst du, magst nur du aus der Runde?",
         "Welches Lied ist mittlerweile total überspielt?",
         "Welches Lied solltet ihr jetzt alle als nächstes hören?",
         "Welches Lied kannst du derzeit gar nicht mehr hören?",
@@ -307,6 +310,7 @@ const categories = {
         "Welchen Promi würdest du gerne mal im Dschungelcamp sehen?",
         "Welcher Promi sollte seine eigene Reality-TV Show kriegen?",
         "Welchen Promi würdest du deine Kinder babysitten lassen?",
+        "Mit welchem Promi wärst du am ehesten bereit in eine WG zu ziehen?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Kiss?",
         "Welcher Promi ist deiner Meinung nach am verrücktesten?",
         "Welcher Promi wäre bei Kiss, Marry, Kill auf jeden Fall dein Marry?",
@@ -365,6 +369,8 @@ const categories = {
     "Auf einer Skala von 1 bis 10: Wie witzig findest du dich?",
     "Auf einer Skala von 1 bis 10: Wie gut verträgst du Alkohol?",
     "Auf einer Skala von 1 bis 10: Wie anfällig bist du für Süchte?",
+    "Auf einer Skala von 1 bis 10: Wie locker waren deine Eltern bei deiner Erziehung?",
+    "Auf einer Skala von 1 bis 10: Wie religiös bist du?",
     "Auf einer Skala von 1 bis 10: Wie schön ist deine Handschrift?",
     "Auf einer Skala von 1 bis 10: Wie gut kannst du Kopfrechnen?",
     "Auf einer Skala von 1 bis 10: Wie fandest du die Filmreihe Harry Potter?",
@@ -381,52 +387,53 @@ const categories = {
     ],
     // 20. [Aktivitäten]
     "20": [
-        "Was ist die beste Aktivität, die man mit seinen männlichen Freunden machen kann?",
-        "Was ist die beste Aktivität, die man mit seinen Eltern machen kann?",
-        "Was ist die beste Aktivität, die man mit seinen Großeltern machen kann?",
-        "Was ist die beste Aktivität, die man beim 1. Date machen kann?",
-        "Was ist die beste Aktivität, die man mit seinen weiblichen Freundinnen machen kann?",
-        "Was machst du am liebsten mit deinen Freunden im Sommer?",
-        "Was machst du am liebsten mit deinen Freunden im Winter?",
-        "Was ist die beste Aktivität, die man mit seinem Partner an einem Freitagabend machen kann?",
-        "Zu welcher Aktivität würdest du niemals ja sagen?",
-        "Welche Aktivität haben deine Eltern früher häufig mit dir gemacht als du ein Kind warst?",
-        "Welches Hobby würdest du gerne in Perfektion können?",
-        "Was wäre eine Aktivität, die dein linker Nachbar sofort vorschlagen würde?",
-        "Was wäre eine Aktivität, die dein rechter Nachbar sofort vorschlagen würde?",
-        "Welche Aktivität würdest du niemals mit deinen Eltern machen?"
+    "Was ist die beste Aktivität, die man mit seinen männlichen Freunden machen kann?",
+    "Was ist die beste Aktivität, die man mit seinen Eltern machen kann?",
+    "Was ist die beste Aktivität, die man mit seinen Großeltern machen kann?",
+    "Was ist die beste Aktivität, die man beim 1. Date machen kann?",
+    "Was ist die beste Aktivität, die man mit seinen weiblichen Freundinnen machen kann?",
+    "Was machst du am liebsten mit deinen Freunden im Sommer?",
+    "Was machst du am liebsten mit deinen Freunden im Winter?",
+    "Was ist die beste Aktivität, die man mit seinem Partner an einem Freitagabend machen kann?",
+    "Zu welcher Aktivität würdest du niemals ja sagen?",
+    "Auf welche Aktivität hättest du jetzt gerade gar keine Lust?",
+    "Welche Aktivität haben deine Eltern früher häufig mit dir gemacht als du ein Kind warst?",
+    "Welches Hobby würdest du gerne in Perfektion können?",
+    "Was wäre eine Aktivität, die dein linker Nachbar sofort vorschlagen würde?",
+    "Was wäre eine Aktivität, die dein rechter Nachbar sofort vorschlagen würde?",
+    "Welche Aktivität würdest du niemals mit deinen Eltern machen?"
     ],
     // 21. [Sportevents]
     "21": [
-        "Welches Sportevent liebst du zu gucken?",
-        "Welches Sportevent ist deiner Meinung nach viel zu kommerzialisiert?",
-        "Welches Sportevent war das letzte, dass du aktiv verfolgt hast oder aktuell verfolgst?",
-        "Welches Sportevent hättest du gerne bald in deiner Stadt?",
-        "Auf welches Sportevent würdest du allein schon wegen den Fans gehen?",
-        "Welches Sportevent findest du sehr unterbewertet?",
-        "Welches Sportevent findest du sehr überbewertet?",
-        "Was war das erste Sportevent, bei dem du live vor Ort warst?",
-        "Welches Sportevent willst du noch unbedingt live vor Ort ansehen?",
-        "Bei welchem Sportevent könntest du dich deiner Meinung nach am ehesten noch für qualifizieren?",
-        "Welches Sportevent würdest du dir niemals live anschauen?",
-        "Welches Sportevent gibt es deiner Meinung nach noch in 1.000 Jahren?",
-        "Für welches Sportevent würdest du in ein anderes Land reisen, um es live zu sehen?"
+    "Welches Sportevent liebst du zu gucken?",
+    "Welches Sportevent ist deiner Meinung nach viel zu kommerzialisiert?",
+    "Welches Sportevent war das letzte, dass du aktiv verfolgt hast oder aktuell verfolgst?",
+    "Welches Sportevent hättest du gerne bald in deiner Stadt?",
+    "Auf welches Sportevent würdest du allein schon wegen den Fans gehen?",
+    "Welches Sportevent findest du sehr unterbewertet?",
+    "Welches Sportevent findest du sehr überbewertet?",
+    "Was war das erste Sportevent, bei dem du live vor Ort warst?",
+    "Welches Sportevent willst du noch unbedingt live vor Ort ansehen?",
+    "Bei welchem Sportevent könntest du dich deiner Meinung nach am ehesten noch für qualifizieren?",
+    "Welches Sportevent würdest du dir niemals live anschauen?",
+    "Welches Sportevent gibt es deiner Meinung nach noch in 1.000 Jahren?",
+    "Für welches Sportevent würdest du in ein anderes Land reisen, um es live zu sehen?"
     ],
     // 22. [Emojis]
     "22": [
-        "Welchen Emoji versendest du am liebsten?",
-        "Welcher Emoji beschreibt dich noch im Laufe des heutigen Abends?",
-        "Welchen Emoji benutzt du zwar, aber sehr selten?",
-        "Du kannst nur noch genau einen Emoji für den Rest deines Lebens verwenden. Welcher wäre es?",
-        "Welcher Emoji beschreibt dich am besten?",
-        "Welcher Emoji beschreibt deinen linken Nachbarn am besten?",
-        "Welchen Emoji kann man im Zweifel immer benutzen?",
-        "Welchen Emoji bekommst du am häufigsten zu gesendet?",
-        "Welcher Emoji beschreibt deinen rechten Nachbarn am besten?",
-        "Mit welchem Emoji kann man am besten in Instagram DMs sliden?",
-        "Was war der letzte Emoji, den du versendet hast?",
-        "Welchen Emoji würdest du als Profilbild verwenden?",
-        "Welcher Emoji kommt bei dir nie zum Einsatz, obwohl du ihn eigentlich magst?",
+    "Welchen Emoji versendest du am liebsten?",
+    "Welcher Emoji beschreibt dich noch im Laufe des heutigen Abends?",
+    "Welchen Emoji benutzt du zwar, aber sehr selten?",
+    "Du kannst nur noch genau einen Emoji für den Rest deines Lebens verwenden. Welcher wäre es?",
+    "Welcher Emoji beschreibt dich am besten?",
+    "Welcher Emoji beschreibt deinen linken Nachbarn am besten?",
+    "Welchen Emoji kann man im Zweifel immer benutzen?",
+    "Welchen Emoji bekommst du am häufigsten zu gesendet?",
+    "Welcher Emoji beschreibt deinen rechten Nachbarn am besten?",
+    "Mit welchem Emoji kann man am besten in Instagram DMs sliden?",
+    "Was war der letzte Emoji, den du versendet hast?",
+    "Welchen Emoji würdest du als Profilbild verwenden?",
+    "Welcher Emoji kommt bei dir nie zum Einsatz, obwohl du ihn eigentlich magst?",
     ],
     // 23. [Kleine Zeiträume]
     "23": [
@@ -487,6 +494,7 @@ const categories = {
         "Welchen Beruf könnte deiner Meinung nach fast jeder machen?",
         "Welchen Beruf könntest du niemals machen?",
         "In welchem Beruf sollte man mehr Geld verdienen?",
+        "Bei welchem Beruf fragst du dich, warum es überhaupt Menschen gibt, die den machen?",
         "Welcher Beruf hat deiner Meinung nach mehr Anerkennung verdient?",
         "Welchen Beruf sollte deiner Meinung nach dein linker Nachbar ausüben?",
         "Welchen Beruf sollte deiner Meinung nach dein rechter Nachbar ausüben?",
@@ -494,6 +502,7 @@ const categories = {
         "Welchen Beruf sollte mindestens eine Person in deinem Freundeskreis im Idealfall haben?",
         "In welchem Beruf erlebt man deiner Meinung nach die lustigsten Sachen?" 
      ],
+    
         // 27. Schulfächer
     "27": [
         "Welches Schulfach hast du früher gehasst?",
