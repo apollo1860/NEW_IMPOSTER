@@ -269,6 +269,7 @@ const categories = {
         "Wann ist die perfekte Uhrzeit, um sonntags aufzustehen?",
         "Was ist die beste Uhrzeit, um zu fliegen?",
         "Was ist die beste Uhrzeit für den ersten Kaffee?",
+        "Was ist die beste Uhrzeit um einen Döner zu essen?",
         "Um wie viel Uhr bist du normalerweise am Wochenende das erste Mal auf einem Sozialen Netzwerk?",
         "Wann ist die beste Uhrzeit fürs Fitnessstudio?",
         "Wann ist die beste Uhrzeit, um etwas zu essen?",
