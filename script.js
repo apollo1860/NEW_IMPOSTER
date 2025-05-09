@@ -345,7 +345,7 @@ const categories = {
     "18": [
         "Welches Tier schmeckt am besten?",
         "Welches Tier würdest du als besten Freund wählen?",
-        "Auf welchem Tier würdest du gerne mal reiten?",
+        "Auf welchem Tier würdest du gerne mal (wieder) reiten?",
         "Welches Tier findest du absolut hässlich?",
         "In welches Tier würdest du dich am liebsten für einen Tag verwandeln?",
         "Welches Tier sollte ausgerottet werden?",
