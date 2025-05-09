@@ -681,9 +681,23 @@ const categories = {
     "Welches Trinkspiel würdest du niemals mit deinen Eltern spielen?",
     "Welches Trinkspiel ist für dich DER Klassiker schlechthin?"
 ],  
-    
-// 37. A oder B
+
+    // 37. Städte
 "37": [
+    "In welcher Stadt willst du gerne mal (wieder) Party machen?",
+    "Welche Stadt reizt dich für einen Kurzurlaub am meisten?",
+    "Welche Stadt reizt dich für einen Kurzurlaub gar nicht?",
+    "In welcher Stadt findest du am meisten passende Aktivitäten für dich?",
+    "In welcher Stadt kann man deiner Meinung nach am besten Essen gehen?",
+    "Welche Stadt hat deiner Meinung nach den besten Alkohol?",
+    "In welcher Stadt würde sich deiner Meinung nach dein linker Nachbar am wohlsten fühlen?",
+    "In welcher Stadt würde sich deiner Meinung nach dein rechter Nachbar am wohlsten fühlen?",
+    "Welche Stadt siehst du häufig auf Social-Media-Plattformen?",
+    "In welche Stadt planst du bald zu reisen?"
+],  
+    
+// 38. A oder B
+"38": [
     "A oder B: Würdest du eher in einer Badewanne voller (A) Spinnen oder (B) Schlangen baden?",
     "A oder B: Lieber (A) nie wieder duschen oder (B) nie wieder sprechen können?",
     "A oder B: Lieber (A) nie wieder verliebt sein oder (B) keine Kinder bekommen können?",
