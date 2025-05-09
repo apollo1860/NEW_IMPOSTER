@@ -629,8 +629,61 @@ const categories = {
     "Welche Sportart sollen deine Kinder später mal ausüben?"
 ],
 
-// 34. A oder B
+// 34. Fast-Food-Ketten
 "34": [
+    "Welche Fast-Food-Kette ist dein persönlicher Favorit?",
+    "Welche Fast-Food-Kette sollte häufiger in Deutschland vertreten sein?",
+    "Wenn du in deinem Leben nur noch zu einer Fast-Food-Kette gehen dürftest. Welche wäre es?",
+    "Welche Fast-Food-Kette hast du früher deutlich häufiger besucht, als heutzutage?",
+    "Welche Fast-Food-Kette findest du mittlerweile unverschämt teuer?",
+    "Welche Fast-Food-Kette findest du total überbewertet?",
+    "Welche Fast-Food-Kette findest du total unterbewertet?",
+    "Welche Fast-Food-Kette hat das beste Maskottchen?",
+    "Welche Fast-Food-Kette hat deine momentane Lieblingsbestellung?",
+    "Zu welcher Fast-Food-Kette gehst du momentan am häufigsten?",
+    "Welche Fast-Food-Kette hat deiner Meinung nach das beste Fleisch?",
+    "In welcher Fast-Food-Kette würdest du am liebsten deinen nächsten Geburtstag feiern?",
+    "Nenne eine Fast-Food-Kette, deren App du heruntergeladen hast",
+    "Bei welcher Fast-Food-Kette bestellst du (fast) nie ein Menü?",
+    "Bei welcher Fast-Food-Kette bestellst du am häufigsten/am ehesten über einen Lieferdienst?"
+],
+    
+    // 35. Stichwörter
+"35": [
+    "Nenne ein Stichwort, dass die Geschichte zu deiner letzten traumatische Alkoholerfahrung anteasert",
+    "Nenne ein Stichwort, dass deinen letzten Grund, warum du weinen musstest, anteasert",
+    "Nenne ein Stichwort, dass die Geschichte zu deiner letzten physischen Verletzung anteasert",
+    "Nenne ein Stichwort, dass den Grund für deinen letzten Streit mit Freunden oder Familie anteasert",
+    "Nenne ein Stichwort, dass deine letzte sportliche Aktivität anteasert",
+    "Nenne ein Stichwort, dass die Geschichte zu einer richtig peinlichen Aktion von dir anteasert",
+    "Nenne ein Stichwort, dass deinen letzten Albtraum anteasert",
+    "Nenne ein Stichwort, dass deinen letzten Sextraum anteasert",
+    "Nenne ein Stichwort, dass deinen zuletzt angesehenen Porno anteasert",
+    "Nenne ein Stichwort, dass deinen zuletzt angesehenen Film oder Serie anteasert",
+    "Nenne ein Stichwort, dass deinen letzten Urlaub anteasert",
+    "Nenne ein Stichwort, dass deinen letzten Urlaub mit deinen Eltern anteasert",
+    "Nenne ein Stichwort, dass dein letztes Bewerbungsgespräch anteasert",
+    "Nenne ein Stichwort, dass die Geschichte zu deinem letzten Sportunfall anteasert",
+    "Nenne ein Stichwort, dass deinen letzten Krankheitszeitraum anteasert",
+    "Nenne ein Stichwort, dass deinen letzten Lachanfall anteasert"
+],
+
+    // 36. Trinkspiele
+"36": [
+    "Welches Trinkspiel liebst du, obwohl es relativ unbekannt ist?",
+    "Welches Trinkspiel garantiert die größte Absturzwahrscheinlichkeit?",
+    "Welches Trinkspiel findest du besonders langweilig?",
+    "Was war das letzte Trinkspiel, dass du gespielt hast?",
+    "Wenn du nur noch ein Trinkspiel für den Rest deines Leben spielen dürfest, welches wäre es?",
+    "An welchem Trinkspiel würdest du noch etwas verbessern?",
+    "Bei welchem Trinkspiel hast du 3 Anläufe gebraucht, um es zu verstehen?",
+    "Welches Trinkspiel würdest du sogar mit deinen Eltern spielen?",
+    "Welches Trinkspiel würdest du niemals mit deinen Eltern spielen?",
+    "Welches Trinkspiel ist für dich DER Klassiker schlechthin?"
+],  
+    
+// 37. A oder B
+"37": [
     "A oder B: Würdest du eher in einer Badewanne voller (A) Spinnen oder (B) Schlangen baden?",
     "A oder B: Lieber (A) nie wieder duschen oder (B) nie wieder sprechen können?",
     "A oder B: Lieber (A) nie wieder verliebt sein oder (B) keine Kinder bekommen können?",
