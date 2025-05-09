@@ -728,14 +728,14 @@ const categories = {
     "A oder B: Würdest du lieber (A9 eine Handvoll Haare essen oder (B) drei öffentliche Telefone ablecken?",
     "A oder B: Lieber (A) Glück in der Liebe, Pech im Spiel oder (B) Pech in der Liebe, Glück im Spiel?",
     "A oder B: Lieber für immer (A) Strandurlaub oder (B) Urlaub in den Bergen?",
-    "A oder B: Lieber (A) für immer zu klein oder (B) zu groß für alles sein?",
-    "A oder B: Lieber (A) nur noch flüstern oder (B) nur noch schreien können?",
-    "A oder B: Lieber (A) nur noch alkoholische oder (B) nur noch alkoholfreie Getränke trinken?",
+    "A oder B: Lieber für immer (A) zu klein oder (B) zu groß für alles sein?",
+    "A oder B: Lieber nur noch (A) flüstern oder (B) schreien können?",
+    "A oder B: Lieber nur noch (A) alkoholische oder (B) alkoholfreie Getränke trinken?",
     "A oder B: Wärst du lieber ein erfolgreicher (A) Gangsterrapper oder (B) Schlagersänger?",
     "A oder B: Lieber (A) immer eine Schuhgröße oder (B) eine T-Shirt-Größe zu eng?",
     "A oder B: Lieber (A) Apple oder (B) Android besitzen?",
     "A oder B: Lieber Urlaub in (A) Asien oder (B) Südamerika?",
-    "A oder B: Lieber (A) nur noch klassische Musik oder (B) Hardrock hören?",
+    "A oder B: Lieber nur noch (A) klassische Musik oder (B) Hardrock hören?",
     "A oder B: Lieber (A) nur noch um 7:00 Uhr oder (B) um 12:00 Uhr aufwachen?"
 ]
 };
