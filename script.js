@@ -23,6 +23,7 @@ const categories = {
     // 2. Zahlenzauber (1 bis 10)
     "2": [
         "Wie oft gehst du am Tag auf die Toilette?",
+        "Wie viele enge Freunde hast du derzeit?",
         "Wie viele Big Macs schaffst du in einer Stunde?",
         "Wie viele Leute lädst du ca. zu deinem nächsten Geburtstag ein?",
         "1 von 100 Trauben ist vergiftet. Für jede Traube, die du isst, erhälst du 200.000€. Wie viele isst du?",
@@ -33,10 +34,10 @@ const categories = {
         "Wie oft duscht du in der Woche?",
         "In wie vielen aktiv genutzten WhatsApp-Gruppen bist du derzeit ca. drin?",
         "Wie oft warst du in diesem Monat schon verkatert?",
-        "Wie viele Liegestütze schaffst du?",
         "Wie viele Urlaube hast du dieses Jahr schon gemacht?",
         "Wie häufig warst du letztes Jahr auf der Wiesn?",
         "Wie häufig in der Woche isst du ca. Nudeln?",
+        "Wie häufig bist du im Jahr ca. beim Zahnarzt?",
         "Wie viele Maß schaffst du maximal auf der Wiesn?",
         "Wie viele Stunden brauchst du, um komplett ausgeschlafen zu sein?",
         "Wie viele Biere sind perfekt für einen lustigen Abend?",
@@ -560,7 +561,7 @@ const categories = {
         "Nenne einen Gegenstand, den vermutlich sonst niemand aus der Runde hier besitzt!",
         "Nenne einen Gegenstand, von dem man deiner Meinung nach nie genug haben kann!" 
  ], 
-    // 30. Zahlenzauber (18 - aufwärts)
+    // 30. Alter (18 - aufwärts)
     "30": [
         "Was ist ein gutes Alter, um zu heiraten?",
         "In welchem Alter sollte man deiner Meinung nach spätestens heiraten?",
@@ -707,8 +708,23 @@ const categories = {
     "In welche Stadt planst du bald zu reisen?"
 ],  
     
-// 38. A oder B
+    // 38. Zahlenzauber (20 - 100)
 "38": [
+    "Wie viele Döner isst du ca. im Jahr?",
+    "Wie häufig isst du ca. im Jahr etwas bei McDonalds?",
+    "Wie häufig fährst du ca. im Jahr mit einem Zug?",
+    "Wie viele Liegestütze würdest du jetzt schaffen?",
+    "Wie viele Verwandte hast du?",
+    "Wie häufig fährst du Uber oder Taxi ca. im Jahr?",
+    "Wie häufig wäscht du Wäsche ca. im Jahr?",
+    "Wie häufig räumst du die Spülmaschine ca. im Jahr aus?",
+    "Wie häufig bringst du den Müll ca. im Jahr raus?",
+    "Wie häufig bist du ca. im Jahr feiern?",
+    "Wie häufig suchst du ca. im Jahr nach Flügen oder Hotels ohne am Ende etwas zu buchen?"
+],  
+    
+// 39. A oder B
+"39": [
     "A oder B: Würdest du eher in einer Badewanne voller (A) Spinnen oder (B) Schlangen baden?",
     "A oder B: Lieber (A) nie wieder duschen oder (B) nie wieder sprechen können?",
     "A oder B: Lieber (A) nie wieder verliebt sein oder (B) keine Kinder bekommen können?",
