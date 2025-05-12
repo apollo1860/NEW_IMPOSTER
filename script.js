@@ -43,7 +43,7 @@ const categories = {
         "Wie viele Biere sind perfekt für einen lustigen Abend?",
         "Wie viele Filme hast du dieses Jahr schon gesehen?",
         "Wie viele Stunden verbringst du täglich auf Instagram?",
-        "Ab wie vielen Shots musst du dich übergeben?",
+        "Ab wie vielen Shots musst du dich meist übergeben?",
         "Wie oft bestellst du Essen über Lieferdienste im Monat?",
         "Wie oft warst du schon außerhalb Europas?",
         "Wie oft trinkst du durchschnittlich pro Woche Alkohol?"
@@ -249,7 +249,8 @@ const categories = {
     // 13. Money, Money, Money (bis 500€)
     "13": [
         "Was ist die größte Summe, die du jemals an einem Geldautomaten abgehoben hast?",
-        "Wie viel Geld würdest du jetzt für einen neuen Fernseher ausgeben?",
+        "Was war die höchste Geldsumme, die du jemals an einem Abend auf den Kopf gehauen hast?",
+        "Wie viel Geld würdest du jetzt für einen neuen Fernseher ausgeben können/wollen?",
         "Wie viel Geld gibst du ca. im Monat für Klamotten aus?",
         "Wie viel Geld gibst du ca. im Monat für dein Mittagessen aus?",
         "Wie viel Geld gibst du ca. im Monat bei Fast-Food-Ketten aus?",
