@@ -23,6 +23,7 @@ const categories = {
     // 2. Zahlenzauber (1 bis 10)
     "2": [
         "Wie oft gehst du am Tag auf die Toilette?",
+        "Mit wie vielen Kleinwüchsigen könntest du es in einem Kampf auf einmal aufnehmen?",
         "Wie viele enge Freunde hast du derzeit?",
         "Wie viele Weihnachtsgeschenke hast du letztes Jahr erhalten?",
         "Wie viele Geschenke hast du zu deinem letzten Geburtstag von Freunden und Familie erhalten?",
@@ -99,6 +100,7 @@ const categories = {
         "Welches Land hasst du?",
         "Welches Land hat deiner Meinung nach die größte Landschafts- & Naturvielfalt?",
         "Welches Land magst du?",
+        "Welches Land wäre dir aktuell für eine Reise zu unsicher?",
         "In welchem Land würdest du gern leben?",
         "Welches Land ist deiner Meinung nach ziemlich dreckig?",
         "In welchem Land hattest du deinen schönsten Urlaub?",
@@ -701,6 +703,7 @@ const categories = {
 "37": [
     "In welcher Stadt willst du gerne mal (wieder) Party machen?",
     "Welche Stadt reizt dich für einen Kurzurlaub am meisten?",
+    "Für den hypothetischen Besuch welcher Stadt hast du in den letzten Monaten bereits mal nach Flügen oder Hotels gesucht?",
     "Welche Stadt reizt dich für einen Kurzurlaub gar nicht?",
     "In welcher Stadt findest du am meisten passende Aktivitäten für dich?",
     "In welcher Stadt kann man deiner Meinung nach am besten Essen gehen?",
@@ -708,12 +711,17 @@ const categories = {
     "In welcher Stadt würde sich deiner Meinung nach dein linker Nachbar am wohlsten fühlen?",
     "In welcher Stadt würde sich deiner Meinung nach dein rechter Nachbar am wohlsten fühlen?",
     "Welche Stadt siehst du häufig auf Social-Media-Plattformen?",
-    "In welche Stadt planst du bald zu reisen?"
+    "In welche Stadt würdest du gerne bald reisen?"
 ],  
     
     // 38. Zahlenzauber (20 - 100)
 "38": [
     "Wie viele Döner isst du ca. im Jahr?",
+    "Mit wie vielen Grundschülern könntest du es in einem Kampf auf einmal aufnehmen?",
+    "Mit wie vielen Altenheimbewohnern könntest du es in einem Kampf auf einmal aufnehmen?",
+    "Mit wie vielen faustgroßen Vögeln könntest du es in einem Kampf auf einmal aufnehmen?",
+    "Wie viele Minuten könntest du aktuell am Stück joggen?",
+    "Wie viele Sekunden kannst du ca. die Luft anhalten?",
     "Wie häufig isst du ca. im Jahr etwas bei McDonalds?",
     "Wie häufig fährst du ca. im Jahr mit einem Zug?",
     "Wie viele Liegestütze würdest du jetzt schaffen?",
