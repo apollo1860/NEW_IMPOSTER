@@ -24,6 +24,8 @@ const categories = {
     "2": [
         "Wie oft gehst du am Tag auf die Toilette?",
         "Wie viele enge Freunde hast du derzeit?",
+        "Wie viele Weihnachtsgeschenke hast du letztes Jahr erhalten?",
+        "Wie viele Geschenke hast du zu deinem letzten Geburtstag von Freunden und Familie erhalten?",
         "Wie viele Big Macs schaffst du in einer Stunde?",
         "Wie viele Leute lädst du ca. zu deinem nächsten Geburtstag ein?",
         "1 von 100 Trauben ist vergiftet. Für jede Traube, die du isst, erhälst du 200.000€. Wie viele isst du?",
