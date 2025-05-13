@@ -735,6 +735,47 @@ const categories = {
     "Wie häufig suchst du ca. im Jahr nach Flügen oder Hotels ohne am Ende etwas zu buchen?"
 ],  
     
+    // 39. Geil oder Scheiße
+"39": [
+    "Geil oder Scheiße: Pizza Hawaii",
+    "Geil oder Scheiße: Nutella mit Butter",
+    "Geil oder Scheiße: Sadomasochismus",
+    "Geil oder Scheiße: Lakritze",
+    "Geil oder Scheiße: Cola Zero/Light",
+    "Geil oder Scheiße: Spaghetti mit Ketchup",
+    "Geil oder Scheiße: Nackt schlafen",
+    "Geil oder Scheiße: TiKTok",
+    "Geil oder Scheiße: Lange Nägel bei Frauen",
+    "Geil oder Scheiße: Podcasts",
+    "Geil oder Scheiße: Dating-Apps",
+    "Geil oder Scheiße: Urlaub auf einem Kreuzfahrtschiff",
+    "Geil oder Scheiße: Urlaub in China",
+    "Geil oder Scheiße: Gender Reveal Partys",
+    "Geil oder Scheiße: Bier Mixgetränke (Radler, mit Grapefruit-Geschmack, etc.)",
+    "Geil oder Scheiße: Mettbrötchen",
+    "Geil oder Scheiße: Komplett rasierter Körper",
+    "Geil oder Scheiße: Rosa Hemden bei Männern",
+    "Geil oder Scheiße: Morgens duschen",
+    "Geil oder Scheiße: Abends duschen",
+    "Geil oder Scheiße: Im Bett essen",
+    "Geil oder Scheiße: Geschmack von Trüffel",
+    "Geil oder Scheiße: Die Stadt Berlin",
+    "Geil oder Scheiße: Kohlensäure",
+    "Geil oder Scheiße: Rotwein",
+    "Geil oder Scheiße: Campingurlaub",
+    "Geil oder Scheiße: Airbnb statt Hotel",
+    "Geil oder Scheiße: Hamster als Haustier",
+    "Geil oder Scheiße: Megan Fox",
+    "Geil oder Scheiße: Kim Kardashian",
+    "Geil oder Scheiße: After-Work Events mit Kollegen",
+    "Geil oder Scheiße: Day Drinking",
+    "Geil oder Scheiße: Trinkspiele",
+    "Geil oder Scheiße: Dieses Trinkspiel (Find the Imposter)",
+    "Geil oder Scheiße: In Geschäften vor Ort einkaufen",
+    "Geil oder Scheiße: Ins Kino gehen beim ersten Date",
+    "Geil oder Scheiße: Handy-PIN mit dem Partner teilen"
+],  
+       
 // 39. A oder B
 "39": [
     "A oder B: Würdest du eher in einer Badewanne voller (A) Spinnen oder (B) Schlangen baden?",
