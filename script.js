@@ -9,7 +9,7 @@ const categories = {
         "Welcher Musiker sollte seine eigene Reality-TV-Show kriegen?",
         "Welcher Musiker ist deiner Meinung nach sehr attraktiv?",
         "Welcher Musiker ist ein absoluter Geheimtipp?",
-        "Welcher Musiker sollte deiner Meinung nach mit OnlyFans beginnen?",
+        "Welcher Musiker könnte/sollte deiner Meinung nach mit OnlyFans beginnen?",
         "Bei welchem Musiker gehst du auf 3 Promille gerne total ab?",
         "Wer singt deinen derzeitigen Lieblingssong?",
         "Mit welchem Musiker würdest du gerne mal das Nachtleben unsicher machen?",
