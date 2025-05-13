@@ -724,6 +724,7 @@ const categories = {
     "Wie viele Sekunden kannst du ca. die Luft anhalten?",
     "Wie häufig isst du ca. im Jahr etwas bei McDonalds?",
     "Wie häufig fährst du ca. im Jahr mit einem Zug?",
+    "1 von 1.000 Trauben ist vergiftet. Für jede Traube, die du isst, erhälst du 250.000€. Wie viele isst du?",
     "Wie viele Liegestütze würdest du jetzt schaffen?",
     "Wie viele Verwandte hast du?",
     "Wie häufig fährst du Uber oder Taxi ca. im Jahr?",
