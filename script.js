@@ -734,9 +734,30 @@ const categories = {
     "Wie häufig bist du ca. im Jahr feiern?",
     "Wie häufig suchst du ca. im Jahr nach Flügen oder Hotels ohne am Ende etwas zu buchen?"
 ],  
-    
-    // 39. Geil oder Scheiße
+  
+    // 39. Nachnamen
 "39": [
+    "Wie lautete der Nachname deines ersten Klassenlehrers?",
+    "Wie lautete der Nachname deines allerersten Crush?",
+    "Wie lautet der Nachname deines Hausarztes?",
+    "Wie lautete der Nachname deines ersten besten Freundes?",
+    "Wie lautet der Nachname deines aktuellen direkten Vorgesetzten?",
+    "Welcher gängiger Nachname klingt deiner Meinung nach schrecklich?",
+    "Nenne den Nachnamen eines unterbewerteten Schauspielers den, deiner Meinung nach, niemand sonst in der Runde kennt",
+    "Wie lautete der Nachname von irgendeinem deiner Englisch-Lehrer in deinem Leben?",
+    "Wie lautete der Nachname von irgendeinem deiner Mathe-Lehrer in deinem Leben?",
+    "Wie lautete der Nachname von irgendeinem deiner Deutsch-Lehrer in deinem Leben?",
+    "Wie lautet der Nachname eines Freundes, bei dem du dich wunderst wie er sich jeden Tag neu um sich selber kümmern kann?",
+    "Wie lautet der Nachname eines Freundes, der trinkfester ist als du oder dir zumindest annähernd das Wasser/den Alkohol reichen kann?",
+    "Nenne den Nachnamen eines unterbewerteten Sängers den, deiner Meinung nach, niemand sonst in der Runde kennt",
+    "Welchen Nachnamen von einem deiner Freunde findest du sehr cool?",
+    "Wie lautet der Nachname von einem eurer aktuellen oder ehemaligen Nachbarn?",
+    "Wie lautet der Nachname einer Person, die du gar nicht leiden kannst",
+    "Wie lautete der Nachname eines Lehrers von dir im Laufe deiner Schullaufbahn?"
+],  
+    
+    // 40. Geil oder Scheiße
+"40": [
     "Geil oder Scheiße: Pizza Hawaii",
     "Geil oder Scheiße: Nutella mit Butter",
     "Geil oder Scheiße: Sadomasochismus",
@@ -775,9 +796,38 @@ const categories = {
     "Geil oder Scheiße: Ins Kino gehen beim ersten Date",
     "Geil oder Scheiße: Handy-PIN mit dem Partner teilen"
 ],  
+
+// 41. Hab ich oder Hab ich nicht
+"41": [
+    "Hab ich oder Hab ich nicht: Ein Blog oder Tagebuch geführt",
+    "Hab ich oder Hab ich nicht: In den letzten 10 Jahren mal in die Dusche gepinkelt",
+"Hab ich oder Hab ich nicht: Betrunken einer Person geschrieben, der ich nicht hätte schreiben sollen",
+"Hab ich oder Hab ich nicht: Den falschen Namen beim Sex gesagt",
+"Hab ich oder Hab ich nicht: Für Dating-Apps Geld ausgegeben",
+"Hab ich oder Hab ich nicht: 0% Trinkgeld gegeben",
+"Hab ich oder Hab ich nicht: „Ich liebe dich“ zu einem Kissen gesagt, während ich heulend im Bett lag",
+"Hab ich oder Hab ich nicht: Stress mit den Nachbarn gehabt, weil es am Abend davor zu laut wurde",
+"Hab ich oder Hab ich nicht: In einem Club kotzen müssen",
+"Hab ich oder Hab ich nicht: Eine Toilette verstopft",
+"Hab ich oder Hab ich nicht: Blau gemacht",
+"Hab ich oder Hab ich nicht: Auf dem Oktoberfest kotzen müssen",
+"Hab ich oder Hab ich nicht: Am Flughafen gekurbelt",
+"Hab ich oder Hab ich nicht: Betrunken etwas gestohlen",
+"Hab ich oder Hab ich nicht: Eine fremde Person geküsst und danach nie wieder gesehen",
+"Hab ich oder Hab ich nicht: Mich in einen Freund oder Freundin verliebt",
+"Hab ich oder Hab ich nicht: Einer Person meine Gefühle gestanden, nur um dann gekorbt zu werden",
+"Hab ich oder Hab ich nicht: Im Supermarkt etwas gestohlen",
+"Hab ich oder Hab ich nicht: Jemandem in die Fresse gehauen",
+"Hab ich oder Hab ich nicht: Eine Person angelogen nur damit diese mich attraktiver findet",
+"Hab ich oder Hab ich nicht: Mich in eine Arbeitskollegin verliebt",
+"Hab ich oder Hab ich nicht: Mich in einen Lehrer oder Lehrerin meiner Schule verliebt",
+"Hab ich oder Hab ich nicht: In einem Film als Haupt-, Nebendarsteller oder Statist mitgespielt",
+"Hab ich oder Hab ich nicht: Eine Anhörung vor Gericht gehabt",
+"Hab ich oder Hab ich nicht: Einen kleinen Auftritt im Fernsehen mal gehabt"
+],
        
-// 39. A oder B
-"39": [
+// 42. A oder B
+"42": [
     "A oder B: Würdest du eher in einer Badewanne voller (A) Spinnen oder (B) Schlangen baden?",
     "A oder B: Lieber (A) nie wieder duschen oder (B) nie wieder sprechen können?",
     "A oder B: Lieber (A) nie wieder verliebt sein oder (B) keine Kinder bekommen können?",
