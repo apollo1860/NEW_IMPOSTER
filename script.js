@@ -116,6 +116,7 @@ const categories = {
     // 6. Prozente
     "6": [
         "Wie viel Prozent deines Lottogewinns würdest du deinen Eltern geben?",
+        "Was schätzt du: Wie viel Prozent aller Männer haben einen Fußfetisch?",
         "Zu wie viel Prozent besteht deine Bildergalerie aus Screenshots von Weg- und Fahrtrouten?",
         "Wie viel Prozent deines monatlichen Einkommens legst du für schlechte Zeiten zur Seite?",
         "Wie viel Prozent deiner Onlinekäufe schickst du wieder zurück?",
