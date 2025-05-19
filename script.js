@@ -187,6 +187,7 @@ const categories = {
         "Wer von euch kann am besten lügen?",
         "Wer von euch kurbelt am häufigsten?",
         "Wer von euch ist am fleißigsten?",
+        "Wer von euch ist der beste Emergency-Kontakt?",
         "Wer von euch ist am intelligentesten?",
         "Wer von euch ist der Sportlichste?",
         "Wer von euch landet am ehesten im Gefängnis?",
