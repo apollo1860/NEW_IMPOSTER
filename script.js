@@ -448,6 +448,7 @@ const categories = {
         "Wie viel Zeit sollte zwischen dem Ende einer alten und dem Beginn einer neuen Beziehung liegen?",
         "Wie lange würdest du brauchen, um eine lange nicht mehr gesprochene Sprache, wieder einigermaßen fließend zu können?",
         "Wie viel Urlaub bräuchtest du am Stück, um endlich mal komplett zu entspannen?",
+        "Wie lange könntest du am Stück ohne Internet auskommen?",
         "Wie lange sollte man jemanden daten, bevor man offiziell zusammen kommt?",
         "Was war der längste Zeitraum, an dem du am Stück keinen Alkohol getrunken hast, seitdem du aktiv Alkohol trinkst?",
         "Was war der längste Zeitraum, an den du dich erinnern kannst, in dem du kein Fleisch gegessen hast?",
