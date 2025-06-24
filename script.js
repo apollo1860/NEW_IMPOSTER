@@ -828,9 +828,15 @@ const categories = {
 "Hab ich oder Hab ich nicht: Eine Anhörung vor Gericht gehabt",
 "Hab ich oder Hab ich nicht: Einen kleinen Auftritt im Fernsehen mal gehabt"
 ],
-       
-// 42. A oder B
+
+// 42. Schätzfragen
 "42": [
+    "Hab ich oder Hab ich nicht: Ein Blog oder Tagebuch geführt",
+    "
+],
+       
+// 43. A oder B
+"43": [
     "A oder B: Würdest du eher in einer Badewanne voller (A) Spinnen oder (B) Schlangen baden?",
     "A oder B: Lieber (A) nie wieder duschen oder (B) nie wieder sprechen können?",
     "A oder B: Lieber (A) nie wieder verliebt sein oder (B) keine Kinder bekommen können?",
