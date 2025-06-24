@@ -831,8 +831,28 @@ const categories = {
 
 // 42. Schätzfragen
 "42": [
-    "Hab ich oder Hab ich nicht: Ein Blog oder Tagebuch geführt",
-    "
+    "Was schätzt du: Wie viele Menschen leben in Ghana?",
+    "Was schätzt du: Wie viele Menschen leben in Bulgarien?",
+    "Was schätzt du: Wie viele Menschen leben in Südkorea?,
+    "Was schätzt du: Wie viele Menschen leben in Australien?",
+    "Was schätzt du: Wie viele Menschen leben in der Metropolregion Paris?",
+    "Was schätzt du: Wie viele deutsche Abonnenten hat Netflix?",
+    "Was schätzt du: Wie viele Fernsehzuschauer hatte das WM Finale 2014 in Deutschland?",
+    "Was schätzt du: Wie viele Menschen haben 2024 ein Spotify-Abo genutzt?",
+    "Was schätzt du: Wie viele Kopien von Minecraft-Spielen wurden bisher insgesamt in Deutschland verkauft?",
+    "Was schätzt du: Wie viele PKW sind in Bayern zugelassen?",
+    "Was schätzt du: Wie viele Deutsche zahlen jährlich eine Kirchensteuer?",
+    "Was schätzt du: Wie viele Downloads hatte die Corona-Warn-App in Deutschland insgesamt?",
+    "Was schätzt du: Wie viele Menschen sind weltweit bei McDonalds angestellt (inkl. Franchise)?",
+    "Was schätzt du: Wie viele Hunde leben in deutschen Haushalten?",
+    "Was schätzt du: Wie viele Katzen leben in deutschen Haushalten?",
+    "Was schätzt du: Wie viele Haushalte in Deutschland besitzen eine Geschirrspülmaschine?",
+    "Was schätzt du: Wie viele Menschen lebten im Römischen Reich zur Blütezeit (100 n. Chr.)?",
+    "Was schätzt du: Wie viele Briefe wurden 2024 von der Deutschen Post täglich (!) zugestellt?",
+    "Was schätzt du: Wie viele Menschen leben im Vietnam?",
+    "Was schätzt du: Wie viele aktive YouTube-Kanäle mit regelmäßigem Content gibt es weltweit?",
+    "Was schätzt du: Wie viele Menschen in der USA nutzen WhatsApp?",
+    "Was schätzt du: Wie viele registrierte Autos gibt es in Japan?"
 ],
        
 // 43. A oder B
