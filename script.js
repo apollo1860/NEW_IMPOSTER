@@ -833,7 +833,7 @@ const categories = {
 "42": [
     "Was schätzt du: Wie viele Menschen leben in Ghana?",
     "Was schätzt du: Wie viele Menschen leben in Bulgarien?",
-    "Was schätzt du: Wie viele Menschen leben in Südkorea?,
+    "Was schätzt du: Wie viele Menschen leben in Südkorea?",
     "Was schätzt du: Wie viele Menschen leben in Australien?",
     "Was schätzt du: Wie viele Menschen leben in der Metropolregion Paris?",
     "Was schätzt du: Wie viele deutsche Abonnenten hat Netflix?",
