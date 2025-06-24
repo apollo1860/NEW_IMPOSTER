@@ -931,6 +931,9 @@ function selectRandomCategory() {
 }
 
 function startGame() {
+    console.log("Spiel wird gestartet...");
+console.log("Anzahl Spieler:", document.getElementById("playerCount").value);
+console.log("Verfügbare Kategorien:", Object.keys(categories));
     const playerCount = parseInt(document.getElementById("playerCount").value);
     document.getElementById("start-screen").style.display = "none";
     document.getElementById("player-inputs").style.display = "block";
