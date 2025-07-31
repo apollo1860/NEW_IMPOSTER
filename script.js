@@ -170,6 +170,10 @@ const categories = {
     // 9. Spotlight On
     "9": [
         "Wer von euch ist der Lustigste?",
+        "Wer von euch hat den besten Urlaub gemacht?",
+        "Wer von euch hat am meisten Geld?",
+        "Wer von euch ist der Ärmste?",
+        "Wer von euch kann sich am besten ausdrücken?",
         "Wer von euch würde am ehesten bei einem Unfall helfen?",
         "Wer von euch wird als Erstes Vater/Mutter?",
         "Wer von euch isst am meisten?",
