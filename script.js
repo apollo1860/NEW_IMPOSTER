@@ -889,6 +889,19 @@ const categories = {
     "A oder B: Lieber Urlaub in (A) Asien oder (B) Südamerika?",
     "A oder B: Lieber nur noch (A) klassische Musik oder (B) Hardrock hören?",
     "A oder B: Lieber (A) nur noch um 7:00 Uhr oder (B) um 12:00 Uhr aufwachen?"
+],
+// 44. Farben
+"44": [
+    "Welche Farbe sollte dein Traumauto haben?",
+    "Was ist bei T-Shirts deine Lieblingsfarbe?",
+    "Was ist die Lieblingsfarbe deines linken Nachbarns?",
+    "Was ist die Lieblingsfarbe deines rechten Nachbarns?",
+    "Mit welcher Farbe würdest du am ehesten deine Wand streichen?",
+    "Welche Farbe hat dein liebstes Kleidungsstück?",
+    "Welche Farbe ist am unnötigsten?",
+    "Welche Farbe kannst du am wenigsten ausstehen?",
+    "Welche Farbe mag dein linker Nachbar am wenigsten?",
+    "Welche Farbe mag dein rechter Nachbar am wenigsten?"
 ]
 };
 
