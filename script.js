@@ -24,6 +24,7 @@ const categories = {
     // 2. Zahlenzauber (1 bis 10)
     "2": [
         "Wie oft gehst du am Tag auf die Toilette?",
+        "Auf wie vielen Dates sollte man gewesen sein, bevor man sich das erste Mal küsst?",
         "Wie häufig in der Woche bestellst / gehst du essen?",
         "Mit wie vielen Kleinwüchsigen könntest du es in einem Kampf auf einmal aufnehmen?",
         "Wie viele enge Freunde hast du derzeit?",
