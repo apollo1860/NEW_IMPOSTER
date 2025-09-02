@@ -729,6 +729,7 @@ const categories = {
     // 38. Zahlenzauber (20 - 100)
 "38": [
     "Wie viele Döner isst du ca. im Jahr?",
+    "Wie viele Tage würdest du nicht duschen, wenn du für jeden Tag 100.000 € bekommst?",
     "Mit wie vielen Grundschülern könntest du es in einem Kampf auf einmal aufnehmen?",
     "Mit wie vielen Altenheimbewohnern könntest du es in einem Kampf auf einmal aufnehmen?",
     "Mit wie vielen faustgroßen Vögeln könntest du es in einem Kampf auf einmal aufnehmen?",
