@@ -25,6 +25,8 @@ const categories = {
     "2": [
         "Wie oft gehst du am Tag auf die Toilette?",
         "Wie viele Freunde würden dir beim Umzug helfen?",
+        "Wie vielen Menschen hast du schon beim Umzug geholfen?",
+        "Wie häufig bist du schon in deinem Leben umgezogen?",
         "Auf wie vielen Dates sollte man gewesen sein, bevor man sich das erste Mal küsst?",
         "Wie häufig in der Woche bestellst / gehst du essen?",
         "Mit wie vielen Kleinwüchsigen könntest du es in einem Kampf auf einmal aufnehmen?",
