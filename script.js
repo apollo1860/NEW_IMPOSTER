@@ -883,7 +883,7 @@ const categories = {
     "A oder B: Wärst du lieber (A) ein antisoziales Genie oder (B) beliebt, aber dumm?",
     "A oder B: Würdest du eher Honig von (A) einem Bären oder (B) aus einem Bienenstock stehlen?",
     "A oder B: Würdest du lieber (A) 10 zustzliche Jahre Jugend haben oder (B) 20 zusätzliche Jahre deines Lohns erhalten?",
-    "A oder B: Würdest du lieber (A9 eine Handvoll Haare essen oder (B) drei öffentliche Telefone ablecken?",
+    "A oder B: Würdest du lieber (A) eine Handvoll Haare essen oder (B) drei öffentliche Telefone ablecken?",
     "A oder B: Lieber (A) Glück in der Liebe, Pech im Spiel oder (B) Pech in der Liebe, Glück im Spiel?",
     "A oder B: Lieber für immer (A) Strandurlaub oder (B) Urlaub in den Bergen?",
     "A oder B: Lieber für immer (A) zu klein oder (B) zu groß für alles sein?",
