@@ -908,7 +908,21 @@ const categories = {
     "Welche Farbe kannst du am wenigsten ausstehen?",
     "Welche Farbe mag dein linker Nachbar am wenigsten?",
     "Welche Farbe mag dein rechter Nachbar am wenigsten?"
+],
+// 45. Wörter
+"45": [
+  "Wenn du ein Wort für immer löschen könntest – welches wäre es?",
+  "Welches Wort magst du, benutzt es aber viel zu selten?",
+  "Welches Wort verwendest du viel zu häufig?",
+  "Welches Wort benutzen deine Eltern besonders oft?",
+  "Wenn du dein Leben lang nur ein einziges Wort nutzen dürftest – welches wäre es?",
+  "Welches Wort schreibst du immer wieder falsch?",
+  "Welches Wort würde garantiert im Titel deiner Biografie stehen?",
+  "Welches Wort nervt dich extrem, weil es jemand aus der Gruppe ständig benutzt?",
+  "Welches Wort tauchte schon einmal in einem deiner Passwörter auf?",
+  "Welches Wort würde sich auch gut als Vorname eignen?"
 ]
+
 };
 
 document.addEventListener('DOMContentLoaded', function () {
