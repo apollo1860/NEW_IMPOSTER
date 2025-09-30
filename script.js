@@ -924,6 +924,19 @@ const categories = {
   "Welches Wort nervt dich extrem, weil es jemand aus der Gruppe ständig benutzt?",
   "Welches Wort tauchte schon einmal in einem deiner Passwörter auf?",
   "Welches Wort würde sich auch gut als Vorname eignen?"
+],
+// 46. Machen
+"46": [
+  "Was machst du gerne, wenn du alleine bist?",
+  "Was machst du, wenn du nicht einschlafen kannst?",
+  "Was machst du, wenn dir langweilig ist?",
+  "Was machst du, wenn du alleine im Büro bist?",
+  "Was machst du, wenn du am Nachmittag unter der Woche frei hast?",
+  "Was machst du am liebsten mit deinen Eltern?",
+  "Was machst du am liebsten mit einem deiner Freunde?",
+  "Was machst du, wenn du nervös bist?",
+  "Was machst du gerne, wenn du alleine in deiner Wohnung bist?",
+  "Was hast du zu Schulzeiten gerne gemacht, wenn dir langweilig war?"
 ]
 
 };
