@@ -483,7 +483,7 @@ const categories = {
         "Wie lange brauchst du, wenn du zügig eine Maß trinkst?",
         "Wie lange bist du durchschnittlich auf der Toilette?",
         "Wie lange brauchst du ca. um 1km zu laufen?",
-        "Wie lange brauchst du ca. um einen Bottle Flip zu schaffen?",
+        "Wie viel Zeit brauchst du ca. um einen Bottle Flip zu schaffen?",
         "Wie lange kannst du Liegestützen am Stück machen?",
         "Wie lange brauchst du durchschnittlich beim Kochen?",
         "Wie lange brauchst du durchschnittlich beim Duschen?",
