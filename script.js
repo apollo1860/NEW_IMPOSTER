@@ -90,7 +90,7 @@ const categories = {
         "Welcher Sportler würde deiner Meinung nach unter der Brücke landen, wenn er kein Talent gehabt hätte?",
         "Welcher Sportler würde in einem Wettlauf gegen dich verlieren?",
         "Welcher Sportler ist sehr attraktiv?",
-        "Welchen bekannteren Sportler könntest du deiner Meinung nach am ehesten in seiner Sportart besiegen?",
+        "Welchen Profi-Sportler könntest du deiner Meinung nach am ehesten in seiner Sportart besiegen?",
         "Welcher Sportler ist der größte Bad Boy/Bad Girl?",
         "Mit welchem Sportler würdest du gerne einen Tag tauschen?",
         "Welchen Sportler würdest du gerne auf ein Bier einladen?",
