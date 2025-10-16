@@ -24,6 +24,7 @@ const categories = {
     // 2. Zahlenzauber (1 bis 10)
     "2": [
         "Wie oft gehst du am Tag auf die Toilette?",
+        "Wie häufig gehst du während der Arbeitszeit circa auf die Toilette?",
         "Wie viele Freunde würden dir beim Umzug helfen?",
         "Wie vielen Menschen hast du schon beim Umzug geholfen?",
         "Wie häufig bist du schon in deinem Leben umgezogen?",
